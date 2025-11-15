@@ -1,0 +1,33 @@
+Loading model: runs/msmarco-roberta-base-ance-firstp_WikiTable300_StateAware-state_aware_20250915_000338
+Model loaded successfully
+Loading test data...
+Test queries: 329
+Corpus documents: 15
+Encoding corpus...
+Encoding queries...
+Performing retrieval...
+
+==================================================
+Information Retrieval Evaluation on TEST dataset:
+==================================================
+2025-09-15 00:14:51 - Queries: 329
+2025-09-15 00:14:51 - Corpus: 15
+
+2025-09-15 00:14:51 - Score-Function: cos_sim
+2025-09-15 00:14:51 - Accuracy@1: 48.02%
+2025-09-15 00:14:51 - Accuracy@3: 93.62%
+2025-09-15 00:14:51 - Accuracy@5: 98.18%
+2025-09-15 00:14:51 - Accuracy@10: 100.00%
+2025-09-15 00:14:51 - Precision@1: 48.02%
+2025-09-15 00:14:51 - Precision@3: 61.40%
+2025-09-15 00:14:51 - Precision@5: 52.16%
+2025-09-15 00:14:51 - Precision@10: 33.16%
+2025-09-15 00:14:51 - Recall@1: 14.21%
+2025-09-15 00:14:51 - Recall@3: 55.14%
+2025-09-15 00:14:51 - Recall@5: 77.34%
+2025-09-15 00:14:51 - Recall@10: 96.65%
+2025-09-15 00:14:51 - MRR@10: 0.7022
+2025-09-15 00:14:51 - NDCG@10: 0.7756
+2025-09-15 00:14:51 - MAP@100: 0.6717
+
+Results saved to: evaluation_results_WikiTable300_StateAware_20250915_001442.txt

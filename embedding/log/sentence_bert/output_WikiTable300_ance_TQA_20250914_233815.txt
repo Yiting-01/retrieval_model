@@ -1,0 +1,776 @@
+2025-09-14 23:38:23 - Loading Corpus...
+2025-09-14 23:38:23 - Loaded 15 TEST Documents.
+2025-09-14 23:38:23 - Doc Example: {'text': 'Select a subset of columns. A column usually corresponds to an attribute in the table. This operation helps locate necessary attributes to answer the question.', 'title': 'f_select_column'}
+2025-09-14 23:38:23 - Loading Queries...
+2025-09-14 23:38:23 - Loaded 329 TEST Queries.
+2025-09-14 23:38:23 - Query Example: who has a larger amount of championships as a plk medalist?
+2025-09-14 23:38:23 - Loading Corpus...
+2025-09-14 23:38:23 - Loaded 15 TRAIN Documents.
+2025-09-14 23:38:23 - Doc Example: {'text': 'Select a subset of columns. A column usually corresponds to an attribute in the table. This operation helps locate necessary attributes to answer the question.', 'title': 'f_select_column'}
+2025-09-14 23:38:23 - Loading Queries...
+2025-09-14 23:38:23 - Loaded 762 TRAIN Queries.
+2025-09-14 23:38:23 - Query Example: what is the number of the only diesel locomotive from edwards rail car company?
+2025-09-14 23:38:23 - Loaded 2562 training pairs.
+2025-09-14 23:38:23 - eval set contains 15 documents and 762 queries
+2025-09-14 23:38:23 - Starting to Train...
+2025-09-14 23:38:37 - Information Retrieval Evaluation of the model on the eval dataset in epoch 1.0 after 81 steps:
+2025-09-14 23:38:38 - Queries: 762
+2025-09-14 23:38:38 - Corpus: 15
+
+2025-09-14 23:38:38 - Score-Function: cosine
+2025-09-14 23:38:38 - Accuracy@1: 43.04%
+2025-09-14 23:38:38 - Accuracy@3: 81.76%
+2025-09-14 23:38:38 - Accuracy@5: 95.80%
+2025-09-14 23:38:38 - Accuracy@10: 99.87%
+2025-09-14 23:38:38 - Precision@1: 43.04%
+2025-09-14 23:38:38 - Precision@3: 39.46%
+2025-09-14 23:38:38 - Precision@5: 37.19%
+2025-09-14 23:38:38 - Precision@10: 29.90%
+2025-09-14 23:38:38 - Recall@1: 13.31%
+2025-09-14 23:38:38 - Recall@3: 36.22%
+2025-09-14 23:38:38 - Recall@5: 56.79%
+2025-09-14 23:38:38 - Recall@10: 89.94%
+2025-09-14 23:38:38 - MRR@10: 0.6421
+2025-09-14 23:38:38 - NDCG@10: 0.6605
+2025-09-14 23:38:38 - MAP@100: 0.5235
+2025-09-14 23:38:38 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:38:41 - Information Retrieval Evaluation of the model on the eval dataset in epoch 1.2345679012345678 after 100 steps:
+2025-09-14 23:38:42 - Queries: 762
+2025-09-14 23:38:42 - Corpus: 15
+
+2025-09-14 23:38:42 - Score-Function: cosine
+2025-09-14 23:38:42 - Accuracy@1: 55.12%
+2025-09-14 23:38:42 - Accuracy@3: 87.80%
+2025-09-14 23:38:42 - Accuracy@5: 97.24%
+2025-09-14 23:38:42 - Accuracy@10: 99.74%
+2025-09-14 23:38:42 - Precision@1: 55.12%
+2025-09-14 23:38:42 - Precision@3: 46.19%
+2025-09-14 23:38:42 - Precision@5: 41.05%
+2025-09-14 23:38:42 - Precision@10: 30.08%
+2025-09-14 23:38:42 - Recall@1: 17.18%
+2025-09-14 23:38:42 - Recall@3: 42.67%
+2025-09-14 23:38:42 - Recall@5: 62.77%
+2025-09-14 23:38:42 - Recall@10: 90.21%
+2025-09-14 23:38:42 - MRR@10: 0.7237
+2025-09-14 23:38:42 - NDCG@10: 0.7078
+2025-09-14 23:38:42 - MAP@100: 0.5824
+{'eval_cosine_accuracy@1': 0.5511811023622047, 'eval_cosine_accuracy@3': 0.8779527559055118, 'eval_cosine_accuracy@5': 0.9724409448818898, 'eval_cosine_accuracy@10': 0.9973753280839895, 'eval_cosine_precision@1': 0.5511811023622047, 'eval_cosine_precision@3': 0.46194225721784776, 'eval_cosine_precision@5': 0.410498687664042, 'eval_cosine_precision@10': 0.30078740157480316, 'eval_cosine_recall@1': 0.17182227221597302, 'eval_cosine_recall@3': 0.42671697287839017, 'eval_cosine_recall@5': 0.6277246594175727, 'eval_cosine_recall@10': 0.9020716160479939, 'eval_cosine_ndcg@10': 0.7077592922145464, 'eval_cosine_mrr@10': 0.7237235970503688, 'eval_cosine_map@100': 0.5824079998961654, 'eval_runtime': 0.342, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 1.23}
+2025-09-14 23:38:42 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:38:52 - Information Retrieval Evaluation of the model on the eval dataset in epoch 2.0 after 162 steps:
+2025-09-14 23:38:53 - Queries: 762
+2025-09-14 23:38:53 - Corpus: 15
+
+2025-09-14 23:38:53 - Score-Function: cosine
+2025-09-14 23:38:53 - Accuracy@1: 53.28%
+2025-09-14 23:38:53 - Accuracy@3: 83.20%
+2025-09-14 23:38:53 - Accuracy@5: 92.13%
+2025-09-14 23:38:53 - Accuracy@10: 99.48%
+2025-09-14 23:38:53 - Precision@1: 53.28%
+2025-09-14 23:38:53 - Precision@3: 44.79%
+2025-09-14 23:38:53 - Precision@5: 38.29%
+2025-09-14 23:38:53 - Precision@10: 27.56%
+2025-09-14 23:38:53 - Recall@1: 16.41%
+2025-09-14 23:38:53 - Recall@3: 40.74%
+2025-09-14 23:38:53 - Recall@5: 57.81%
+2025-09-14 23:38:53 - Recall@10: 82.92%
+2025-09-14 23:38:53 - MRR@10: 0.6970
+2025-09-14 23:38:53 - NDCG@10: 0.6594
+2025-09-14 23:38:53 - MAP@100: 0.5563
+2025-09-14 23:38:59 - Information Retrieval Evaluation of the model on the eval dataset in epoch 2.4691358024691357 after 200 steps:
+2025-09-14 23:38:59 - Queries: 762
+2025-09-14 23:38:59 - Corpus: 15
+
+2025-09-14 23:38:59 - Score-Function: cosine
+2025-09-14 23:38:59 - Accuracy@1: 43.44%
+2025-09-14 23:38:59 - Accuracy@3: 76.64%
+2025-09-14 23:38:59 - Accuracy@5: 90.03%
+2025-09-14 23:38:59 - Accuracy@10: 99.74%
+2025-09-14 23:38:59 - Precision@1: 43.44%
+2025-09-14 23:38:59 - Precision@3: 40.07%
+2025-09-14 23:38:59 - Precision@5: 36.43%
+2025-09-14 23:38:59 - Precision@10: 27.77%
+2025-09-14 23:38:59 - Recall@1: 12.98%
+2025-09-14 23:38:59 - Recall@3: 36.09%
+2025-09-14 23:38:59 - Recall@5: 55.03%
+2025-09-14 23:38:59 - Recall@10: 83.36%
+2025-09-14 23:38:59 - MRR@10: 0.6239
+2025-09-14 23:38:59 - NDCG@10: 0.6250
+2025-09-14 23:38:59 - MAP@100: 0.5153
+{'eval_cosine_accuracy@1': 0.4343832020997375, 'eval_cosine_accuracy@3': 0.7664041994750657, 'eval_cosine_accuracy@5': 0.9002624671916011, 'eval_cosine_accuracy@10': 0.9973753280839895, 'eval_cosine_precision@1': 0.4343832020997375, 'eval_cosine_precision@3': 0.4006999125109361, 'eval_cosine_precision@5': 0.36430446194225724, 'eval_cosine_precision@10': 0.27769028871391077, 'eval_cosine_recall@1': 0.12979471316085486, 'eval_cosine_recall@3': 0.3608720784901887, 'eval_cosine_recall@5': 0.5503015248093988, 'eval_cosine_recall@10': 0.83356767904012, 'eval_cosine_ndcg@10': 0.6250105212641335, 'eval_cosine_mrr@10': 0.6238855559721693, 'eval_cosine_map@100': 0.5152725467622824, 'eval_runtime': 0.3473, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 2.47}
+2025-09-14 23:39:06 - Information Retrieval Evaluation of the model on the eval dataset in epoch 3.0 after 243 steps:
+2025-09-14 23:39:07 - Queries: 762
+2025-09-14 23:39:07 - Corpus: 15
+
+2025-09-14 23:39:07 - Score-Function: cosine
+2025-09-14 23:39:07 - Accuracy@1: 53.54%
+2025-09-14 23:39:07 - Accuracy@3: 87.53%
+2025-09-14 23:39:07 - Accuracy@5: 93.31%
+2025-09-14 23:39:07 - Accuracy@10: 98.82%
+2025-09-14 23:39:07 - Precision@1: 53.54%
+2025-09-14 23:39:07 - Precision@3: 51.57%
+2025-09-14 23:39:07 - Precision@5: 45.88%
+2025-09-14 23:39:07 - Precision@10: 29.72%
+2025-09-14 23:39:07 - Recall@1: 16.20%
+2025-09-14 23:39:07 - Recall@3: 46.99%
+2025-09-14 23:39:07 - Recall@5: 69.95%
+2025-09-14 23:39:07 - Recall@10: 89.41%
+2025-09-14 23:39:07 - MRR@10: 0.7130
+2025-09-14 23:39:07 - NDCG@10: 0.7194
+2025-09-14 23:39:07 - MAP@100: 0.6218
+2025-09-14 23:39:07 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:39:17 - Information Retrieval Evaluation of the model on the eval dataset in epoch 3.7037037037037037 after 300 steps:
+2025-09-14 23:39:17 - Queries: 762
+2025-09-14 23:39:17 - Corpus: 15
+
+2025-09-14 23:39:17 - Score-Function: cosine
+2025-09-14 23:39:17 - Accuracy@1: 66.01%
+2025-09-14 23:39:17 - Accuracy@3: 95.41%
+2025-09-14 23:39:17 - Accuracy@5: 99.34%
+2025-09-14 23:39:17 - Accuracy@10: 99.87%
+2025-09-14 23:39:17 - Precision@1: 66.01%
+2025-09-14 23:39:17 - Precision@3: 62.51%
+2025-09-14 23:39:17 - Precision@5: 52.49%
+2025-09-14 23:39:17 - Precision@10: 31.84%
+2025-09-14 23:39:17 - Recall@1: 20.37%
+2025-09-14 23:39:17 - Recall@3: 57.79%
+2025-09-14 23:39:17 - Recall@5: 80.57%
+2025-09-14 23:39:17 - Recall@10: 95.70%
+2025-09-14 23:39:17 - MRR@10: 0.8081
+2025-09-14 23:39:17 - NDCG@10: 0.8120
+2025-09-14 23:39:17 - MAP@100: 0.7166
+{'eval_cosine_accuracy@1': 0.6601049868766404, 'eval_cosine_accuracy@3': 0.9540682414698163, 'eval_cosine_accuracy@5': 0.9934383202099738, 'eval_cosine_accuracy@10': 0.9986876640419947, 'eval_cosine_precision@1': 0.6601049868766404, 'eval_cosine_precision@3': 0.6251093613298339, 'eval_cosine_precision@5': 0.5249343832020997, 'eval_cosine_precision@10': 0.31837270341207347, 'eval_cosine_recall@1': 0.20366672915885517, 'eval_cosine_recall@3': 0.5778871391076116, 'eval_cosine_recall@5': 0.8056602299712534, 'eval_cosine_recall@10': 0.9570256842894638, 'eval_cosine_ndcg@10': 0.8120308932452931, 'eval_cosine_mrr@10': 0.808148981377328, 'eval_cosine_map@100': 0.7165579550572051, 'eval_runtime': 0.3461, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 3.7}
+2025-09-14 23:39:17 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:39:21 - Information Retrieval Evaluation of the model on the eval dataset in epoch 4.0 after 324 steps:
+2025-09-14 23:39:22 - Queries: 762
+2025-09-14 23:39:22 - Corpus: 15
+
+2025-09-14 23:39:22 - Score-Function: cosine
+2025-09-14 23:39:22 - Accuracy@1: 70.08%
+2025-09-14 23:39:22 - Accuracy@3: 95.41%
+2025-09-14 23:39:22 - Accuracy@5: 98.56%
+2025-09-14 23:39:22 - Accuracy@10: 100.00%
+2025-09-14 23:39:22 - Precision@1: 70.08%
+2025-09-14 23:39:22 - Precision@3: 59.67%
+2025-09-14 23:39:22 - Precision@5: 50.24%
+2025-09-14 23:39:22 - Precision@10: 32.07%
+2025-09-14 23:39:22 - Recall@1: 21.62%
+2025-09-14 23:39:22 - Recall@3: 55.36%
+2025-09-14 23:39:22 - Recall@5: 77.10%
+2025-09-14 23:39:22 - Recall@10: 96.29%
+2025-09-14 23:39:22 - MRR@10: 0.8269
+2025-09-14 23:39:22 - NDCG@10: 0.8133
+2025-09-14 23:39:22 - MAP@100: 0.7080
+2025-09-14 23:39:22 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:39:35 - Information Retrieval Evaluation of the model on the eval dataset in epoch 4.938271604938271 after 400 steps:
+2025-09-14 23:39:35 - Queries: 762
+2025-09-14 23:39:35 - Corpus: 15
+
+2025-09-14 23:39:35 - Score-Function: cosine
+2025-09-14 23:39:35 - Accuracy@1: 78.74%
+2025-09-14 23:39:35 - Accuracy@3: 98.03%
+2025-09-14 23:39:35 - Accuracy@5: 99.61%
+2025-09-14 23:39:35 - Accuracy@10: 100.00%
+2025-09-14 23:39:35 - Precision@1: 78.74%
+2025-09-14 23:39:35 - Precision@3: 67.50%
+2025-09-14 23:39:35 - Precision@5: 53.81%
+2025-09-14 23:39:35 - Precision@10: 32.09%
+2025-09-14 23:39:35 - Recall@1: 24.31%
+2025-09-14 23:39:35 - Recall@3: 62.85%
+2025-09-14 23:39:35 - Recall@5: 82.55%
+2025-09-14 23:39:35 - Recall@10: 96.35%
+2025-09-14 23:39:35 - MRR@10: 0.8815
+2025-09-14 23:39:35 - NDCG@10: 0.8503
+2025-09-14 23:39:35 - MAP@100: 0.7633
+{'eval_cosine_accuracy@1': 0.7874015748031497, 'eval_cosine_accuracy@3': 0.9803149606299213, 'eval_cosine_accuracy@5': 0.9960629921259843, 'eval_cosine_accuracy@10': 1.0, 'eval_cosine_precision@1': 0.7874015748031497, 'eval_cosine_precision@3': 0.6749781277340331, 'eval_cosine_precision@5': 0.5380577427821522, 'eval_cosine_precision@10': 0.32086614173228345, 'eval_cosine_recall@1': 0.24309305086864144, 'eval_cosine_recall@3': 0.6285433070866142, 'eval_cosine_recall@5': 0.8254983752030997, 'eval_cosine_recall@10': 0.9634686289213849, 'eval_cosine_ndcg@10': 0.850284765218279, 'eval_cosine_mrr@10': 0.8815304336957882, 'eval_cosine_map@100': 0.7632962256353474, 'eval_runtime': 0.3476, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 4.94}
+2025-09-14 23:39:35 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:39:36 - Information Retrieval Evaluation of the model on the eval dataset in epoch 5.0 after 405 steps:
+2025-09-14 23:39:37 - Queries: 762
+2025-09-14 23:39:37 - Corpus: 15
+
+2025-09-14 23:39:37 - Score-Function: cosine
+2025-09-14 23:39:37 - Accuracy@1: 79.53%
+2025-09-14 23:39:37 - Accuracy@3: 98.69%
+2025-09-14 23:39:37 - Accuracy@5: 100.00%
+2025-09-14 23:39:37 - Accuracy@10: 100.00%
+2025-09-14 23:39:37 - Precision@1: 79.53%
+2025-09-14 23:39:37 - Precision@3: 68.68%
+2025-09-14 23:39:37 - Precision@5: 55.96%
+2025-09-14 23:39:37 - Precision@10: 32.47%
+2025-09-14 23:39:37 - Recall@1: 24.60%
+2025-09-14 23:39:37 - Recall@3: 63.85%
+2025-09-14 23:39:37 - Recall@5: 85.89%
+2025-09-14 23:39:37 - Recall@10: 97.33%
+2025-09-14 23:39:37 - MRR@10: 0.8878
+2025-09-14 23:39:37 - NDCG@10: 0.8636
+2025-09-14 23:39:37 - MAP@100: 0.7790
+2025-09-14 23:39:37 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:39:51 - Information Retrieval Evaluation of the model on the eval dataset in epoch 6.0 after 486 steps:
+2025-09-14 23:39:51 - Queries: 762
+2025-09-14 23:39:51 - Corpus: 15
+
+2025-09-14 23:39:51 - Score-Function: cosine
+2025-09-14 23:39:51 - Accuracy@1: 83.46%
+2025-09-14 23:39:51 - Accuracy@3: 99.61%
+2025-09-14 23:39:51 - Accuracy@5: 99.87%
+2025-09-14 23:39:51 - Accuracy@10: 100.00%
+2025-09-14 23:39:51 - Precision@1: 83.46%
+2025-09-14 23:39:51 - Precision@3: 68.90%
+2025-09-14 23:39:51 - Precision@5: 56.17%
+2025-09-14 23:39:51 - Precision@10: 32.73%
+2025-09-14 23:39:51 - Recall@1: 25.68%
+2025-09-14 23:39:51 - Recall@3: 63.73%
+2025-09-14 23:39:51 - Recall@5: 85.90%
+2025-09-14 23:39:51 - Recall@10: 98.03%
+2025-09-14 23:39:51 - MRR@10: 0.9116
+2025-09-14 23:39:51 - NDCG@10: 0.8741
+2025-09-14 23:39:51 - MAP@100: 0.7849
+2025-09-14 23:39:51 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+{'loss': 3.3051, 'grad_norm': 10.05478286743164, 'learning_rate': 1.5291666666666668e-05, 'epoch': 6.17}
+2025-09-14 23:39:54 - Information Retrieval Evaluation of the model on the eval dataset in epoch 6.172839506172839 after 500 steps:
+2025-09-14 23:39:54 - Queries: 762
+2025-09-14 23:39:54 - Corpus: 15
+
+2025-09-14 23:39:54 - Score-Function: cosine
+2025-09-14 23:39:54 - Accuracy@1: 84.78%
+2025-09-14 23:39:54 - Accuracy@3: 99.21%
+2025-09-14 23:39:54 - Accuracy@5: 99.87%
+2025-09-14 23:39:54 - Accuracy@10: 100.00%
+2025-09-14 23:39:54 - Precision@1: 84.78%
+2025-09-14 23:39:54 - Precision@3: 69.90%
+2025-09-14 23:39:54 - Precision@5: 55.09%
+2025-09-14 23:39:54 - Precision@10: 32.32%
+2025-09-14 23:39:54 - Recall@1: 26.15%
+2025-09-14 23:39:54 - Recall@3: 64.96%
+2025-09-14 23:39:54 - Recall@5: 84.37%
+2025-09-14 23:39:54 - Recall@10: 96.95%
+2025-09-14 23:39:54 - MRR@10: 0.9167
+2025-09-14 23:39:54 - NDCG@10: 0.8720
+2025-09-14 23:39:54 - MAP@100: 0.7893
+{'eval_cosine_accuracy@1': 0.847769028871391, 'eval_cosine_accuracy@3': 0.9921259842519685, 'eval_cosine_accuracy@5': 0.9986876640419947, 'eval_cosine_accuracy@10': 1.0, 'eval_cosine_precision@1': 0.847769028871391, 'eval_cosine_precision@3': 0.699037620297463, 'eval_cosine_precision@5': 0.5509186351706036, 'eval_cosine_precision@10': 0.32322834645669285, 'eval_cosine_recall@1': 0.2614657542807149, 'eval_cosine_recall@3': 0.6496062992125984, 'eval_cosine_recall@5': 0.8437492188476441, 'eval_cosine_recall@10': 0.9694710036245469, 'eval_cosine_ndcg@10': 0.8720143137992831, 'eval_cosine_mrr@10': 0.9167010373703292, 'eval_cosine_map@100': 0.7893344765531444, 'eval_runtime': 0.3239, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 6.17}
+2025-09-14 23:40:05 - Information Retrieval Evaluation of the model on the eval dataset in epoch 7.0 after 567 steps:
+2025-09-14 23:40:06 - Queries: 762
+2025-09-14 23:40:06 - Corpus: 15
+
+2025-09-14 23:40:06 - Score-Function: cosine
+2025-09-14 23:40:06 - Accuracy@1: 85.56%
+2025-09-14 23:40:06 - Accuracy@3: 99.34%
+2025-09-14 23:40:06 - Accuracy@5: 100.00%
+2025-09-14 23:40:06 - Accuracy@10: 100.00%
+2025-09-14 23:40:06 - Precision@1: 85.56%
+2025-09-14 23:40:06 - Precision@3: 71.70%
+2025-09-14 23:40:06 - Precision@5: 58.50%
+2025-09-14 23:40:06 - Precision@10: 33.15%
+2025-09-14 23:40:06 - Recall@1: 26.43%
+2025-09-14 23:40:06 - Recall@3: 66.34%
+2025-09-14 23:40:06 - Recall@5: 89.33%
+2025-09-14 23:40:06 - Recall@10: 99.02%
+2025-09-14 23:40:06 - MRR@10: 0.9213
+2025-09-14 23:40:06 - NDCG@10: 0.8921
+2025-09-14 23:40:06 - MAP@100: 0.8097
+2025-09-14 23:40:06 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:40:12 - Information Retrieval Evaluation of the model on the eval dataset in epoch 7.407407407407407 after 600 steps:
+2025-09-14 23:40:12 - Queries: 762
+2025-09-14 23:40:12 - Corpus: 15
+
+2025-09-14 23:40:12 - Score-Function: cosine
+2025-09-14 23:40:12 - Accuracy@1: 93.70%
+2025-09-14 23:40:12 - Accuracy@3: 100.00%
+2025-09-14 23:40:12 - Accuracy@5: 100.00%
+2025-09-14 23:40:12 - Accuracy@10: 100.00%
+2025-09-14 23:40:12 - Precision@1: 93.70%
+2025-09-14 23:40:12 - Precision@3: 79.97%
+2025-09-14 23:40:12 - Precision@5: 59.48%
+2025-09-14 23:40:12 - Precision@10: 32.97%
+2025-09-14 23:40:12 - Recall@1: 29.28%
+2025-09-14 23:40:12 - Recall@3: 74.37%
+2025-09-14 23:40:12 - Recall@5: 90.72%
+2025-09-14 23:40:12 - Recall@10: 98.64%
+2025-09-14 23:40:12 - MRR@10: 0.9668
+2025-09-14 23:40:12 - NDCG@10: 0.9312
+2025-09-14 23:40:12 - MAP@100: 0.8759
+{'eval_cosine_accuracy@1': 0.937007874015748, 'eval_cosine_accuracy@3': 1.0, 'eval_cosine_accuracy@5': 1.0, 'eval_cosine_accuracy@10': 1.0, 'eval_cosine_precision@1': 0.937007874015748, 'eval_cosine_precision@3': 0.7996500437445319, 'eval_cosine_precision@5': 0.594750656167979, 'eval_cosine_precision@10': 0.32965879265091863, 'eval_cosine_recall@1': 0.2927649668791401, 'eval_cosine_recall@3': 0.7436570428696413, 'eval_cosine_recall@5': 0.9071553555805524, 'eval_cosine_recall@10': 0.9864220097487815, 'eval_cosine_ndcg@10': 0.9312102772770434, 'eval_cosine_mrr@10': 0.9667541557305338, 'eval_cosine_map@100': 0.8758572024628221, 'eval_runtime': 0.3553, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 7.41}
+2025-09-14 23:40:12 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:40:21 - Information Retrieval Evaluation of the model on the eval dataset in epoch 8.0 after 648 steps:
+2025-09-14 23:40:21 - Queries: 762
+2025-09-14 23:40:21 - Corpus: 15
+
+2025-09-14 23:40:21 - Score-Function: cosine
+2025-09-14 23:40:21 - Accuracy@1: 91.86%
+2025-09-14 23:40:21 - Accuracy@3: 99.48%
+2025-09-14 23:40:21 - Accuracy@5: 100.00%
+2025-09-14 23:40:21 - Accuracy@10: 100.00%
+2025-09-14 23:40:21 - Precision@1: 91.86%
+2025-09-14 23:40:21 - Precision@3: 77.12%
+2025-09-14 23:40:21 - Precision@5: 58.29%
+2025-09-14 23:40:21 - Precision@10: 32.98%
+2025-09-14 23:40:21 - Recall@1: 28.71%
+2025-09-14 23:40:21 - Recall@3: 71.83%
+2025-09-14 23:40:21 - Recall@5: 89.09%
+2025-09-14 23:40:21 - Recall@10: 98.61%
+2025-09-14 23:40:21 - MRR@10: 0.9558
+2025-09-14 23:40:21 - NDCG@10: 0.9158
+2025-09-14 23:40:21 - MAP@100: 0.8504
+2025-09-14 23:40:30 - Information Retrieval Evaluation of the model on the eval dataset in epoch 8.641975308641975 after 700 steps:
+2025-09-14 23:40:30 - Queries: 762
+2025-09-14 23:40:30 - Corpus: 15
+
+2025-09-14 23:40:30 - Score-Function: cosine
+2025-09-14 23:40:30 - Accuracy@1: 96.46%
+2025-09-14 23:40:30 - Accuracy@3: 100.00%
+2025-09-14 23:40:30 - Accuracy@5: 100.00%
+2025-09-14 23:40:30 - Accuracy@10: 100.00%
+2025-09-14 23:40:30 - Precision@1: 96.46%
+2025-09-14 23:40:30 - Precision@3: 85.21%
+2025-09-14 23:40:30 - Precision@5: 61.63%
+2025-09-14 23:40:30 - Precision@10: 33.45%
+2025-09-14 23:40:30 - Recall@1: 30.33%
+2025-09-14 23:40:30 - Recall@3: 79.37%
+2025-09-14 23:40:30 - Recall@5: 93.56%
+2025-09-14 23:40:30 - Recall@10: 99.67%
+2025-09-14 23:40:30 - MRR@10: 0.9818
+2025-09-14 23:40:30 - NDCG@10: 0.9558
+2025-09-14 23:40:30 - MAP@100: 0.9124
+{'eval_cosine_accuracy@1': 0.9645669291338582, 'eval_cosine_accuracy@3': 1.0, 'eval_cosine_accuracy@5': 1.0, 'eval_cosine_accuracy@10': 1.0, 'eval_cosine_precision@1': 0.9645669291338582, 'eval_cosine_precision@3': 0.852143482064742, 'eval_cosine_precision@5': 0.616272965879265, 'eval_cosine_precision@10': 0.334514435695538, 'eval_cosine_recall@1': 0.3032855268091489, 'eval_cosine_recall@3': 0.7936570428696412, 'eval_cosine_recall@5': 0.9356158605174353, 'eval_cosine_recall@10': 0.9966707286589177, 'eval_cosine_ndcg@10': 0.9557905628450668, 'eval_cosine_mrr@10': 0.9818460192475942, 'eval_cosine_map@100': 0.9124343964727589, 'eval_runtime': 0.3567, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 8.64}
+2025-09-14 23:40:30 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:40:35 - Information Retrieval Evaluation of the model on the eval dataset in epoch 9.0 after 729 steps:
+2025-09-14 23:40:36 - Queries: 762
+2025-09-14 23:40:36 - Corpus: 15
+
+2025-09-14 23:40:36 - Score-Function: cosine
+2025-09-14 23:40:36 - Accuracy@1: 96.59%
+2025-09-14 23:40:36 - Accuracy@3: 100.00%
+2025-09-14 23:40:36 - Accuracy@5: 100.00%
+2025-09-14 23:40:36 - Accuracy@10: 100.00%
+2025-09-14 23:40:36 - Precision@1: 96.59%
+2025-09-14 23:40:36 - Precision@3: 83.46%
+2025-09-14 23:40:36 - Precision@5: 59.79%
+2025-09-14 23:40:36 - Precision@10: 33.24%
+2025-09-14 23:40:36 - Recall@1: 30.39%
+2025-09-14 23:40:36 - Recall@3: 77.75%
+2025-09-14 23:40:36 - Recall@5: 91.06%
+2025-09-14 23:40:36 - Recall@10: 99.23%
+2025-09-14 23:40:36 - MRR@10: 0.9825
+2025-09-14 23:40:36 - NDCG@10: 0.9474
+2025-09-14 23:40:36 - MAP@100: 0.8983
+2025-09-14 23:40:48 - Information Retrieval Evaluation of the model on the eval dataset in epoch 9.876543209876543 after 800 steps:
+2025-09-14 23:40:48 - Queries: 762
+2025-09-14 23:40:48 - Corpus: 15
+
+2025-09-14 23:40:48 - Score-Function: cosine
+2025-09-14 23:40:48 - Accuracy@1: 95.41%
+2025-09-14 23:40:48 - Accuracy@3: 100.00%
+2025-09-14 23:40:48 - Accuracy@5: 100.00%
+2025-09-14 23:40:48 - Accuracy@10: 100.00%
+2025-09-14 23:40:48 - Precision@1: 95.41%
+2025-09-14 23:40:48 - Precision@3: 79.70%
+2025-09-14 23:40:48 - Precision@5: 59.66%
+2025-09-14 23:40:48 - Precision@10: 33.06%
+2025-09-14 23:40:48 - Recall@1: 29.80%
+2025-09-14 23:40:48 - Recall@3: 74.11%
+2025-09-14 23:40:48 - Recall@5: 90.77%
+2025-09-14 23:40:48 - Recall@10: 98.76%
+2025-09-14 23:40:48 - MRR@10: 0.9764
+2025-09-14 23:40:48 - NDCG@10: 0.9333
+2025-09-14 23:40:48 - MAP@100: 0.8751
+{'eval_cosine_accuracy@1': 0.9540682414698163, 'eval_cosine_accuracy@3': 1.0, 'eval_cosine_accuracy@5': 1.0, 'eval_cosine_accuracy@10': 1.0, 'eval_cosine_precision@1': 0.9540682414698163, 'eval_cosine_precision@3': 0.7970253718285213, 'eval_cosine_precision@5': 0.5965879265091864, 'eval_cosine_precision@10': 0.33057742782152233, 'eval_cosine_recall@1': 0.29801431071116113, 'eval_cosine_recall@3': 0.7411089238845143, 'eval_cosine_recall@5': 0.9076740407449069, 'eval_cosine_recall@10': 0.9876062367204099, 'eval_cosine_ndcg@10': 0.9332669214427981, 'eval_cosine_mrr@10': 0.9763779527559057, 'eval_cosine_map@100': 0.8751358431707372, 'eval_runtime': 0.3592, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 9.88}
+2025-09-14 23:40:50 - Information Retrieval Evaluation of the model on the eval dataset in epoch 10.0 after 810 steps:
+2025-09-14 23:40:50 - Queries: 762
+2025-09-14 23:40:50 - Corpus: 15
+
+2025-09-14 23:40:50 - Score-Function: cosine
+2025-09-14 23:40:50 - Accuracy@1: 96.85%
+2025-09-14 23:40:50 - Accuracy@3: 100.00%
+2025-09-14 23:40:50 - Accuracy@5: 100.00%
+2025-09-14 23:40:50 - Accuracy@10: 100.00%
+2025-09-14 23:40:50 - Precision@1: 96.85%
+2025-09-14 23:40:50 - Precision@3: 82.50%
+2025-09-14 23:40:50 - Precision@5: 60.26%
+2025-09-14 23:40:50 - Precision@10: 33.18%
+2025-09-14 23:40:50 - Recall@1: 30.30%
+2025-09-14 23:40:50 - Recall@3: 76.78%
+2025-09-14 23:40:50 - Recall@5: 91.63%
+2025-09-14 23:40:50 - Recall@10: 99.05%
+2025-09-14 23:40:50 - MRR@10: 0.9838
+2025-09-14 23:40:50 - NDCG@10: 0.9466
+2025-09-14 23:40:50 - MAP@100: 0.8973
+2025-09-14 23:41:04 - Information Retrieval Evaluation of the model on the eval dataset in epoch 11.0 after 891 steps:
+2025-09-14 23:41:04 - Queries: 762
+2025-09-14 23:41:04 - Corpus: 15
+
+2025-09-14 23:41:04 - Score-Function: cosine
+2025-09-14 23:41:04 - Accuracy@1: 97.11%
+2025-09-14 23:41:04 - Accuracy@3: 100.00%
+2025-09-14 23:41:04 - Accuracy@5: 100.00%
+2025-09-14 23:41:04 - Accuracy@10: 100.00%
+2025-09-14 23:41:04 - Precision@1: 97.11%
+2025-09-14 23:41:04 - Precision@3: 83.55%
+2025-09-14 23:41:04 - Precision@5: 61.60%
+2025-09-14 23:41:04 - Precision@10: 33.44%
+2025-09-14 23:41:04 - Recall@1: 30.37%
+2025-09-14 23:41:04 - Recall@3: 77.65%
+2025-09-14 23:41:04 - Recall@5: 93.48%
+2025-09-14 23:41:04 - Recall@10: 99.61%
+2025-09-14 23:41:04 - MRR@10: 0.9851
+2025-09-14 23:41:04 - NDCG@10: 0.9541
+2025-09-14 23:41:04 - MAP@100: 0.9075
+2025-09-14 23:41:06 - Information Retrieval Evaluation of the model on the eval dataset in epoch 11.11111111111111 after 900 steps:
+2025-09-14 23:41:06 - Queries: 762
+2025-09-14 23:41:06 - Corpus: 15
+
+2025-09-14 23:41:06 - Score-Function: cosine
+2025-09-14 23:41:06 - Accuracy@1: 97.90%
+2025-09-14 23:41:06 - Accuracy@3: 100.00%
+2025-09-14 23:41:06 - Accuracy@5: 100.00%
+2025-09-14 23:41:06 - Accuracy@10: 100.00%
+2025-09-14 23:41:06 - Precision@1: 97.90%
+2025-09-14 23:41:06 - Precision@3: 84.38%
+2025-09-14 23:41:06 - Precision@5: 61.44%
+2025-09-14 23:41:06 - Precision@10: 33.40%
+2025-09-14 23:41:06 - Recall@1: 30.68%
+2025-09-14 23:41:06 - Recall@3: 78.32%
+2025-09-14 23:41:06 - Recall@5: 93.19%
+2025-09-14 23:41:06 - Recall@10: 99.54%
+2025-09-14 23:41:06 - MRR@10: 0.9895
+2025-09-14 23:41:06 - NDCG@10: 0.9574
+2025-09-14 23:41:06 - MAP@100: 0.9133
+{'eval_cosine_accuracy@1': 0.979002624671916, 'eval_cosine_accuracy@3': 1.0, 'eval_cosine_accuracy@5': 1.0, 'eval_cosine_accuracy@10': 1.0, 'eval_cosine_precision@1': 0.979002624671916, 'eval_cosine_precision@3': 0.8438320209973753, 'eval_cosine_precision@5': 0.6144356955380577, 'eval_cosine_precision@10': 0.33398950131233596, 'eval_cosine_recall@1': 0.30676321709786275, 'eval_cosine_recall@3': 0.7831692913385826, 'eval_cosine_recall@5': 0.9319210098737658, 'eval_cosine_recall@10': 0.9954146356705411, 'eval_cosine_ndcg@10': 0.9574253414760925, 'eval_cosine_mrr@10': 0.989501312335958, 'eval_cosine_map@100': 0.9132911344495053, 'eval_runtime': 0.3593, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 11.11}
+2025-09-14 23:41:06 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:41:18 - Information Retrieval Evaluation of the model on the eval dataset in epoch 12.0 after 972 steps:
+2025-09-14 23:41:19 - Queries: 762
+2025-09-14 23:41:19 - Corpus: 15
+
+2025-09-14 23:41:19 - Score-Function: cosine
+2025-09-14 23:41:19 - Accuracy@1: 98.43%
+2025-09-14 23:41:19 - Accuracy@3: 100.00%
+2025-09-14 23:41:19 - Accuracy@5: 100.00%
+2025-09-14 23:41:19 - Accuracy@10: 100.00%
+2025-09-14 23:41:19 - Precision@1: 98.43%
+2025-09-14 23:41:19 - Precision@3: 87.23%
+2025-09-14 23:41:19 - Precision@5: 62.34%
+2025-09-14 23:41:19 - Precision@10: 33.39%
+2025-09-14 23:41:19 - Recall@1: 30.91%
+2025-09-14 23:41:19 - Recall@3: 80.95%
+2025-09-14 23:41:19 - Recall@5: 94.39%
+2025-09-14 23:41:19 - Recall@10: 99.52%
+2025-09-14 23:41:19 - MRR@10: 0.9919
+2025-09-14 23:41:19 - NDCG@10: 0.9659
+2025-09-14 23:41:19 - MAP@100: 0.9303
+2025-09-14 23:41:19 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+{'loss': 2.9907, 'grad_norm': 13.576181411743164, 'learning_rate': 8.347222222222223e-06, 'epoch': 12.35}
+2025-09-14 23:41:24 - Information Retrieval Evaluation of the model on the eval dataset in epoch 12.345679012345679 after 1000 steps:
+2025-09-14 23:41:24 - Queries: 762
+2025-09-14 23:41:24 - Corpus: 15
+
+2025-09-14 23:41:24 - Score-Function: cosine
+2025-09-14 23:41:24 - Accuracy@1: 98.82%
+2025-09-14 23:41:24 - Accuracy@3: 100.00%
+2025-09-14 23:41:24 - Accuracy@5: 100.00%
+2025-09-14 23:41:24 - Accuracy@10: 100.00%
+2025-09-14 23:41:24 - Precision@1: 98.82%
+2025-09-14 23:41:24 - Precision@3: 86.53%
+2025-09-14 23:41:24 - Precision@5: 61.76%
+2025-09-14 23:41:24 - Precision@10: 33.33%
+2025-09-14 23:41:24 - Recall@1: 31.05%
+2025-09-14 23:41:24 - Recall@3: 80.38%
+2025-09-14 23:41:24 - Recall@5: 93.77%
+2025-09-14 23:41:24 - Recall@10: 99.40%
+2025-09-14 23:41:24 - MRR@10: 0.9939
+2025-09-14 23:41:24 - NDCG@10: 0.9640
+2025-09-14 23:41:24 - MAP@100: 0.9270
+{'eval_cosine_accuracy@1': 0.9881889763779528, 'eval_cosine_accuracy@3': 1.0, 'eval_cosine_accuracy@5': 1.0, 'eval_cosine_accuracy@10': 1.0, 'eval_cosine_precision@1': 0.9881889763779528, 'eval_cosine_precision@3': 0.8652668416447943, 'eval_cosine_precision@5': 0.6175853018372702, 'eval_cosine_precision@10': 0.3333333333333333, 'eval_cosine_recall@1': 0.3105252468441445, 'eval_cosine_recall@3': 0.8038385826771653, 'eval_cosine_recall@5': 0.9376952880889888, 'eval_cosine_recall@10': 0.9940241844769404, 'eval_cosine_ndcg@10': 0.964038786618097, 'eval_cosine_mrr@10': 0.9938757655293089, 'eval_cosine_map@100': 0.9269680040697337, 'eval_runtime': 0.3204, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 12.35}
+2025-09-14 23:41:33 - Information Retrieval Evaluation of the model on the eval dataset in epoch 13.0 after 1053 steps:
+2025-09-14 23:41:34 - Queries: 762
+2025-09-14 23:41:34 - Corpus: 15
+
+2025-09-14 23:41:34 - Score-Function: cosine
+2025-09-14 23:41:34 - Accuracy@1: 98.95%
+2025-09-14 23:41:34 - Accuracy@3: 100.00%
+2025-09-14 23:41:34 - Accuracy@5: 100.00%
+2025-09-14 23:41:34 - Accuracy@10: 100.00%
+2025-09-14 23:41:34 - Precision@1: 98.95%
+2025-09-14 23:41:34 - Precision@3: 87.62%
+2025-09-14 23:41:34 - Precision@5: 62.49%
+2025-09-14 23:41:34 - Precision@10: 33.49%
+2025-09-14 23:41:34 - Recall@1: 31.12%
+2025-09-14 23:41:34 - Recall@3: 81.30%
+2025-09-14 23:41:34 - Recall@5: 94.60%
+2025-09-14 23:41:34 - Recall@10: 99.73%
+2025-09-14 23:41:34 - MRR@10: 0.9945
+2025-09-14 23:41:34 - NDCG@10: 0.9696
+2025-09-14 23:41:34 - MAP@100: 0.9354
+2025-09-14 23:41:34 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:41:42 - Information Retrieval Evaluation of the model on the eval dataset in epoch 13.580246913580247 after 1100 steps:
+2025-09-14 23:41:42 - Queries: 762
+2025-09-14 23:41:42 - Corpus: 15
+
+2025-09-14 23:41:42 - Score-Function: cosine
+2025-09-14 23:41:42 - Accuracy@1: 99.08%
+2025-09-14 23:41:42 - Accuracy@3: 100.00%
+2025-09-14 23:41:42 - Accuracy@5: 100.00%
+2025-09-14 23:41:42 - Accuracy@10: 100.00%
+2025-09-14 23:41:42 - Precision@1: 99.08%
+2025-09-14 23:41:42 - Precision@3: 88.28%
+2025-09-14 23:41:42 - Precision@5: 62.41%
+2025-09-14 23:41:42 - Precision@10: 33.41%
+2025-09-14 23:41:42 - Recall@1: 31.20%
+2025-09-14 23:41:42 - Recall@3: 82.15%
+2025-09-14 23:41:42 - Recall@5: 94.62%
+2025-09-14 23:41:42 - Recall@10: 99.58%
+2025-09-14 23:41:42 - MRR@10: 0.9954
+2025-09-14 23:41:42 - NDCG@10: 0.9704
+2025-09-14 23:41:42 - MAP@100: 0.9382
+{'eval_cosine_accuracy@1': 0.9908136482939632, 'eval_cosine_accuracy@3': 1.0, 'eval_cosine_accuracy@5': 1.0, 'eval_cosine_accuracy@10': 1.0, 'eval_cosine_precision@1': 0.9908136482939632, 'eval_cosine_precision@3': 0.8827646544181978, 'eval_cosine_precision@5': 0.6241469816272964, 'eval_cosine_precision@10': 0.3341207349081365, 'eval_cosine_recall@1': 0.3120125609298838, 'eval_cosine_recall@3': 0.8215348081489814, 'eval_cosine_recall@5': 0.9462035995500563, 'eval_cosine_recall@10': 0.995786464191976, 'eval_cosine_ndcg@10': 0.9703837203131792, 'eval_cosine_mrr@10': 0.9954068241469817, 'eval_cosine_map@100': 0.9382015040622558, 'eval_runtime': 0.3824, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 13.58}
+2025-09-14 23:41:42 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:41:49 - Information Retrieval Evaluation of the model on the eval dataset in epoch 14.0 after 1134 steps:
+2025-09-14 23:41:49 - Queries: 762
+2025-09-14 23:41:49 - Corpus: 15
+
+2025-09-14 23:41:49 - Score-Function: cosine
+2025-09-14 23:41:49 - Accuracy@1: 98.95%
+2025-09-14 23:41:49 - Accuracy@3: 100.00%
+2025-09-14 23:41:49 - Accuracy@5: 100.00%
+2025-09-14 23:41:49 - Accuracy@10: 100.00%
+2025-09-14 23:41:49 - Precision@1: 98.95%
+2025-09-14 23:41:49 - Precision@3: 87.84%
+2025-09-14 23:41:49 - Precision@5: 62.99%
+2025-09-14 23:41:49 - Precision@10: 33.44%
+2025-09-14 23:41:49 - Recall@1: 31.14%
+2025-09-14 23:41:49 - Recall@3: 81.50%
+2025-09-14 23:41:49 - Recall@5: 95.34%
+2025-09-14 23:41:49 - Recall@10: 99.62%
+2025-09-14 23:41:49 - MRR@10: 0.9945
+2025-09-14 23:41:49 - NDCG@10: 0.9713
+2025-09-14 23:41:49 - MAP@100: 0.9401
+2025-09-14 23:41:49 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:42:01 - Information Retrieval Evaluation of the model on the eval dataset in epoch 14.814814814814815 after 1200 steps:
+2025-09-14 23:42:01 - Queries: 762
+2025-09-14 23:42:01 - Corpus: 15
+
+2025-09-14 23:42:01 - Score-Function: cosine
+2025-09-14 23:42:01 - Accuracy@1: 99.34%
+2025-09-14 23:42:01 - Accuracy@3: 100.00%
+2025-09-14 23:42:01 - Accuracy@5: 100.00%
+2025-09-14 23:42:01 - Accuracy@10: 100.00%
+2025-09-14 23:42:01 - Precision@1: 99.34%
+2025-09-14 23:42:01 - Precision@3: 91.47%
+2025-09-14 23:42:01 - Precision@5: 63.78%
+2025-09-14 23:42:01 - Precision@10: 33.50%
+2025-09-14 23:42:01 - Recall@1: 31.29%
+2025-09-14 23:42:01 - Recall@3: 84.97%
+2025-09-14 23:42:01 - Recall@5: 96.33%
+2025-09-14 23:42:01 - Recall@10: 99.78%
+2025-09-14 23:42:01 - MRR@10: 0.9965
+2025-09-14 23:42:01 - NDCG@10: 0.9816
+2025-09-14 23:42:01 - MAP@100: 0.9609
+{'eval_cosine_accuracy@1': 0.9934383202099738, 'eval_cosine_accuracy@3': 1.0, 'eval_cosine_accuracy@5': 1.0, 'eval_cosine_accuracy@10': 1.0, 'eval_cosine_precision@1': 0.9934383202099738, 'eval_cosine_precision@3': 0.9146981627296588, 'eval_cosine_precision@5': 0.637795275590551, 'eval_cosine_precision@10': 0.3350393700787401, 'eval_cosine_recall@1': 0.3129311961004875, 'eval_cosine_recall@3': 0.8497172228471441, 'eval_cosine_recall@5': 0.9633295838020248, 'eval_cosine_recall@10': 0.9977768403949506, 'eval_cosine_ndcg@10': 0.9815973543553594, 'eval_cosine_mrr@10': 0.9965004374453194, 'eval_cosine_map@100': 0.9608879533546762, 'eval_runtime': 0.3542, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 14.81}
+2025-09-14 23:42:01 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:42:04 - Information Retrieval Evaluation of the model on the eval dataset in epoch 15.0 after 1215 steps:
+2025-09-14 23:42:04 - Queries: 762
+2025-09-14 23:42:04 - Corpus: 15
+
+2025-09-14 23:42:04 - Score-Function: cosine
+2025-09-14 23:42:04 - Accuracy@1: 99.48%
+2025-09-14 23:42:04 - Accuracy@3: 100.00%
+2025-09-14 23:42:04 - Accuracy@5: 100.00%
+2025-09-14 23:42:04 - Accuracy@10: 100.00%
+2025-09-14 23:42:04 - Precision@1: 99.48%
+2025-09-14 23:42:04 - Precision@3: 90.77%
+2025-09-14 23:42:04 - Precision@5: 63.62%
+2025-09-14 23:42:04 - Precision@10: 33.46%
+2025-09-14 23:42:04 - Recall@1: 31.36%
+2025-09-14 23:42:04 - Recall@3: 84.20%
+2025-09-14 23:42:04 - Recall@5: 96.07%
+2025-09-14 23:42:04 - Recall@10: 99.69%
+2025-09-14 23:42:04 - MRR@10: 0.9972
+2025-09-14 23:42:04 - NDCG@10: 0.9800
+2025-09-14 23:42:04 - MAP@100: 0.9573
+2025-09-14 23:42:18 - Information Retrieval Evaluation of the model on the eval dataset in epoch 16.0 after 1296 steps:
+2025-09-14 23:42:18 - Queries: 762
+2025-09-14 23:42:18 - Corpus: 15
+
+2025-09-14 23:42:18 - Score-Function: cosine
+2025-09-14 23:42:18 - Accuracy@1: 99.61%
+2025-09-14 23:42:18 - Accuracy@3: 100.00%
+2025-09-14 23:42:18 - Accuracy@5: 100.00%
+2025-09-14 23:42:18 - Accuracy@10: 100.00%
+2025-09-14 23:42:18 - Precision@1: 99.61%
+2025-09-14 23:42:18 - Precision@3: 92.08%
+2025-09-14 23:42:18 - Precision@5: 63.73%
+2025-09-14 23:42:18 - Precision@10: 33.49%
+2025-09-14 23:42:18 - Recall@1: 31.42%
+2025-09-14 23:42:18 - Recall@3: 85.52%
+2025-09-14 23:42:18 - Recall@5: 96.29%
+2025-09-14 23:42:18 - Recall@10: 99.76%
+2025-09-14 23:42:18 - MRR@10: 0.9980
+2025-09-14 23:42:18 - NDCG@10: 0.9834
+2025-09-14 23:42:18 - MAP@100: 0.9639
+2025-09-14 23:42:18 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:42:19 - Information Retrieval Evaluation of the model on the eval dataset in epoch 16.049382716049383 after 1300 steps:
+2025-09-14 23:42:20 - Queries: 762
+2025-09-14 23:42:20 - Corpus: 15
+
+2025-09-14 23:42:20 - Score-Function: cosine
+2025-09-14 23:42:20 - Accuracy@1: 99.61%
+2025-09-14 23:42:20 - Accuracy@3: 100.00%
+2025-09-14 23:42:20 - Accuracy@5: 100.00%
+2025-09-14 23:42:20 - Accuracy@10: 100.00%
+2025-09-14 23:42:20 - Precision@1: 99.61%
+2025-09-14 23:42:20 - Precision@3: 91.86%
+2025-09-14 23:42:20 - Precision@5: 63.78%
+2025-09-14 23:42:20 - Precision@10: 33.50%
+2025-09-14 23:42:20 - Recall@1: 31.42%
+2025-09-14 23:42:20 - Recall@3: 85.33%
+2025-09-14 23:42:20 - Recall@5: 96.35%
+2025-09-14 23:42:20 - Recall@10: 99.78%
+2025-09-14 23:42:20 - MRR@10: 0.9980
+2025-09-14 23:42:20 - NDCG@10: 0.9833
+2025-09-14 23:42:20 - MAP@100: 0.9633
+{'eval_cosine_accuracy@1': 0.9960629921259843, 'eval_cosine_accuracy@3': 1.0, 'eval_cosine_accuracy@5': 1.0, 'eval_cosine_accuracy@10': 1.0, 'eval_cosine_precision@1': 0.9960629921259843, 'eval_cosine_precision@3': 0.9186351706036745, 'eval_cosine_precision@5': 0.637795275590551, 'eval_cosine_precision@10': 0.3350393700787401, 'eval_cosine_recall@1': 0.3142435320584927, 'eval_cosine_recall@3': 0.8533261467316585, 'eval_cosine_recall@5': 0.9635154980627423, 'eval_cosine_recall@10': 0.9977768403949506, 'eval_cosine_ndcg@10': 0.9832739552010904, 'eval_cosine_mrr@10': 0.9980314960629921, 'eval_cosine_map@100': 0.9632563031442859, 'eval_runtime': 0.3617, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 16.05}
+2025-09-14 23:42:33 - Information Retrieval Evaluation of the model on the eval dataset in epoch 17.0 after 1377 steps:
+2025-09-14 23:42:33 - Queries: 762
+2025-09-14 23:42:33 - Corpus: 15
+
+2025-09-14 23:42:33 - Score-Function: cosine
+2025-09-14 23:42:33 - Accuracy@1: 99.48%
+2025-09-14 23:42:33 - Accuracy@3: 100.00%
+2025-09-14 23:42:33 - Accuracy@5: 100.00%
+2025-09-14 23:42:33 - Accuracy@10: 100.00%
+2025-09-14 23:42:33 - Precision@1: 99.48%
+2025-09-14 23:42:33 - Precision@3: 90.94%
+2025-09-14 23:42:33 - Precision@5: 63.36%
+2025-09-14 23:42:33 - Precision@10: 33.52%
+2025-09-14 23:42:33 - Recall@1: 31.36%
+2025-09-14 23:42:33 - Recall@3: 84.60%
+2025-09-14 23:42:33 - Recall@5: 95.87%
+2025-09-14 23:42:33 - Recall@10: 99.80%
+2025-09-14 23:42:33 - MRR@10: 0.9972
+2025-09-14 23:42:33 - NDCG@10: 0.9811
+2025-09-14 23:42:33 - MAP@100: 0.9586
+2025-09-14 23:42:37 - Information Retrieval Evaluation of the model on the eval dataset in epoch 17.28395061728395 after 1400 steps:
+2025-09-14 23:42:37 - Queries: 762
+2025-09-14 23:42:37 - Corpus: 15
+
+2025-09-14 23:42:37 - Score-Function: cosine
+2025-09-14 23:42:37 - Accuracy@1: 99.61%
+2025-09-14 23:42:37 - Accuracy@3: 100.00%
+2025-09-14 23:42:37 - Accuracy@5: 100.00%
+2025-09-14 23:42:37 - Accuracy@10: 100.00%
+2025-09-14 23:42:37 - Precision@1: 99.61%
+2025-09-14 23:42:37 - Precision@3: 91.95%
+2025-09-14 23:42:37 - Precision@5: 63.83%
+2025-09-14 23:42:37 - Precision@10: 33.52%
+2025-09-14 23:42:37 - Recall@1: 31.42%
+2025-09-14 23:42:37 - Recall@3: 85.48%
+2025-09-14 23:42:37 - Recall@5: 96.38%
+2025-09-14 23:42:37 - Recall@10: 99.80%
+2025-09-14 23:42:37 - MRR@10: 0.9978
+2025-09-14 23:42:37 - NDCG@10: 0.9844
+2025-09-14 23:42:37 - MAP@100: 0.9656
+{'eval_cosine_accuracy@1': 0.9960629921259843, 'eval_cosine_accuracy@3': 1.0, 'eval_cosine_accuracy@5': 1.0, 'eval_cosine_accuracy@10': 1.0, 'eval_cosine_precision@1': 0.9960629921259843, 'eval_cosine_precision@3': 0.9195100612423448, 'eval_cosine_precision@5': 0.6383202099737532, 'eval_cosine_precision@10': 0.33517060367454066, 'eval_cosine_recall@1': 0.3142435320584927, 'eval_cosine_recall@3': 0.8547915885514309, 'eval_cosine_recall@5': 0.9637779652543432, 'eval_cosine_recall@10': 0.9979955630546181, 'eval_cosine_ndcg@10': 0.9843782903531652, 'eval_cosine_mrr@10': 0.9978127734033246, 'eval_cosine_map@100': 0.9655596203918289, 'eval_runtime': 0.3481, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 17.28}
+2025-09-14 23:42:37 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:42:50 - Information Retrieval Evaluation of the model on the eval dataset in epoch 18.0 after 1458 steps:
+2025-09-14 23:42:50 - Queries: 762
+2025-09-14 23:42:50 - Corpus: 15
+
+2025-09-14 23:42:50 - Score-Function: cosine
+2025-09-14 23:42:50 - Accuracy@1: 99.48%
+2025-09-14 23:42:50 - Accuracy@3: 100.00%
+2025-09-14 23:42:50 - Accuracy@5: 100.00%
+2025-09-14 23:42:50 - Accuracy@10: 100.00%
+2025-09-14 23:42:50 - Precision@1: 99.48%
+2025-09-14 23:42:50 - Precision@3: 92.61%
+2025-09-14 23:42:50 - Precision@5: 64.36%
+2025-09-14 23:42:50 - Precision@10: 33.56%
+2025-09-14 23:42:50 - Recall@1: 31.36%
+2025-09-14 23:42:50 - Recall@3: 86.01%
+2025-09-14 23:42:50 - Recall@5: 96.99%
+2025-09-14 23:42:50 - Recall@10: 99.89%
+2025-09-14 23:42:50 - MRR@10: 0.9972
+2025-09-14 23:42:50 - NDCG@10: 0.9861
+2025-09-14 23:42:50 - MAP@100: 0.9694
+2025-09-14 23:42:50 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+{'loss': 2.8624, 'grad_norm': 14.756763458251953, 'learning_rate': 1.402777777777778e-06, 'epoch': 18.52}
+2025-09-14 23:42:58 - Information Retrieval Evaluation of the model on the eval dataset in epoch 18.51851851851852 after 1500 steps:
+2025-09-14 23:42:58 - Queries: 762
+2025-09-14 23:42:58 - Corpus: 15
+
+2025-09-14 23:42:58 - Score-Function: cosine
+2025-09-14 23:42:58 - Accuracy@1: 99.61%
+2025-09-14 23:42:58 - Accuracy@3: 100.00%
+2025-09-14 23:42:58 - Accuracy@5: 100.00%
+2025-09-14 23:42:58 - Accuracy@10: 100.00%
+2025-09-14 23:42:58 - Precision@1: 99.61%
+2025-09-14 23:42:58 - Precision@3: 92.87%
+2025-09-14 23:42:58 - Precision@5: 64.36%
+2025-09-14 23:42:58 - Precision@10: 33.56%
+2025-09-14 23:42:58 - Recall@1: 31.42%
+2025-09-14 23:42:58 - Recall@3: 86.31%
+2025-09-14 23:42:58 - Recall@5: 97.02%
+2025-09-14 23:42:58 - Recall@10: 99.89%
+2025-09-14 23:42:58 - MRR@10: 0.9978
+2025-09-14 23:42:58 - NDCG@10: 0.9871
+2025-09-14 23:42:58 - MAP@100: 0.9710
+{'eval_cosine_accuracy@1': 0.9960629921259843, 'eval_cosine_accuracy@3': 1.0, 'eval_cosine_accuracy@5': 1.0, 'eval_cosine_accuracy@10': 1.0, 'eval_cosine_precision@1': 0.9960629921259843, 'eval_cosine_precision@3': 0.9286964129483816, 'eval_cosine_precision@5': 0.6435695538057742, 'eval_cosine_precision@10': 0.33556430446194224, 'eval_cosine_recall@1': 0.3142435320584927, 'eval_cosine_recall@3': 0.8630593050868641, 'eval_cosine_recall@5': 0.9701646669166354, 'eval_cosine_recall@10': 0.9989141982252219, 'eval_cosine_ndcg@10': 0.9870660323265628, 'eval_cosine_mrr@10': 0.9978127734033246, 'eval_cosine_map@100': 0.9709744501972426, 'eval_runtime': 0.321, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 18.52}
+2025-09-14 23:42:58 - Save model to runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815
+2025-09-14 23:43:05 - Information Retrieval Evaluation of the model on the eval dataset in epoch 19.0 after 1539 steps:
+2025-09-14 23:43:06 - Queries: 762
+2025-09-14 23:43:06 - Corpus: 15
+
+2025-09-14 23:43:06 - Score-Function: cosine
+2025-09-14 23:43:06 - Accuracy@1: 99.61%
+2025-09-14 23:43:06 - Accuracy@3: 100.00%
+2025-09-14 23:43:06 - Accuracy@5: 100.00%
+2025-09-14 23:43:06 - Accuracy@10: 100.00%
+2025-09-14 23:43:06 - Precision@1: 99.61%
+2025-09-14 23:43:06 - Precision@3: 92.48%
+2025-09-14 23:43:06 - Precision@5: 64.25%
+2025-09-14 23:43:06 - Precision@10: 33.56%
+2025-09-14 23:43:06 - Recall@1: 31.42%
+2025-09-14 23:43:06 - Recall@3: 85.94%
+2025-09-14 23:43:06 - Recall@5: 96.90%
+2025-09-14 23:43:06 - Recall@10: 99.89%
+2025-09-14 23:43:06 - MRR@10: 0.9978
+2025-09-14 23:43:06 - NDCG@10: 0.9862
+2025-09-14 23:43:06 - MAP@100: 0.9691
+2025-09-14 23:43:18 - Information Retrieval Evaluation of the model on the eval dataset in epoch 19.753086419753085 after 1600 steps:
+2025-09-14 23:43:19 - Queries: 762
+2025-09-14 23:43:19 - Corpus: 15
+
+2025-09-14 23:43:19 - Score-Function: cosine
+2025-09-14 23:43:19 - Accuracy@1: 99.61%
+2025-09-14 23:43:19 - Accuracy@3: 100.00%
+2025-09-14 23:43:19 - Accuracy@5: 100.00%
+2025-09-14 23:43:19 - Accuracy@10: 100.00%
+2025-09-14 23:43:19 - Precision@1: 99.61%
+2025-09-14 23:43:19 - Precision@3: 92.52%
+2025-09-14 23:43:19 - Precision@5: 64.23%
+2025-09-14 23:43:19 - Precision@10: 33.54%
+2025-09-14 23:43:19 - Recall@1: 31.42%
+2025-09-14 23:43:19 - Recall@3: 85.97%
+2025-09-14 23:43:19 - Recall@5: 96.86%
+2025-09-14 23:43:19 - Recall@10: 99.87%
+2025-09-14 23:43:19 - MRR@10: 0.9978
+2025-09-14 23:43:19 - NDCG@10: 0.9860
+2025-09-14 23:43:19 - MAP@100: 0.9689
+{'eval_cosine_accuracy@1': 0.9960629921259843, 'eval_cosine_accuracy@3': 1.0, 'eval_cosine_accuracy@5': 1.0, 'eval_cosine_accuracy@10': 1.0, 'eval_cosine_precision@1': 0.9960629921259843, 'eval_cosine_precision@3': 0.9251968503937008, 'eval_cosine_precision@5': 0.6422572178477689, 'eval_cosine_precision@10': 0.3354330708661417, 'eval_cosine_recall@1': 0.3142435320584927, 'eval_cosine_recall@3': 0.8596909761279841, 'eval_cosine_recall@5': 0.9685679915010623, 'eval_cosine_recall@10': 0.9986517310336207, 'eval_cosine_ndcg@10': 0.9860118289784476, 'eval_cosine_mrr@10': 0.9978127734033246, 'eval_cosine_map@100': 0.9689044933935026, 'eval_runtime': 0.3557, 'eval_samples_per_second': 0.0, 'eval_steps_per_second': 0.0, 'epoch': 19.75}
+2025-09-14 23:43:22 - Information Retrieval Evaluation of the model on the eval dataset in epoch 20.0 after 1620 steps:
+2025-09-14 23:43:22 - Queries: 762
+2025-09-14 23:43:22 - Corpus: 15
+
+2025-09-14 23:43:22 - Score-Function: cosine
+2025-09-14 23:43:22 - Accuracy@1: 99.61%
+2025-09-14 23:43:22 - Accuracy@3: 100.00%
+2025-09-14 23:43:22 - Accuracy@5: 100.00%
+2025-09-14 23:43:22 - Accuracy@10: 100.00%
+2025-09-14 23:43:22 - Precision@1: 99.61%
+2025-09-14 23:43:22 - Precision@3: 92.52%
+2025-09-14 23:43:22 - Precision@5: 64.23%
+2025-09-14 23:43:22 - Precision@10: 33.54%
+2025-09-14 23:43:22 - Recall@1: 31.42%
+2025-09-14 23:43:22 - Recall@3: 85.97%
+2025-09-14 23:43:22 - Recall@5: 96.86%
+2025-09-14 23:43:22 - Recall@10: 99.87%
+2025-09-14 23:43:22 - MRR@10: 0.9978
+2025-09-14 23:43:22 - NDCG@10: 0.9860
+2025-09-14 23:43:22 - MAP@100: 0.9689
+{'train_runtime': 298.622, 'train_samples_per_second': 171.588, 'train_steps_per_second': 5.425, 'train_loss': 3.0342043276186343, 'epoch': 20.0}

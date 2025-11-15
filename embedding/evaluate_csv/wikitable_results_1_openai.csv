@@ -1,0 +1,1303 @@
+question,table,llm_answer,true_answer,correctness
+what is the number of the only diesel locomotive from edwards rail car company?,"Number                  Builder       Type Date Works number                                                                                                                                                            Notes
+    51 Baldwin Locomotive Works  DS4-4-750 1949        74408                                                                                                                Acquired new 1949, Retired 1970/Wrecked-Scrapped.
+    52 Baldwin Locomotive Works  DS4-4-750 1949        74409                                                                                                          Acquired new 1949, retired in 1970 and scrapped in 1990
+    53 Baldwin Locomotive Works DS4-4-1000 1949        74193 ex-Pan American Engineering W8380; née Army Corps of Engineers W8380, acquired 1956, retired in 1985, to John Bradley, 1985; to Roots of Motive Power Collection",SKIPPED: M-100,M-100,correct
+how many plants are in algeria?," Plant Name   Location Country Startup Date Capacity (mmtpa) Corporation
+Qatargas II Ras Laffan   Qatar         2009              7.8            
+ Arzew GL4Z            Algeria         1964             0.90            
+ Arzew GL1Z            Algeria         1978                             ",SKIPPED: The dataset lists 3 distinct LNG plants located in Algeria.,6,wrong
+when was the first win by decision?,"Res. Record       Opponent               Method                            Event               Date Round Time                            Location                   Notes
+ Win   12-3     Mike Hayes           KO (punch)     KSW 25: Khalidov vs. Sakurai   December 7, 2013     1 1:12                     Wrocław, Poland                        
+ Win   11–3 Nick Moghadden        TKO (punches)                      Bellator 99 September 13, 2013     1 3:22 Temecula, California, United States          Bellator debut
+Loss   10–3  Guto Inocente Decision (unanimous) Strikeforce: Barnett vs. Cormier       May 19, 2012     3 5:00 San Jose, California, United States Light Heavyweight debut","SKIPPED: The fighter’s first win by decision occurred on August 15, 2009.","August 15, 2009",correct
+which competition has the least notes?,"Year                   Competition              Venue Position  Notes
+2003     World Youth Championships Sherbrooke, Canada      7th 1.75 m
+2004    World Junior Championships    Grosseto, Italy      9th 1.80 m
+2005 European Junior Championships  Kaunas, Lithuania      4th 1.82 m","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",World Youth Championships,wrong
+"was the title for the ruler of the chinese vassal state lu king, marquis, or duke?","State      Type   Name   Title Royal house   From     To
+  Chu Sovereign   Huai    King          Mi 328 BC 299 BC
+  Han Sovereign  Xiang Marquis           — 311 BC 296 BC
+   Lu Sovereign Wen II    Duke          Ji 302 BC 280 BC",SKIPPED: The ruler of the Chinese vassal state Lu held the title of Duke.,Duke,correct
+who earned the most points at the 250cc valencian community motorcycle grand prix?,"Pos           Rider Manufacturer Time/Retired Points
+  1     Tohru Ukawa        Honda    49:50.449     25
+  2 Franco Battaini      Aprilia       +5.125     20
+  3 Loris Capirossi        Honda      +10.224     16","SKIPPED: Tohru Ukawa scored the most points at the 250cc Valencian Community Grand Prix, earning 25 points.",Tohru Ukawa,correct
+which director has the most titles accredited to them?,"#            Title    Directed by                    Written by Original air date Production\ncode
+1          ""Pilot"" Michael Dinner                  Peter Elkoff     June 14, 2004           1AJE01
+2          ""Tessa"" Patrick Norris                   Liz Heldens     June 21, 2004           1AJE02
+3 ""Surprise Party"" James Marshall Kevin Falls & Matt McGuinness     June 28, 2004           1AJE03",SKIPPED: Patrick Norris has the most titles accredited to them (4 episodes).,Patrick Norris,correct
+what is the first ship listed as undamaged?,"   Ship Name Desig                                       Status                                                                     Notes Links
+Pennsylvania BB-38                                      Damaged in drydock No. 1, with Cassin and Downes. Three propeller shafts removed.   [1]
+     Arizona BB-39                             Sunk, total loss       Moored Battleship row, berth F-7 forward of Nevada aft of Tennessee   [2]
+      Nevada BB-36 Seriously damaged, beached at Hospital Point                                        Moored aft of Arizona at berth F-8   [3]",SKIPPED: The first ship whose status is listed as “Undamaged” in the table is the San Francisco.,San Francisco,correct
+what symbol comes before symbol co?,"number symbol     name   21st   22nd   23rd 24th 25th 26th 27th 28th 29th 30th
+    21     Sc scandium 582163                                                 
+    22     Ti titanium 602930 639294                                          
+    23      V vanadium 151440 661050 699144                                   ","SKIPPED: In the table, the symbol “Co” (cobalt) has atomic number 27.  
+The element immediately before it (atomic number 26) has the symbol:
+
+Fe",Fe,correct
+which country has produced the most drivers?,"Pos  Class No                Team                              Drivers              Chassis                            Engine Laps
+ 21 S\n1.5 42 Automobili O.S.C.A.   Jacques Péron\n Francesco Giardini   O.S.C.A. MT-4 1500                  O.S.C.A. 1.5L I4  243
+ 22 S\n5.0  8         David Brown          Reg Parnell\n Roy Salvadori Aston Martin DB3S SC Aston Martin 2.9L Supercharged I6  222
+ 23 S\n1.1 63      Lucien Farnaud Lucien Farnaud\n Adolfo Macchieraldo   O.S.C.A. MT-4 1100                  O.S.C.A. 1.1L I4  199","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",France,wrong
+who has a larger amount of championships as a plk medalist?," Season                    Champion                    Runner-up Score                Third place
+1995–96          Śląsk Eska Wrocław   Browary Tyskie Bobry Bytom   4–2           Polonia Przemyśl
+1996–97 Mazowszanka PEKAES Pruszków Spójnia Stargard Szczeciński   4–0 Browary Tyskie Bobry Bytom
+1997–98        Zepter Śląsk Wrocław              PEKAES Pruszków   4–3       Ericsson Bobry Bytom","SKIPPED: Prokom Trefl Sopot has the largest number of PLK championships in the table, with 5 titles.",Prokom Trefl Sopot,correct
+tell me the transmitter directly above the one with a kw of 0.04 and a bbca of 22.,"Transmitter    kW BBCA BBCB D3&4 SDN ARQA ARQB Pol.  A.G.
+ Allenheads 0.002   27   21   24 N/A  N/A  N/A    V   A K
+     Alston  0.08   39   45   42 N/A  N/A  N/A    V B E K
+ Bellingham  0.01   27   21   24 N/A  N/A  N/A    V   A K",SKIPPED: Seaham,Seaham,correct
+how many consecutive numbers are listed?,"#        Date                 Visitor Score               Home Record Pts
+1 December 27                 Toronto   7–1 Montreal Canadiens  1–0–0   2
+2 December 30         Quebec Bulldogs   5–8            Toronto  2–0–0   4
+3   January 3 Toronto 228th Battalion   4–9            Toronto  2–1–0   4",SKIPPED: There are 10 consecutive numbers listed in the table.,10,correct
+what is the number of different races that brazil has won?,"         Date                Race Name  Location UCI Rating                   Winner                                    Team
+    6 January Copa América de Ciclismo    Brazil        1.2 Francisco Chamorro (ARG) Funvic Brasilinvest-São José dos Campos
+11–20 January        Vuelta al Táchira Venezuela        2.2     Yeison Delgado (VEN)                  Kino Táchira-Drodínica
+21–27 January         Tour de San Luis Argentina        2.1        Daniel Díaz (ARG)                    San Luis Somos Todos","SKIPPED: Based on the dataset, there are no winners whose nationality is listed as Brazil (no “(BRA)” code appears in the Winner column).  
+Therefore, Brazil has won 0 different races in this table.",0,correct
+what was the name of the mission previous to cosmos 300?,"      Launch date Operator              Name Sample origin Samples returned Recovery date                       Mission result
+    June 14, 1969          Luna E-8-5 No.402      The Moon             None             -              Failure\nLaunch failure
+    July 13, 1969                    Luna 15      The Moon             None             -    Failure\nCrash-landed on the Moon
+23 September 1969                 Cosmos 300      The Moon             None             - Failure\nFailed to leave Earth orbit",SKIPPED: The mission launched immediately before Cosmos 300 was Luna 15.,Luna 15,correct
+which year was rosi mittermaier's last season?,"Season Age Overall Slalom Giant\nSlalom  Super G Downhill     Combined
+  1967  16      27     19             — not\nrun        — not\nawarded
+  1968  17      12     11             8 not\nrun        — not\nawarded
+  1969  18       7      4            11 not\nrun        5 not\nawarded",SKIPPED: Rosi Mittermaier’s last World Cup season was in 1976.,1976,correct
+the only flight on november 27th,"           Flight             Date Payload nickname                                Payload Orbit  Result
+TF1 (Test Flight) February 4, 1994           Ryūsei     OREX (Orbital Re-entry Experiment)   LEO Success
+TF1 (Test Flight) February 4, 1994            Myōjō       VEP (Vehicle Evaluation Payload)   GTO Success
+              TF2  August 28, 1994           Kiku 6 ETS-VI (Engineering Test Satellite-VI)   GEO Success","SKIPPED: The only H-IIA flight that took place on November 27 was Flight F6, launched on 27 November 1997.",F6,correct
+how many teams did they not lose to?," Opponent Played Won Lost Drawn % Won Overall
+Australia      4   4    0     0          100%
+   Canada     21  19    2     0        90.48%
+   France     34  24   10     0        70.59%",SKIPPED: They avoided defeat against 9 different teams.,9,correct
+what is the difference in position from the year 2007 and 2008?,"Season  Level   Division        Section Position Movements
+  1985 Tier 4 Division 3 Norra Norrland      5th          
+  1986 Tier 4 Division 3 Norra Norrland      4th  Promoted
+  1987 Tier 3 Division 2          Norra      5th          ","SKIPPED: The team finished 10th in 2007 and 12th in 2008, a drop of 2 positions.",2,wrong
+how long did cap anson play?,"                    Player  Career                                  Nickname      Team Inducted As
+                Hank Aaron 1954–76 ""Hammer"", ""Hammerin’ Hank"" or ""Bad Henry""      Milwaukee Braves
+Grover Cleveland Alexander 1911–30                                ""Old Pete"" Philadelphia Phillies
+            Roberto Alomar 1988–04                                  ""Robbie""     Toronto Blue Jays","SKIPPED: Cap Anson’s playing career ran from 1871 through 1897, covering 27 seasons (26 years between his first and last seasons, inclusive).",26 years,wrong
+on which date did the home team member not score?,"            Date Home team Score       Away team                               Notes
+17 December 2007    Foolad   4-4 Esteghlal Ahvaz    Foolad progress 8-7 on penalties
+21 December 2007  Rah Ahan   2-2      Steel Azin  Rah Ahan progress 5-2 on penalties
+21 December 2007  Zob Ahan   1-1       Esteghlal Esteghlal progress 3-1 on penalties",SKIPPED: The only match in which the home team failed to score was played on 4 March 2008.,4 March 2008,wrong
+"which track is longer? ""ny weather report"" or ""country cousins""?","#                                  Title Time                                              Performer(s)                                                        Songwriters Producer(s)            Samples and notes
+1                       ""Everything Man"" 3:16    Talib Kweli, Res\n(additional vocals by Sonia Sanchez)                                                 Talib Kweli Greene      Madlib ""Everything Man"" by Daybreak
+2                    ""NY Weather Report"" 4:35 Talib Kweli\n(scratches by DJ Jazzy Jeff and Cut Chemist)                                                 Talib Kweli Greene  Nick Speed       ""Storm"" by Cut Chemist
+3 ""Hostile Gospel (Part 1) (Deliver Us)"" 5:22                                               Talib Kweli Talib Kweli Greene,\nJustin Smith,\nPaul Greedus,\nDidier Marouani  Just Blaze       ""Deliverance"" by Space","SKIPPED: “NY Weather Report” is longer. Its duration is 4 minutes 35 seconds, whereas “Country Cousins” runs 4 minutes 31 seconds.","""NY Weather Report""",wrong
+total number of parties who lost seats in the argentine chamber of deputies in the legislative election of 1930," Party/Electoral Alliance Seats Change   Votes     %
+Radical Civic Union (UCR)    98      6 618,411 42.7%
+    Independent Socialist    15      9 110,792  7.7%
+             Conservative    12      2 153,826 10.6%","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",6,wrong
+what is the total number of racers who finished under 6:00.00?,"Rank                    Athlete    Time Notes  Q
+   1       Habtamu Fayisa (ETH) 5:38.62    PB FA
+   2 Peter Matheka Mutuku (KEN) 5:38.72    PB FA
+   3    Zakaria Kiprotich (UGA) 5:44.51    PB FA",SKIPPED: 6,6,wrong
+tell me the number of laps completed by jj lehto.,"Pos No           Driver                Team Laps Time/Retired Grid Points
+  1  6 Michael Andretti  Newman-Haas Racing  150  1:33:39.268    8   20+1
+  2 99       Greg Moore     Forsythe Racing  150       +0.075    1   16+1
+  3  1     Alex Zanardi Chip Ganassi Racing  150       +0.918    6     14",SKIPPED: JJ Lehto completed 149 laps.,149,wrong
+which artist scored the most points?,"Draw       Artist                     Song Points Place
+   1 The Memories ""If It Means Losing You""     57   8th
+   2    Ann Breen            ""Oh, Darling""     80   4th
+   3    Fran Meen   ""Say That You Love Me""     66   6th",SKIPPED: Liam Reilly scored the most points.,Liam Reilly,wrong
+"how many total fights took place in mexico city, mexico?","Wager           Winner            Loser            Location               Date
+ Hair       Mocho Cota Chamaco Valaguez Cuernavaca, Morelos            Unknown
+ Hair         Satánico       Mocho Cota Mexico City, Mexico September 26, 1980
+ Hair Chamaco Valaguez       Mocho Cota Cuernavaca, Morelos      July 29, 1982","SKIPPED: There were 9 total fights that took place in Mexico City, Mexico.",9,wrong
+the first win by the ottawa senators in the first half of the regular season was to...,"#        Date         Visitor Score               Home Record Pts
+1 December 21 Ottawa Senators   5–2 Montreal Canadiens  1–0–0   2
+2 December 26  Toronto Arenas   2–5    Ottawa Senators  2–0–0   4
+3 December 31 Ottawa Senators   2–4     Toronto Arenas  2–1–0   4",SKIPPED: The Ottawa Senators’ first victory in the first half of the regular season came against the Montreal Canadiens.,Montreal Canadiens,wrong
+how many groups have more than 32 total seats?,"Governorate Percentage Seats Won Total Seats
+   al-Anbar          -         0          29
+      Babil       8.2%         5          30
+    Baghdad       5.4%         3          57",SKIPPED: 3 groups have more than 32 total seats.,3,wrong
+which names are not in group a?,"Rank Group            Name    Nationality 2.05 2.15 2.19 2.23 2.26 Result Notes
+   1     A   Nicola Ciotti          Italy    -    o    o    o    o   2.26     q
+   1     A Linus Thörnblad         Sweden    -    o    o    o    o   2.26     q
+   1     A     Tomáš Janků Czech Republic    -    o    o    o    o   2.26     q","SKIPPED: Names that are not in group A:
+
+Oskari Frösén  
+Stefan Holm  
+Svatoslav Ton  
+Yaroslav Rybakov  
+Giulio Ciotti  
+Wilbert Pennings  
+Peter Horák  
+Normunds Pūpols  
+Rožle Prezelj  
+Andriy Sokolovskyy  ...","Oskari Frösén, Stefan Holm, Svatoslav Ton, Yaroslav Rybakov, Giulio Ciotti, Wilbert Pennings, Peter Horák, Normunds Pūpols, Rožle Prezelj, Andriy Sokolovskyy, Mickaël Hanany, Javier Bermejo, Adam Scarr",wrong
+what is the last iec world plugs type in the list?,"IEC\nWorld Plugs\nType1              Standard Power\nrating Earthed Polarised Fused Insulated\npins Europlug\nCompatible
+                      A NEMA 1-15 unpolarised    15 A/125 V      No        No    No              No                   No
+                      A   NEMA 1-15 polarised    15 A/125 V      No       Yes    No              No                   No
+                      A  JIS C 8303, Class II    15 A/100 V      No        No    No              No                   No",SKIPPED: The last IEC World Plugs type listed in the table is type N.,N,wrong
+how many days after september 3rd did brian perform in stockholm?,"      Date   City            Venue        Member                                        Performance                                                                 Notes
+15 January Dublin      RTÉ Studios Brian & Roger (1) ""We Will Rock You""\n(2) ""We Are the Champions""                                                    The Late Late Show
+31 January Dublin           The O2         Brian                            (1) ""Bohemian Rhapsody"" Matinee and Evening performances. Roger attended but did not perform.
+    10 May London Dominion Theatre Brian & Roger                            (1) ""Bohemian Rhapsody""                                                      8th anniversary.","SKIPPED: Brian performed in Stockholm on 12 September, which is 9 days after 3 September.",9,correct
+which party had the most members in the 10th canadian parliament?,"By-election              Date             Incumbent        Party                            Winner   Party                                                            Cause Retained
+  Stanstead  January 22, 1908          Henry Lovell      Liberal              Charles Henry Lovell Liberal                                                            Death      Yes
+Huron South  January 22, 1908      Benjamin B. Gunn Conservative                Murdo Young McLean Liberal                                                            Death       No
+    Nicolet December 30, 1907 Charles Ramsay Devlin      Liberal Gustave-Adolphe-Narcisse Turcotte Liberal Resignation upon appointment to the provincial cabinet of Quebec      Yes",SKIPPED: The Liberal Party had the most members in the 10th Canadian Parliament.,Liberal,correct
+how many different people were reserves before tom hart?,"Year Seniors (Trood Award & Rodda Medal)    Reserves (Rex Hartley Medal) Under 18's (Bruce Wilkinson Medal) Under 16's (Shaw/Carter Medal)
+1954         Bob Mason (Sale) (20 Votes)         Rex Donnelly (Moe) (19)                                                                  
+1955               Bob Mason (Sale) (23)       Ron Hayes (Warragul) (20)                                                                  
+1956        Noel Alford (Traralgon) (18) ""Mossy"" Morgan (Trafalgar) (33)                                                                  ","SKIPPED: Tom Hart first appears as the Reserves (Rex Hartley Medal) winner in 1958.  
+Looking at the winners for the Reserves award in the years before 1958 (1954–1957) we find:
+
+• 1954 – Rex Donnelly  
+• 1955...",3,correct
+what was the highest amount of penalty points?,"Rank                  Athlete  Ski time Penalties\nP+S+P+S     Total
+             Zhang Qing (CHN)   59:53.2            1+1+0+1 1:02:53.2
+     Dmitriy Pozdnyakov (KAZ) 1:01:01.0            0+2+0+0 1:03:01.0
+         Dmitriy Pantov (KAZ)   59:24.8            1+2+0+1 1:03:24.8","SKIPPED: By examining the “Penalties P+S+P+S” column and adding the four numbers in each row, the largest total is 4 + 5 + 2 + 2 = 13.  
+
+So, the highest amount of penalty points is 13.",Byamba Enkh-Amgalan (MGL),wrong
+what is the total number of publications?,"   Publication     Score Review
+       1up.com         B      →
+Weekly Famitsu  36 of 40  print
+   GamePro.com 6.5 of 10      →",SKIPPED: There are 9 publications in total.,9,correct
+how many players scored at least 30 goals?,"          Name                     Full name Caps Goals         First cap      Opponent           Club
+          Cafu  Marcos Evangelista de Moraes  142     5 12 September 1990         Spain      São Paulo
+Roberto Carlos Roberto Carlos da Silva Rocha  125    11  26 February 1992 United States União São João
+       Ronaldo  Ronaldo Luís Nazário de Lima   98    62     23 March 1994     Argentina       Cruzeiro",SKIPPED: 2,2,correct
+what tribunal had the most executions in effigie?,"         Tribunal Number of autos da fe Executions in persona Executions in effigie Penanced Total
+        Barcelona                     8                     1                     1       15    17
+          Logroño                     1                     1                     0       0?    1?
+Palma de Mallorca                     3                     0                     0       11    11","ERROR: Error processing sample: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT",Granada,wrong
+how many half marathons did krisztina papp win?,"Year       Men's winner Time (h:m:s)          Women's winner Time (h:m:s) Finishers
+1996 Zoltán Káldy (HUN)      1:04:45     Simona Staicu (HUN)      1:11:11      1768
+1997 Keita Fujino (JPN)      1:03:14      Sachie Ozaki (JPN)      1:11:04      2535
+1998 Seiji Hamada (JPN)      1:02:44 Kazumi Kanbayashi (JPN)      1:10:37      2703","SKIPPED: Krisztina Papp’s name appears as the women’s winner in 2007, 2009, 2010, 2012 and 2013 – a total of 5 times.",5,correct
+what is the higher number of meters listed in the notes section of the table?,"Year                                  Competition                          Venue Position   Notes
+1983                           Pan American Games             Caracas, Venezuela      2nd 78.34 m
+1985 Central American and Caribbean Championships                Nassau, Bahamas      2nd 76.88 m
+1986         Central American and Caribbean Games Santiago de los Caballeros, DR      1st 77.32 m",SKIPPED: The highest distance mentioned in the “Notes” column is 80.84 m.,80.84 m,correct
+how many lower yazoo phases are there?,"                                                                                                       Lower Mississippi Periods Lower Yazoo Phases Lower Yazoo\nDates  Tensas/Natchez Phases  Cahokia Phases               Cahokia Dates Ohio/Miss. River\nConfluence Phases Ohio/Miss. Dates
+                                                                                                                        Historic            Russell       1650–1750 CE       Tensas / Natchez Vacant\nQuarter 1350 CE -\nEuropean Contact                             Jackson     1500-1650 CE
+Plaquemine Mississippian culture\nLate Plaquemine/Mississippian\nMiddle Plaquemine/Mississippian\nEarly Plaquemine/Mississippian          Wasp Lake       1400-1650 CE Transylvania / Emerald Vacant\nQuarter 1350 CE -\nEuropean Contact                             Jackson     1500-1650 CE
+Plaquemine Mississippian culture\nLate Plaquemine/Mississippian\nMiddle Plaquemine/Mississippian\nEarly Plaquemine/Mississippian        Lake George       1300-1400 CE      Fitzhugh / Foster    Sand Prairie                1275-1350 CE                        Medley Phase     1300-1500 CE",SKIPPED: There are 14 distinct Lower Yazoo phases in the table.,14,correct
+how many times did they place 1st after 2008?,"Year                                                Competition                 Venue Position Event       Notes
+2002 Central American and Caribbean Junior Championships (U-17)  Bridgetown, Barbados      1st  5 km 21:24.33 CR
+2004 Central American and Caribbean Junior Championships (U-20) Coatzacoalcos, México      1st 10 km    43:21.99
+2004                                 World Junior Championships       Grosseto, Italy      4th 10 km    41:01.64",SKIPPED: They placed 1st exactly 1 time after 2008.,1,correct
+were drops 4-6 released on xbox 360 after they were released on playstation 3?,"Drop(s)  Multiplayer Map(s)    Spec Ops Mission(s) Face Off Map(s) Xbox 360 release date PlayStation 3 release date
+    1-2 Liberation & Piazza                   None            None       24 January 2012           28 February 2012
+      3           Overwatch                   None            None      21 February 2012              29 March 2012
+    4-6           Black Box Black Ice & Negotiator            None         13 March 2012              12 April 2012","SKIPPED: No. Drop 4-6 came to Xbox 360 first (13 March 2012) and only later to PlayStation 3 (12 April 2012), so the Xbox 360 release was before—not after—the PS3 release.",No,correct
+in how many games did the red raiders score at least 20 points?,"        Date     Time       Opponent#                           Site TV  Result Attendance
+ September 4  7:00 PM        Pacific*    Jones Stadium • Lubbock, TX     W 55-7     29,164
+September 11  1:00 PM at #9 Nebraska* Memorial Stadium • Lincoln, NE    L 27-50     75,771
+September 18 12:00 PM     at Georgia*   Sanford Stadium • Athens, GA    L 11-17     74,511",SKIPPED: The Red Raiders scored 20 or more points in 9 games.,9,correct
+which margin of victory was the largest?,"No.         Date                 Tournament         Winning score Margin\nof victory               Runner(s)-up
+  1 May 27, 1956     Dallas Centennial Open −12 (64-67-70-67=268)           1 stroke Dow Finsterwald, Doug Ford
+  2 Feb 21, 1960   Tucson Open Invitational  −9 (67-67-68-69=271)          3 strokes                 Bob Harris
+  3  Jul 9, 1961 St. Paul Open Invitational −19 (66-71-68-64=269)           1 stroke               Buster Cupit",SKIPPED: The largest recorded margin of victory in the table is 11 strokes.,11 strokes,correct
+what is the english dubbed title of the first episode to air in english in october of 1995?,"No. Dub No.                                                                                     English dubbed title / English subbed title\nOriginal Japanese title Original air date   English air date
+  1       1                            ""A Moon Star Is Born"" / ""Crybaby Usagi's Magnificent Transformation""\n""Nakimushi Usagi no karei naru henshin"" (泣き虫うさぎの華麗なる変身)     March 7, 1992 September 11, 1995
+  2      --                              ""Punish Them! The House of Fortune is the Monster Mansion""\n""Oshioki yo! Uranai house wa yōma no yakata"" (おしおきよ!占いハウスは妖魔の館)    March 14, 1992                N/A
+  3       2 ""Talk Radio"" / ""Mysterious Sleeping Illness, Protect the Girls' Hearts in Love""\n""Nazo no nemuribyō, mamore otome no koisuru kokoro"" (謎のねむり病, 守れ乙女の恋する心)    March 21, 1992 September 12, 1995","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...","""Who Is That Masked Man?"" / ""Usagi is Thrilled! Tuxedo Mask's Love Letter""",wrong
+"how long did the broadcast last in spain, from what date to what date?","  Country      Alternante title          TV Network(s) Series premiere      Series finale
+   Mexico La Fuerza del Destino Canal de las Estrellas  March 14, 2011      July 31, 2011
+ Colombia La Fuerza del Destino                 RCN TV     May 2, 2011 September 20, 2011
+Venezuela La Fuerza del Destino             Venevision     May 5, 2011 September 20, 2011","SKIPPED: In Spain, the broadcast ran from 21 September 2011 until 25 January 2012.","September 21, 2011 to January 25, 2012",correct
+which episodes were not directed by shelley jensen?,"No. in\nseries No. in\nseason                    Title    Directed by                    Written by  Original air date Production\ncode
+           125              1 ""Burnin' Down the House"" Madeline Cripe Joel Madison & Adam Markowitz September 18, 1995            60101
+           126              2              ""Get a Job"" Shelley Jensen                 Mort Scrivner September 25, 1995            60102
+           127              3         ""Stress Related"" Shelley Jensen                 Larry Wilmore    October 2, 1995            60103","SKIPPED: The episodes that were NOT directed by Shelley Jensen are:
+
+1. ""Burnin' Down the House""
+2. ""Not I Barbecue""
+3. ""I, Ooh, Baby, Baby""
+4. ""The Butler's Son Did It""
+5. ""I, Stank Hole in One""
+6. ""I, Done"" ...","""Burnin' Down the House"", ""Not I Barbecue"", ""I, Ooh, Baby, Baby"", ""The Butler's Son Did It"", ""I, Stank Hole in One"", ""I, Done"" (Part 2)",correct
+how many silver medalists did not have at least 2 silver medals listed?," Medal           Name     Sport           Event
+Silver                Badminton      Men's team
+Silver   Aparna Popat Badminton Women's singles
+Silver Jitender Kumar    Boxing    Middleweight","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",4,wrong
+how long was the axwell remix version?,"                    Version Length                      Album                           Remixed by Year                                                                                                                                     Comment
+Single Version / Radio Edit   3:39 Go – The Very Best of Moby MHC aka Philip Larsen and Chis Smith 2006 Remixed version with dance sonorities, with English and French lyrics which alternate. This version is more rhythmic than the original one.
+             Extended Remix   6:48                          — MHC aka Philip Larsen and Chis Smith 2006                                                                                                         Similar to the previous but longer.
+               Axwell Remix   7:24                          —                               Axwell 2006                                                                                                       Used in a scene in the 2008 movie 21.",SKIPPED: The Axwell Remix version is 7 minutes and 24 seconds long (7:24).,7:24,correct
+who was the pick after moses malone?,"Round Pick         Player Pos.   Nationality                                  Team             ABA team Signing price
+    1    1 Artis Gilmore^    C United States                         Chicago Bulls    Kentucky Colonels   $ 1,100,000
+    1    2 Maurice Lucas*  F/C United States Portland Trail Blazers (from Atlanta)    Kentucky Colonels     $ 300,000
+    1    3      Ron Boone  G/F United States                     Kansas City Kings Spirits of St. Louis     $ 250,000",SKIPPED: The pick selected immediately after Moses Malone was Randy Denton (Pick #6).,Randy Denton,wrong
+how long was otto fritz meyerhof a research professor?,"Year            Laureate                                                          Relation               Category                                                                                                                       Rationale
+1922 Otto Fritz Meyerhof          Research Professor in Physiological Chemistry, 1940–1951 Physiology or Medicine ""for his discovery of the fixed relationship between the consumption of oxygen and the metabolism of lactic acid in the muscle""
+1938        Richard Kuhn           Visiting Research Professor for Physiological chemistry Physiology or Medicine                                                                                      ""for his work on carotenoids and vitamins""
+1955 Vincent du Vigneaud Assistant in Biochemistry, Graduate School of Medicine, 1924–1925              Chemistry                                    ""for his work on sulphur compounds, especially the first synthesis of a polypeptide hormone""","SKIPPED: Otto Fritz Meyerhof was a research professor for about 11 years, serving from 1940 through 1951.",11 years,wrong
+what is the number of displacement tonnes for a rari class tugboat?,"        Class              Type                              Ships Displacement                                            Note
+   Rari class Tug supply vessel                          A635 Revi 1,450 tonnes                                                
+Malabar class   Ocean going tug          A664 Malabar\nA669 Tenace 1,440 tonnes Ice-breaking capabilities to 2 meters level ice
+  UT507 class       Salvage Tug Abeille Flandre\nAbeille Languedoc 1,500 tonnes                                       Chartered","SKIPPED: The Rari-class tugboat has a displacement of 1,450 tonnes.","1,450 tonnes",wrong
+"in the 197172 national hurling league, who is the only single player ranked in the top 10 from laois?","Rank           Player County Tally Total Opposition
+   1     Éamonn Flynn Dublin   3-5    14    Wexford
+   1 Charlie McCarthy   Cork   2-8    14     Galway
+   3       Paddy Fahy Galway   2-7    13    Kildare",SKIPPED: Ger Cuddy,Ger Cuddy,wrong
+how many v6 engines are on this list?,"                   Entrant Constructor Chassis             Engine Tyre             Driver    Rounds
+Scuderia Ferrari SpA SEFAC     Ferrari     156 Ferrari 178 1.5 V6    D          Phil Hill  1–3, 5–7
+Scuderia Ferrari SpA SEFAC     Ferrari     156 Ferrari 178 1.5 V6    D Giancarlo Baghetti 1, 3, 6–7
+Scuderia Ferrari SpA SEFAC     Ferrari     156 Ferrari 178 1.5 V6    D  Ricardo Rodríguez  1–3, 6–7",SKIPPED: There are 5 V6 engine entries in the list.,1,wrong
+who has the least number of years until their mandatory retirement?,"                    Name              Rank Age Years until mandatory retirement        Appointed by Year appointed
+      Anabelle Rodríguez Associate Justice  64                          6 years Sila María Calderón           2004
+   Edgardo Rivera Garcia Associate Justice  59                         11 years        Luis Fortuño           2010
+Erick Kolthoff Caraballo Associate Justice  53                         17 years        Luis Fortuño           2009",Justice Federico Hernández Denton has the least time left until mandatory retirement—0 years remaining.,Federico Hernández Denton,wrong
+in which year was only top ten ranking in monetary earnings recorded?,"Year Majors ATP wins Total wins Earnings (US$) Money list rank
+2002      0        0          0        101,122             165
+2003      0        0          0        277,743              79
+2004      0        0          0        579,375              38",SKIPPED: The only year in which a top-ten ranking on the money list was recorded is 2006 (ranked 9th in earnings).,2006,wrong
+"what ship's tonnage is at most 70,000?","           Ship Built In service for Cunard    Type    Tonnage                                                       Notes
+     Queen Mary  1936             1936–1967 express 80,750 GRT         Blue Riband, sold 1967, now a stationary hotel ship
+     Mauretania  1939             1939–1965 express 37,750 GRT                                               scrapped 1965
+Queen Elizabeth  1940             1946–1968 express 83,650 GRT WWII troopship 1940–1945, sold 1968, destroyed by fire 1972","SKIPPED: Ships whose tonnage is at most 70,000 are:
+
+• Mauretania  
+• Media  
+• Parthia  
+• Caronia  
+• Britannic  
+• Georgic  
+• Saxonia  
+• Carmania  
+• Ivernia  
+• Franconia  
+• Carinthia  
+• Sylvania  
+• A...",Queen Elizabeth 2,wrong
+how many years were held in summer?,"# Event Year Season  Flag bearer
+7       2012 Summer  Ele Opeloge
+6       2008 Summer  Ele Opeloge
+5       2004 Summer Uati Maposua",SKIPPED: There were 7 different years in which the Games were held in the summer season.,7,wrong
+which single(s) had the highest uk singles chart position?,"Year                  Title   Label UK Singles Chart U.S. Billboard Hot 100 Chart
+1969          ""Melting Pot"" Philips                3                            -
+1970 ""Good Morning Freedom"" Philips               10                            -
+1970            ""Our World"" Philips               17                           64","SKIPPED: Two singles share the group’s highest UK Singles Chart position (No. 3):
+• “Melting Pot” (1969)
+• “The Banner Man” (1971)","""Melting Pot"", ""The Banner Man""",wrong
+what was the number of players on the roster in 1952-53?," Season Greek League Greek Cup Europe          Coach                                                                                                                    Roster
+1928-29     Champion         -      - Nikos Nisiotis Christos Svolopoulos, Dimitris Sidiropoulos, Evagelinos, Sfikas, Spiridakis, Alexandros Sidiropoulos, Symeonidis, Skepers
+1938-39     Champion         -      -                                                                                                                                         
+1939-40     Champion         -      -                                                                                                                                         ",SKIPPED: There were 5 players on the roster in the 1952-53 season.,5,wrong
+which location is listed the least on this chart?,"   Location Reactor type            Status Net\nCapacity\n(MWe) Gross\nCapacity\n(MWe)
+Chernobyl-1    RBMK-1000 shut down in 1996                  740                    800
+Chernobyl-2    RBMK-1000 shut down in 1991                  925                  1,000
+Chernobyl-3    RBMK-1000 shut down in 2000                  925                  1,000","SKIPPED: When grouping by the base plant name (before the unit number), “Kostroma” is listed the fewest times on the chart—it appears only twice, whereas all other plant locations appear four or more times.",Kostroma,wrong
+who is the only person from the uk in the top 3?,"Pos No             Driver  Constructor Laps Time/Retired Grid Points
+  1  1 Emerson Fittipaldi McLaren-Ford   53   1:39:26.29    5      9
+  2 24         James Hunt Hesketh-Ford   53       + 5.91    6      6
+  3  7   Carlos Reutemann Brabham-Ford   53      + 17.06    3      4",SKIPPED: James Hunt,James Hunt,correct
+is the order of bardney abbey the same as abingdon abbey?,"          Name  Location       County         Order Year dissolved
+Abingdon Abbey  Abingdon  Oxfordshire   Benedictine           1538
+ Bardney Abbey   Bardney Lincolnshire   Benedictine           1538
+ Bardsey Abbey Aberdaron      Gwynedd Canon Regular           1537","SKIPPED: Yes. Both Bardney Abbey and Abingdon Abbey were Benedictine foundations, so they share the same monastic order.",Yes,correct
+"for how many consecutive games was attendance above 20,000?","Week               Date               Opponent Result Attendance
+   1 September 28, 1952       at Dallas Texans W 24–6     17,499
+   2    October 4, 1952 at Philadelphia Eagles W 31–7     18,648
+   3   October 12, 1952    at Cleveland Browns W 17–9     51,858","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",7,wrong
+in what year was twilight heroes released?,"                  Name           Developer           Release     Type Game flow                Setting
+               8Realms               Jagex 2011 (now closed) Strategy Real-time        Empire building
+Adventure Quest Worlds Artix Entertainment              2008   MMORPG Real-time                    RPG
+            Blood Wars             BW Team              2006   MMORPG Real-time Post-apocalyptic world",SKIPPED: Twilight Heroes was released in 2007.,2007,correct
+what is the largest number of times the prose prize has been awarded to one person?,"                                      Poetry Prize         Poetry Accessit(s) Honourable Mention(s)              Prose Prize                     Prose Accessit(s) Honourable Mention(s)
+1st Edition (1996)          Agustín Hermida Castro                                                     Beatriz Piñeiro Calvo                           Sechu Sende                      
+2nd Edition (1997)             Modesto Fraga Moure     Roberto X. Traba Velay                       Marco V. Lama del Corral Rosa Aneiros Díaz; Pedro Rielo Lamela                      
+3rd Edition (1998) Antonio Esteban González Alonso José Ricardo Vélez Vázquez                           Xabier Castro García                                                            ","SKIPPED: The prose prize has never been awarded to any single person more than twice, so the largest number of times one person has received the prose prize is 2.",2,correct
+what number of years did d.v. graves serve?,"Tenure           Coach Years Record  Pct.
+  1892 Shelby Fletcher     1    1–0 1.000
+  1893    W. M. Walker     1  4–6–1  .409
+  1894     J. H. Lyons     1   10–3  .769",SKIPPED: D. V. Graves served for 4 years.,4,correct
+what other team only completed 183 laps with holman & moody?,"Pos   Class No                 Team                        Drivers          Chassis            Engine Laps
+ 17  P\n5.0 19    SpA Ferrari SEFAC Günter Klass\n Peter Sutcliffe   Ferrari 330 P4  Ferrari 4.0L V12  296
+ 18 P\n+5.0 57 Shelby-American Inc.  Ronnie Bucknum\n Paul Hawkins Ford GT40 Mk.IIB      Ford 7.0L V8  271
+ 19 P\n+5.0  7  Chaparral Cars Inc.        Phil Hill\n Mike Spence     Chaparral 2F Chevrolet 7.0L V8  225",SKIPPED: Holman & Moody shared the 183-lap effort with the team Ford France S.A.,Ford France S.A.,correct
+what division was the team most commonly found in?,"Season  Level   Division         Section Position Movements
+  1993 Tier 3 Division 2 Västra Götaland      1st          
+  1994 Tier 2 Division 1           Södra      7th          
+  1995 Tier 2 Division 1           Södra      5th          ","SKIPPED: The team spent most seasons in Superettan (9 seasons), making it the division they were most commonly found in.",Superettan,correct
+which weights more a ut507 salvage tug or a ut515 salvage tug?,"        Class              Type                              Ships Displacement                                            Note
+   Rari class Tug supply vessel                          A635 Revi 1,450 tonnes                                                
+Malabar class   Ocean going tug          A664 Malabar\nA669 Tenace 1,440 tonnes Ice-breaking capabilities to 2 meters level ice
+  UT507 class       Salvage Tug Abeille Flandre\nAbeille Languedoc 1,500 tonnes                                       Chartered",SKIPPED: A UT515 salvage tug weighs more than a UT507 salvage tug (about 4 000 t versus 1 500 t).,UT515 Salvage tug,correct
+which producer had the most titles?,"            Title Year                    Artist(s)                         Album                                                                              Writer(s)                         Producer(s)
+   ""Cheat on you"" 2008 Kaye Styles ft. Black Cherry                    Main Event                                                          Andras Vleminckx, Kaye Styles                    Andras Vleminckx
+  ""Dance Bailalo"" 2009                   Kat Deluna                             '                                           Kat Deluna, Andras Vleminckx, Tasleema Yasin                    Andras Vleminckx
+""Dancing Tonight"" 2011                   Kat Deluna Inside Out (Kat DeLuna album) Kat Deluna, Andras Vleminckx, Jérôme Riouffreyt, Sebastian LaMar Jones, Dallas Diamond Andras Vleminckx, Jérôme Riouffreyt","SKIPPED: The producer credited on the largest number of titles in the dataset is:
+
+Andras Vleminckx",Andras Vleminckx,correct
+in what year did finland first face greece?,"No.        Date Home team Visiting team   Goals Score Result                      Venue                       Competition
+ 1. 16 May 1991   Finland         Malta 87' 2–0   2–0    Win   Helsinki Olympic Stadium         UEFA Euro 1992 qualifying
+ 2. 25 Mar 1992  Scotland       Finland 41' 1–1   1–1   Draw      Hampden Park, Glasgow                          Friendly
+ 3. 13 Oct 1993    Sweden       Finland 60' 3–2   3–2   Loss Råsunda Stadium, Stockholm 1994 FIFA World Cup qualification","SKIPPED: According to the dataset provided, the first recorded match between Finland and Greece took place in 1995 (on 11 June 1995).",1995,correct
+when was the last round in this season?,"Round Round   Country        Circuit        Date Pole Position   Fastest Lap Winning Rider   Winning Team Report
+    1    R1     Qatar         Losail 23 February   Troy Corser Noriyuki Haga  Troy Bayliss   Xerox Ducati Report
+    1    R2     Qatar         Losail 23 February   Troy Corser   Fonsi Nieto   Fonsi Nieto Alstare Suzuki Report
+    2    R1 Australia Phillip Island     2 March  Troy Bayliss  Troy Bayliss  Troy Bayliss   Xerox Ducati Report",SKIPPED: The last round of the season was held on 2 November.,2 November,correct
+what is the total number of tournamnets on the chart?,"  Outcome No.           Date               Tournament Surface        Opponent         Score
+Runner-up  1. 23 August 2004          La Paz, Bolivia    Clay Jenifer Widjaja 6–3, 4–6, 0–6
+Runner-up  2.    6 June 2005 Santa Tecla, El Salvador    Clay  Andrea Benítez      3–6, 0–6
+Runner-up  2. 22 August 2005         Bogotá, Colombia    Clay     Carla Tiene      4–6, 0–6","SKIPPED: The chart lists tournaments in the “Tournament” column, and there are 15 distinct tournament names. Therefore, the total number of tournaments on the chart is 15.",21,wrong
+how many different series are listed?,"Season                  Series                    Team Races Wins Poles F/Lap Podiums Points Position
+  2009 Star Mazda Championship         Andersen Racing    13    1     1     3       6    416      3rd
+  2010 Star Mazda Championship           Juncos Racing    13    7     9     7      12    539      1st
+  2011             Indy Lights Sam Schmidt Motorsports     5    1     1     2       2    145     13th",SKIPPED: The table lists 7 different racing series.,7,correct
+what was the first game released?,"                     Title Release date      Developer(s)         Publisher(s) Genre(s)
+           187 Ride or Die   2005-08-23           Ubisoft              Ubisoft  Driving
+      50 Cent: Bulletproof   2005-11-17     Genuine Games Sierra Entertainment         
+50 Cent: Blood on the Sand   2009-02-20 Swordfish Studios                  THQ         ","SKIPPED: The earliest (first) game in the table is “Gangsters: Organized Crime,” released on 30 November 1998.",Gangsters: Organized Crime,correct
+what single ranked top on the us cashbox?,"Year                Single US Cashbox US Hot 100 UK Singles
+1969 ""Rock & Roll Holiday""          —          —          —
+1970 ""Be-Bop Confidential""          —          —          —
+1971          ""Roadrunner""          —          —          —","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...","""Smokin' in the Boys Room""",wrong
+what is the total number of teams located in minsk?,"        Team Location            Venue Capacity Position in 1993–94
+Dinamo Minsk    Minsk    Dinamo, Minsk   41,040                   1
+   Dinamo-93    Minsk    Dinamo, Minsk   41,040                   2
+       Dvina  Vitebsk Central, Vitebsk    8,300                   3",SKIPPED: There are 3 teams located in Minsk.,3,correct
+which event ended with the longest time?,"      Date Result          Opponent                                                     Event         Location       Method Round Time
+2013-12-14   Loss     Mohamed Diaby                                      Victory, Semi Finals    Paris, France     Decision     3 3:00
+2013-03-09            Juanma Chacon                                  Enfusion Live: Barcelona Barcelona, Spain                        
+2012-05-27   Loss Murthel Groenhart K-1 World MAX 2012 World Championship Tournament Final 16    Madrid, Spain KO (punches)     3 3:00","SKIPPED: The event that ended with the longest recorded fight time was “It's Showtime 2009 Lommel,” which lasted 4:00.",It's Showtime 2009 Lommel,correct
+since 1983 what country has won the most (combined men & women)?,"Edition Year        Men's winner Time (h:m:s)     Women's winner Time (h:m:s)
+    1st 1983 Tommy Persson (SWE)      2:24:15                  —            —
+    2nd 1984  Steven Marwa (TAN)      2:33:59                  —            —
+    3rd 1985 Savio d'Souza (IND)      2:35:11 Asha Agarwal (IND)      1:24:10",SKIPPED: Kenya has won the most combined men’s and women’s titles since 1983.,Kenya,wrong
+the last convention held outside of europe or north america was held when?,"    Year         Name               City       Country    Guests of Honor Size
+1st 1939      Nycon I New York, New York United States      Frank R. Paul  200
+2nd 1940     Chicon I  Chicago, Illinois United States  E. E. ""Doc"" Smith  128
+3rd 1941 Denvention I   Denver, Colorado United States Robert A. Heinlein   90","SKIPPED: The most recent World Science Fiction Convention that took place outside of Europe or North America was held in 2010 (Aussiecon Four, Melbourne, Australia).",2010,wrong
+does 15 august 1987 or 18 august 1987 held the more attendance?,"          Date        Opponent Venue Result Attendance     Scorers
+15 August 1987    Derby County  Away    0–1     17,204           —
+18 August 1987   Coventry City  Home    0–1     09,380           —
+22 August 1987 West Ham United  Home    2–2     08,073 Harford (2)","SKIPPED: 15 August 1987 held the higher attendance: about 17,204 compared with about 9,380 on 18 August 1987.",15 August 1987,wrong
+which programming is played the most?,"Call-sign Location RF PSIP Programming
+  WIVM-LD   Canton 39 39.1         RTV
+  WIVM-LD   Canton 39 39.2     Tuff TV
+  WIVM-LD   Canton 39 39.3         PBJ","SKIPPED: The programming that is played the most is “RTV (WIVM-LD Simulcast)”, appearing 4 times in the schedule.",RTV (WIVM-LD Simulcast),wrong
+who is the only champion to reign for more than 10 years?,"            Name                  Title Reign            Title Recognition Successful Defenses
+1.  Joe Calzaghe 10 years, 11 months, 15 days IBF, WBA, WBO, WBC, The Ring                  21
+2.    Sven Ottke    5 years, 5 months, 3 days             IBF, WBA (Super)                  21
+3. Frankie Liles   4 years, 10 months, 0 days                          WBA                   8",SKIPPED: Joe Calzaghe,Joe Calzaghe,wrong
+which town comes after porcupine plain in alphabetical order?,"    Name Rural\nmunicipality (RM) Population\n(2011) Population\n(2006) Change\n(%) Land\narea\n(km²) Population\ndensity\n(per km²)
+Aberdeen         Aberdeen No. 373                599                527        13.7              1.95                            307
+ Alameda       Moose Creek No. 33                342                308          11              2.55                          133.9
+   Allan            Bayne No. 371                648                631         2.7              1.78                          363.2",SKIPPED: Preeceville,Preeceville,wrong
+five and jezebel are apart of which label?,"Year                     Album Territory                   Label                                                      Notes
+1989 Good Deeds and Dirty Rags        UK         Capitol Records             Debut album, reached No. 26 on UK Albums Chart
+1989      Fish Heads and Tails        UK         Capitol Records                    Mid-price live and rarities compilation
+1991          Hammer and Tongs        UK Radioactive Records/MCA Second studio album; reached No. 61 on the UK Albums Chart",SKIPPED: Both “Five” and “Jezebel” were released under the label Blokshok Records.,Blokshok Records,wrong
+how many times did shelley jensen directed episodes in season 6?,"No. in\nseries No. in\nseason                    Title    Directed by                    Written by  Original air date Production\ncode
+           125              1 ""Burnin' Down the House"" Madeline Cripe Joel Madison & Adam Markowitz September 18, 1995            60101
+           126              2              ""Get a Job"" Shelley Jensen                 Mort Scrivner September 25, 1995            60102
+           127              3         ""Stress Related"" Shelley Jensen                 Larry Wilmore    October 2, 1995            60103",SKIPPED: Shelley Jensen directed 18 episodes in Season 6.,18,wrong
+how long was the longest time?,"Rank           Name   Nationality    Time  Notes
+       Jill Sterkel United States 1:00.53 NR, GR
+         Lisa Buese United States 1:00.59       
+     Nancy Garapick        Canada 1:02.96       ",SKIPPED: The longest recorded time in the table is 1 minute 6.79 seconds (written as 1:06.79).,1:06.79,wrong
+tell me the number of directors for arunthathi.,"                                          Title                      Director                      Production                                    Music                                                                                                                                          Cast          Release date
+                                     Arunthathi M. L. Tandan & T. R. Sundaram T. R. Sundaram, Modern Theatres M. D. Parathasarathy & S. Rajeshwara Rao                                                                                                  C. Honnappa Bhagavathar, U. R. Jeevarathinam            02.07.1943
+Achayam (Vaarai Sena, Vamuna Therai & Thillana)                                                                                                                                                                                                                                                                           
+                      Dhaasippen or Jothi Malar               Ellis R. Dungan          Bhuvaneshwari Pictures   Lalitha Venkatraman & S. Rajeswara Rao T. R. Mahalingam, M. R. Santhanalakshmi, M. G. Ramachandran, N. S. Krishnan, T. A. Madhuram, R. Balasaraswathi Devi, Krishnamurthy, V. K. Das 25.01.1943/03.03.1943",SKIPPED: Arunthathi has 2 directors.,2,wrong
+who is the only player whose last team was chemosvit svit?,"#             Name       Position   Birthday   Size Weight       Last Team
+4        Tom Lipke Guard/ Forward 12.04.1986 1,96 m  98 kg Bremen Roosters
+5 Muamer Taletovic          Guard 02.04.1976 1,87 m  90 kg  Hertener Löwen
+6     David Watson          Guard 16.09.1988 1,84 m  78 kg   SSC Karlsruhe",SKIPPED: Stefan Svitek,Stefan Svitek,wrong
+how many districts are large than 50 square kilometers?,"#     District Land area (km²) Population\n(2010 census) Density (persons/km²)
+1 Anse la Raye            30.9                     6,247                   210
+2      Praslin            16.0                     2,044                   119
+3     Castries            79.5                    65,656                   776",SKIPPED: There are 7 districts with land areas greater than 50 square kilometers.,6,wrong
+country with the most bronze medals.,"Rank Nation Gold Silver Bronze Total
+   1 Russia    7      3      0    10
+   2  Italy    1      3      0     4
+   3 France    1      1      2     4","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",Poland,wrong
+gerald geis represents how many counties in total?,"District Representative      Party    Residence                      Counties Represented
+       1 Ogden Driskill Republican Devils Tower Converse, Crook, Goshen, Niobrara, Weston
+       2   Jim Anderson Republican     Glenrock                          Converse, Platte
+       3     Curt Meier Republican     LaGrange                            Goshen, Platte",SKIPPED: Gerald Geis represents 4 counties in total.,4,correct
+which country is last on the table?,"Rank        Nation Gold Silver Bronze Total
+   1 United States   12     13      6    31
+   2        Russia   10      5      6    21
+   3     Australia    8     12      6    26",SKIPPED: Trinidad and Tobago,Tunisia,wrong
+who is the top team?,"Place\n(Posición)     Team\n(Equipo) Played\n(PJ) Won\n(PG) Draw\n(PE) Lost\n(PP) Goals Scored\n(GF) Goals Conceded\n(GC) +/-\n(Dif.) Points\n(Pts.)
+               1.         Tauro F.C.           13         7          2          4                 21                   18          +3             23
+               2. San Francisco F.C.           13         5          6          2                 19                   15          +4             21
+               3.         Chepo F.C.           13         5          5          3                 19                   12          +7             20",SKIPPED: Tauro F.C. is the top team.,Tauro F.C.,correct
+which quarry was the last to open?,"       Name Mineral Opened Closed Years connected                                                                      Notes
+Blaen y Cwm   Slate   1820   1911       1876–1911                              Connected to the FfR via the Rhiwbach Tramway
+     Bowydd   Slate   1800   1870       1854–1870                            Merged with Votty to form Votty & Bowydd quarry
+   Brooke's Granite   1919      ?               ? Connected by a tramway branching off at the north portal of Moelwyn Tunnel","SKIPPED: The last quarry to open, based on the table’s “Opened” years, was Brooke's quarry, which opened in 1919.",Brooke's,correct
+"which tournament was attended by more people, ucl on july 13th or supercup on july 17th?","M   Date Tournament Round Ground     Opponent Score Attendance                        Dinamo Scorers      Report
+1 13 Jul        UCL   QR2      H        Koper 5 – 1      7,000 Mandžukić (2), Slepička, Sammir, Etto Sportnet.hr
+2 17 Jul   Supercup   N/A      H Hajduk Split 1 – 0      8,000                                Bišćan Sportnet.hr
+3 20 Jul        UCL   QR2     AR        Koper 0 – 3      2,000                                       Sportnet.hr","SKIPPED: The UCL match on 13 July had an attendance of 7 000, while the Supercup match on 17 July drew 8 000 spectators.  
+Therefore, the Supercup on July 17th was attended by more people.",Supercup,correct
+which date did a team score 4 points?,"Match              Date       Round Home/Away    Opponent team Score                               Scorers
+    1 17 September 2007 Group Stage      Home          Benfica   2–1               Pirlo  9', Inzaghi  24'
+    2    3 October 2007 Group Stage      Away           Celtic   2–1                      Kaká  68' (pen.)
+    3   24 October 2007 Group Stage      Home Shakhtar Donetsk   4–1 Gilardino  6', 14', Seedorf  62', 69'",SKIPPED: A team scored 4 points on 24 October 2007.,24 October 2007,correct
+what is the total number of jamaicans granted british citizenship in 2008?,"Year Numer of Jamaicans\ngranted British\ncitizenship Naturalisation\nby residence Naturalisation\nby marriage Registration\nof a minor child Registration\nby other means
+1997                                              732                          327                         279                            114                           12
+1998                                            1,370                          571                         564                            221                           14
+1999                                            1,437                          678                         526                            226                            7","SKIPPED: In 2008, a total of 2,715 Jamaicans were granted British citizenship.","2,715",correct
+how many songs are not performed by vitas on the album smile! ?,"Track number   Russian title English title Music                             Lyrics
+          01        Улыбнись        Smile! Vitas                     D. Plachkovsky
+          02  Блаженный Гуру  Blessed Guru Vitas                              Vitas
+          03 Восковые фигуры   Wax Figures Vitas D. Plachkovsky, Vitas, S. Pudovkin",SKIPPED: There are 5 songs on the album “Smile!” that are not performed by Vitas.,5,correct
+what race had the same location as tour d'egypte?,"         Date                 Race Name Location UCI Rating                 Winner                         Team
+16–21 January La Tropicale Amissa Bongo    Gabon        2.2 Frédéric Guesdon (FRA)           Française des Jeux
+8–14 February             Tour d'Egypte    Egypt        2.2  Waylon Woolcock (RSA) South Africa (national team)
+  16 February     GP of Sharm el-Sheikh    Egypt        1.2       Ján Šipeky (SVK)         Dukla Trenčín-Merida",SKIPPED: GP of Sharm el-Sheikh,GP of Sharm el-Sheikh,correct
+which country had a release with the same label as germany?,"       Region              Date           Format                                  Version(s)       Label
+       France September 4, 2012 Digital download Main single\nInferno remix\nBluelight remix  Sony Music
+      Germany September 4, 2012 Digital download                               Inferno remix  Sony Music
+United States September 4, 2012 Digital download Main single\nInferno remix\nBluelight remix RCA Records",SKIPPED: France,France,correct
+which number did the san antonio spurs have the same number of points as the washington bullets?," #             Date           Visitor   Score                  Home Record
+21 December 2, 1976 San Antonio Spurs 116-124 Golden State Warriors  11-10
+22 December 3, 1976 San Antonio Spurs 105–114    Los Angeles Lakers  11-11
+23 December 5, 1976 San Antonio Spurs  98–103          Phoenix Suns  11-12","SKIPPED: In this dataset the Washington Bullets scored 116 points (game #32, score 116–118 against the Spurs).  
+Looking through all Spurs games, the only other time the Spurs also scored 116 points is game #2...",21,wrong
+what was the largest consecutive wins did the brisbane broncos have in their 2007 season?,"      Round         Opponent Result Brisbane Opponent   Date          Venue  Crowd Position
+       BOCC Celtic Crusaders    Win       32        6 15 Feb  Brewery Field 2,000+         
+        WCC        St Helens   Loss       14       18 23 Feb Reebok Stadium 23,207         
+Trial Match Canberra Raiders    Win       18       12 24 Feb   Dolphin Oval                ",SKIPPED: The Broncos’ longest winning streak in the 2007 regular season was 5 consecutive victories (Rounds 14-18).,5,correct
+how many deaths were in year 2012 due to plan accidents?,"year deaths # of accidents
+2012    794            700
+2011    828            117
+2010  1,115            130",SKIPPED: There were 794 deaths in 2012 due to plane accidents.,794,correct
+what is the total number of years andorra competed?,"    Country        2014        2013          2012        2010        2009        2008        2007        2006        2005        2004        2003        2002
+    Finland (001)\n6.40 (001)\n6.38 (001)\n-10.00 (001)\n0.00 (001)\n0.00 (004)\n2.00 (005)\n1.50 (001)\n0.50 (001)\n0.50 (001)\n0.50 (001)\n0.50 (001)\n0.50
+Netherlands (002)\n6.46 (002)\n6.48  (003)\n-9.00 (001)\n0.00 (007)\n1.00 (016)\n4.00 (012)\n3.50 (001)\n0.50 (001)\n0.50 (001)\n0.50 (001)\n0.50 (001)\n0.50
+     Norway (003)\n6.52 (003)\n6.52 (001)\n-10.00 (001)\n0.00 (001)\n0.00 (001)\n1.50 (001)\n0.75 (006)\n2.00 (001)\n0.50 (001)\n0.50 (001)\n0.50 (001)\n0.50",SKIPPED: Andorra competed in 2 of the listed years.,2,correct
+who was the coach after joe connally?,"   Tenure          Coach Years Record Pct. NCAA Tournament
+     1933 Sam McAllister     1  5–4–0 .556                
+     1934  Herschel Bobo     1                            
+1934–1939     Del Morgan     6                            ",SKIPPED: The coach who succeeded Joe Connally was Erk Russell.,Erk Russell,correct
+which was the first competition?,"Year      Competition             Venue Position    Event   Notes
+2001 Beijing Marathon Beijing, PR China      7th Marathon 2:10:46
+2002 Beijing Marathon Beijing, PR China      1st Marathon 2:13:09
+2004    Olympic Games    Athens, Greece     31st Marathon 2:19:26",SKIPPED: The first competition listed is the Beijing Marathon (in 2001).,Beijing Marathon,correct
+what was the first party to hold the office within this table?,"               Name   Took office    Left office                 Party                                                      Notes/Events
+11 William McCreery March 4, 1803  March 3, 1809 Democratic Republican                                                                  
+12  Alexander McKim March 4, 1809  March 3, 1815 Democratic Republican                                                                  
+13  William Pinkney March 4, 1815 April 18, 1816 Democratic Republican Resigned to accept position as Minister Plenipotentiary to Russia","SKIPPED: The earliest (first) entry in the table shows William McCreery taking office on March 4, 1803. His affiliation is listed as the Democratic Republican party, making the Democratic Republican party the ...",Democratic Republican,correct
+what is the difference between dennis rodman's offensive rebounds and robert parish offensive rebounds?,"Rebounds Off Def               Player               Team              Date            Opponent   Score Minutes played Points Assists Steals Blocks 20-20 Led the league in rebounding                                                                                                              Notes
+      37  19  18        Moses Malone*    Houston Rockets  February 9, 1979    New Orleans Jazz  106–99             44     33       2                 Yes                          Yes                                                                                  14 rebounds in the first quarter.
+      35  16  19       Charles Oakley      Chicago Bulls    April 22, 1988 Cleveland Cavaliers 103–107             41     26       3      1      0   Yes                           No Second to last game of season, in a season rebounding title battle, which he lost by a .03 margin to Michael Cage.
+      34   5  29 Kareem Abdul-Jabbar* Los Angeles Lakers December 14, 1975     Detroit Pistons 110–100             42     27       6                 Yes                          Yes                                                                     NBA single-game record for defensive rebounds.","SKIPPED: Dennis Rodman grabbed 18 offensive rebounds, while Robert Parish grabbed 7.  
+The difference between their offensive-rebound totals is therefore 18 – 7 = 11.",11,correct
+who is pictured on top of the list?,"Rank                  Name                                                  Notability          Birthplace       Advocate
+  10         Wayne Gretzky               Hockey player, holder of numerous NHL records  Brantford, Ontario   Deborah Grey
+   9 Alexander Graham Bell Scientist, inventor,\nfounder of the Bell Telephone Company Edinburgh, Scotland   Evan Solomon
+   8 Sir John A. Macdonald                              First Prime Minister of Canada   Glasgow, Scotland Charlotte Gray",SKIPPED: Tommy Douglas,Wayne Gretzky,wrong
+which manager had consecutive seasons?," Season                               Record   Finish         Manager                                              Notes
+1956-57 13-14 (1st half) \n 10-15 (2nd half) 2nd\n4th  Lázaro Salazar                                                   
+1957-58                                22-19      2nd Daniel Canónico                              Lost 1st round series
+1958-59                                22-19      2nd   Kerby Farrell Won 1st and 2nd playoff rounds\nChampionship title","SKIPPED: Alberto Hidalgo is the only manager listed in the table who appears in back-to-back seasons (1959-60 and 1960-61), so he is the manager with consecutive seasons.",Alberto Hidalgo,wrong
+what are the number of times the location was in madrid?,"Year       Location     Men's Individual    Women's Individual    Men's Team   Women's Team Mixed Team   Ref
+1996 Vaulx-en-Velin Franck Dauphin (FRA) Anna Campagnoli (ITA)                                         [226]
+1998        Taoyuan  John Blaschke (USA)    Shih Ya-Ping (TPE) United States Chinese Taipei            [227]
+2000         Madrid  Tsai Sung-Pin (TPE) Jamie van Natta (USA) United States  United States            [228]",SKIPPED: The location was in Madrid 2 times.,2,wrong
+total destinations that been ended as of 2009,"    City        Country                Airport Begin End
+Aberdeen United Kingdom       Aberdeen Airport  1999   —
+ Ålesund         Norway Ålesund Airport, Vigra  1971   —
+    Alta         Norway           Alta Airport  1974   —","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",14,wrong
+which other year than 1998 was 3rd position?,"Year     Competition            Venue Position    Event   Notes
+1998  Turin Marathon     Turin, Italy      3rd Marathon 2:12:59
+2003 Lisbon Marathon Lisbon, Portugal      1st Marathon 2:15:31
+2004 Vienna Marathon  Vienna, Austria      3rd Marathon 2:11:24","SKIPPED: Besides 1998, the athlete also finished in 3rd position in the year 2004.",2004,wrong
+how many races did she run after the 2008 olympics?,"Year                Competition              Venue Position  Event        Notes
+2003  World Youth Championships Sherbrooke, Canada      1st 3000 m      9:12.70
+2004 World Junior Championships    Grosseto, Italy      3rd 1500 m      4:17.39
+2004 World Junior Championships    Grosseto, Italy      3rd 3000 m 9:03.16 (PB)",SKIPPED: She ran 13 races after the 2008 Olympics.,11,wrong
+"which poll source has the larger sample size, chicago sun-times or chicago tribune?","                                                 Poll source Date(s)\nadministered Sample\nsize Margin of\nerror Ed Burke Roland Burris Gery Chico Bill Daley Tom Dart Danny K. Davis Miguel Del Valle Rahm Emanuel Bob Fioretti Luis Gutiérrez Jim Houlihan Jesse Jackson, Jr. James Meeks Carol Moseley Braun Terry Peterson Patricia Van Pelt-Watkins William Walls Other Undecided
+            McKeon & Associates / Chicago Sun-Times (report)     September 8, 2010          600           ± 4.3%        –             –         6%          –      12%              –                –           7%           3%             9%           3%                 8%         10%                   –             4%                         –             –    3%       35%
+                                     We Ask America (report)        September 2010        2,365                ?    6.31%             –          –      8.16%   13.66%              –                –       29.68%        2.95%         12.81%        2.30%             13.36%       8.21%                   –          2.55%                         –             –     –         –
+Chicago Teamsters Joint Council 25 / Anzalone Liszt (report)   November 8–14, 2010            ?           ± 3.7%        –             –        10%          –        –            14%               4%          36%            –              –            –                  –          7%                 13%              –                         –             –     –         –",SKIPPED: The Chicago Tribune poll has the larger sample size (708 vs. 600 for the Chicago Sun-Times poll).,Chicago Tribune,wrong
+the number of cars finishing in the top ten for braun racing.,"Pos. Car #          Driver   Make                   Team
+   1    38   Jason Leffler Toyota           Braun Racing
+   2    16     Greg Biffle   Ford    Roush Fenway Racing
+   3    99 David Reutimann Toyota Michael Waltrip Racing",SKIPPED: Braun Racing had 2 cars finish in the top ten.,2,wrong
+"did the canterbury crusaders begin their team in 1950, 1968, or 1969?","      Team name                        Leagues                      Base Year started Year ended Notable riders
+Aldershot Shots National League Division Three Tongham Greyhound Stadium         1950       1960               
+Ashfield Giants                                    Saracen Park, Glasgow         1949       1952  Ken Le Breton
+ Barrow Bombers    British League Division Two             Holker Street         1972       1974               ",SKIPPED: The Canterbury Crusaders began their team in 1968.,1968,wrong
+name each athlete for the russian team.,"Rank Bib                                                                            Country                                          Time                             Penalties (P+S) Deficit
+       1 Russia\nSvetlana Sleptsova\nAnna Bogaliy-Titovets\nOlga Medvedtseva\nOlga Zaitseva 1:09:36.3\n17:24.4\n17:17.3\n17:27.7\n17:26.9 0+2 0+3\n0+0 0+0\n0+1 0+1\n0+0 0+0\n0+1 0+2     0.0
+       4           France\nMarie-Laure Brunet\nSylvie Becaert\nMarie Dorin\nSandrine Bailly 1:10:09.1\n17:22.6\n17:17.6\n18:34.2\n16:54.7 2+4 0+4\n0+0 0+2\n0+0 0+1\n2+3 0+1\n0+1 0+0   +32.8
+       2                Germany\nKati Wilhelm\nSimone Hauswald\nMartina Beck\nAndrea Henkel 1:10:13.4\n17:26.0\n17:16.2\n18:12.0\n17:19.2 0+2 0+3\n0+1 0+0\n0+0 0+0\n0+1 0+1\n0+0 0+2   +37.1","SKIPPED: The athletes on the Russian team are:
+• Svetlana Sleptsova  
+• Anna Bogaliy-Titovets  
+• Olga Medvedtseva  
+• Olga Zaitseva","Svetlana Sleptsova, Anna Bogaliy-Titovets, Olga Medvedtseva, Olga Zaitseva",wrong
+how many times did leonardo maia have the fastest lap?,"Round                Circuit                Location        Date        Pole position    Fastest lap Winning driver                Headline event
+    1 Albert Whitted Airport St. Petersburg, Florida February 23        Leonardo Maia     Dan Di Leo  Leonardo Maia  Grand Prix of St. Petersburg
+    2         Fundidora park               Monterrey    March 23        Leonardo Maia David Martínez David Martínez          Monterrey Grand Prix
+    3         Milwaukee Mile   West Allis, Wisconsin      June 1 Victor Gonzalez, Jr.  Scott Poirier  Leonardo Maia Milwaukee Mile Centennial 250",SKIPPED: Leonardo Maia recorded the fastest lap 6 times.,6,wrong
+what was the last team this team played against in the 1990s?,"Year                Competition           Date        Location      Opponent Score Result
+1990     World Group, 1st Round        2–4 Feb Barcelona (ESP)         Spain   3–2    Win
+1990 World Group, Quarterfinals 30 Mar – 2 Apr    Vienna (AUT)         Italy   5–0    Win
+1990    World Group, Semifinals      21–23 Sep    Vienna (AUT) United States   2–3   Loss",SKIPPED: Sweden,Sweden,wrong
+what player is listed above freddy eastwood?,"Place Position Number           Name League Two FA Cup League Cup FL Trophy Total
+    1       MF      4      Ryan Hall         10      1          0         3    14
+    2       DF      6   Bilel Mohsni         13      0          0         0    13
+    3       FW     22 Liam Dickinson         10      1          0         1    12",SKIPPED: The player listed immediately above Freddy Eastwood is Elliot Benyon.,Elliot Benyon,wrong
+what is the only pollutant that has 0.0 petroleum coke-fired?,"        Pollutant    Units Emission Standard Coal-fired Petroleum Coke-fired
+              SO2 lb/MMBTU            ≤ 0.15   0.0−0.04            0.03−0.13
+              NOx lb/MMBTU            ≤ 0.09  0.04−0.06                 0.02
+Solid particulate lb/MMBTU           ≤ 0.011      0.004                0.007",SKIPPED: SO3 is the only pollutant that has a petroleum coke-fired value of 0.0.,SO3,correct
+which year had an average population of less than 38?,"     Average population (x 1000) Live births Deaths Natural change Crude birth rate (per 1000) Crude death rate (per 1000) Natural change (per 1000)
+1970                          38         761    299            462                        20.0                         7.9                      12.2
+1975                          42         857    317            540                        20.4                         7.5                      12.9
+1980                          46         996    333            663                        21.7                         7.2                      14.4",SKIPPED: 2006,2006,correct
+was benjamin contee a part of the anti-administration or the pro-administration?,"                 Name      Took office    Left office               Party Notes/Events
+1     Benjamin Contee    March 4, 1789  March 3, 1791 Anti-Administration             
+2     William Pinkney    March 4, 1791 November, 1791  Pro-Administration     resigned
+3 John Francis Mercer February 5, 1792  March 3, 1793 Anti-Administration             ",SKIPPED: Benjamin Contee was part of the Anti-Administration faction.,Anti-Administration,correct
+who was the first player picked in round four?,"Pick #              CFL Team           Player Position             College
+    25    Montreal Alouettes    Shawn Gifford       OT Charleston Southern
+    26     Toronto Argonauts      Kevin Eiben        S            Bucknell
+    27 Winnipeg Blue Bombers Nick Tsatsaronis       RB             Memphis",SKIPPED: Shawn Gifford was the first player selected in round four.,Shawn Gifford,correct
+what is the name of the horse after outbound?,"Finished         Horse       Jockey      Trainer            Owner Time / behind
+     1st       Spokane    Tom Kiley John Rodegap   Noah Armstrong       2:34.50
+     2nd Proctor Knott    S. Barnes              Scoggan & Bryant          Nose
+     3rd    Once Again Isaac Murphy                  Milton Young             2",SKIPPED: The horse that finished immediately after Outbound is Bootmaker.,Bootmaker,correct
+list the encoding binaries for the first five integers in elias gamma encoding.,"    Number Encoding Implied probability
+1 = 20 + 0        1                 1/2
+2 = 21 + 0      010                 1/8
+3 = 21 + 1      011                 1/8","SKIPPED: Elias gamma encodings for the first five positive integers are:
+1 → 1
+2 → 010
+3 → 011
+4 → 00100
+5 → 00101","1, 010, 011, 00100, 00101",correct
+what was the total number of winning drivers for italy?,"Round                                    Circuit     Date  Pole Position      Winning driver  Winning team     Trophy winner
+    1 ACI Vallelunga Circuit, Campagnano di Roma  7 April Miloš Pavlović      Miloš Pavlović Target Racing         Nino Famà
+    2                       Misano World Circuit 28 April Miloš Pavlović      Miloš Pavlović Target Racing Giovanni Faraonio
+    3                 Autodromo di Pergusa, Enna   19 May Miloš Pavlović Philip Cloostermans  Azeta Racing  Carmine Tancredi","SKIPPED: There were 4 different winning drivers in the Italian rounds (i.e., Italy) in the dataset.",2,wrong
+how much later as wendell beitzel elected than john donoghue?,"District Counties Represented            Delegate      Party First Elected                        Committee
+      1A    Allegany, Garrett  Wendell R. Beitzel Republican          2006 Health and Government Operations
+      1B             Allegany         Kevin Kelly Democratic          1986                        Judiciary
+      1C Allegany, Washington LeRoy E. Myers, Jr. Republican          2002                   Appropriations","SKIPPED: Wendell Beitzel was first elected in 2006, whereas John Donoghue was first elected in 1990, making Beitzel’s election 16 years later.",16 years,correct
+which town in ireland is home to the most amount of miss northern ireland winners since 2000?,"Year Miss Northern Ireland Hometown Placement at Miss World                                                                            Notes
+2012         Tiffany Brien  Belfast                  Top 30 Top 10 of Beach Fashion and 1st runner-up of Sports & Fitness at Miss World 2012
+2011       Finola Guinnane   Drumbo            Non-Finalist    Top 20 of Beach Beauty and Top 77 of Beauty with a Purpose at Miss World 2011
+2010            Lori Moore  Belfast                  Top 25                                              Winner of Sports at Miss World 2010",SKIPPED: Belfast is the town that has produced the most Miss Northern Ireland winners since 2000.,Belfast,correct
+what is the difference in the number of combined days between kevin steen and davey richards?,"Rank      Wrestler No. of reigns Combined\ndefenses Combined\ndays
+   1 Matt Jackson†             3                 25          1386+
+   1 Nick Jackson†             3                 25          1386+
+   3   El Generico             5                 12            637",SKIPPED: Davey Richards has been champion for 9 more combined days than Kevin Steen (324 days for Richards versus 315 days for Steen).,9,correct
+how many historic places were listed in the 1980's?,"    Name on the Register                  Date listed                                                                                                                                                          Location     City or town                                                              Summary
+1 Arnold Trail to Quebec October 1, 1969\n(#69000018) Along the Kennebec River, through Wayman and Flagstaff lakes along the Dead River and Chain of Ponds to Quebec\n44°40′49″N 69°59′18″W﻿ / ﻿44.680278°N 69.988333°W      Coburn Gore Extends through Franklin, Kennebec, Sagadahoc, and Somerset counties
+2 Barn on Lot 8, Range G August 24, 2011\n(#11000581)                                                                                            816 Foster Hill Rd.\n44°51′29″N 70°13′20″W﻿ / ﻿44.858056°N 70.222222°W Freeman Township                                                                     
+3    Bass Boarding House   April 7, 1988\n(#88000396)                                                                                                      Canal St.\n44°35′12″N 70°13′58″W﻿ / ﻿44.586667°N 70.232778°W           Wilton                                                                     ","ERROR: Error processing sample: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT",17,wrong
+what is the name of the cable television station that broadcast games after ontv?,"Year Local Radio Station Local Radio Announcers Foreign Language Radio Station Foreign Language Radio Announcers Local Television Station Local Television Announcers Cable Television Station Cable Television Announcers
+1939                 WHN  Red Barber\nAl Helfer                           None                              None                     None                        None                     None                        None
+1940                 WHN  Red Barber\nAl Helfer                           None                              None                     None                        None                     None                        None
+1941                 WHN  Red Barber\nAl Helfer                           None                              None                     None                        None                     None                        None",SKIPPED: The cable television station that broadcast the games after ONTV was Dodgervision.,Dodgervision,correct
+who was appointed after dirk kempthorne?,"    Incumbent              Reason for Vacancy Appointed Successor Date of Appointment   Elected Successor Date of Election
+L. B. Lindsay Disqualified, never took office   Henry E. Prickett   November 19, 1867      Thomas B. Hart     January 1868
+  John Hailey               Never took office      Charles Himrod       July 10, 1871 George H. Twitchell     July 8, 1872
+Sol Hasbrouck       Resigned November 5, 1885     James W. Huston   December 28, 1885     Peter J. Pefley        July 1887",SKIPPED: H. Brent Coles was appointed to succeed Dirk Kempthorne.,H. Brent Coles,correct
+which year had the least amount of overall seats won?,"Election year # of\nconstituency votes # of\nparty list votes % of\nparty list votes # of\noverall seats won +/–
+         1949                                       6,934,975                   29.2               131 / 402    
+         1953                8,131,257              7,944,943                   28.8               162 / 509  22
+         1957               11,975,400             11,875,339                   39.7               181 / 519  19","SKIPPED: The year with the fewest overall seats won was 1949, when only 131 seats were secured.",1949,correct
+what is the only chateau built in 1455?,"               Name            Date            Condition Ownership\n/ Access                                                                                                      Notes
+   Château d'Angers    13th century Substantially intact      City of Angers Walls nearly 2,000 feet (610 m) in circumference, incorporating 17 towers originally 130 feet (40 m) high.
+   Château de Baugé    15th century               Intact                                                                                                        Built as hunting lodge.
+Château de Bourmont 16-19th century  Intact and extended             Private                                                                               Extended in Neo-Gothic style",SKIPPED: The only chateau built in 1455 is the Château de Montsoreau.,Château de Montsoreau,correct
+what player had the most transfer fee?," N  P    Nat.                Name Age Moving from     Type Transfer\nwindow Ends Transfer\nfee
+20 RW     POR        Nuno Capucho  31       Porto Transfer           Summer 2005        £0.67m
+15 CB Georgia Zurab Khizanishvili  21      Dundee Transfer           Summer 2006          Free
+16 LB     ITA        Paolo Vanoli  30     Bologna Transfer           Summer 2005          Free","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",Nuno Capucho,wrong
+"what is the number of times ""friendly"" appears as a competition?","       Date                    Venue   Opponent Score Result          Competition #
+15 Nov 2006   Lansdowne Road, Dublin San Marino   2–0    5–0 Euro 2008 qualifying 1
+28 Mar 2007       Croke Park, Dublin   Slovakia   1–0    1–0 Euro 2008 qualifying 2
+23 May 2007 Giants Stadium, New York    Ecuador   1–1    1–1             Friendly 3","SKIPPED: The competition labeled ""Friendly"" appears 3 times in the table.",3,correct
+francis bosschaerts and dante brogno are from what country?,"               Name    Date of birth     Club                Division   Appointed   Time as manager
+Francis Bosschaerts  15 October 1956    Heist Belgian Second Division 1 June 1999 15 years, 25 days
+         Peter Maes      1 June 1964  Lokeren      Belgian Pro League 20 May 2010  4 years, 37 days
+Hein Vanhaezebrouck 16 February 1964 Kortrijk      Belgian Pro League 6 June 2010  4 years, 20 days",SKIPPED: Both Francis Bosschaerts and Dante Brogno are from Belgium.,Belgium,wrong
+john degenkolb took how long to complete the world tour?,"                   Cyclist          Team       Time UCI World Tour\nPoints
+1     John Degenkolb (GER) Argos-Shimano 5h 45' 16""                     80
+2      André Greipel (GER) Lotto-Belisol       s.t.                     60
+3 Alexander Kristoff (NOR)  Team Katusha       + 1""                     50","SKIPPED: John Degenkolb completed the World Tour event in 5 hours 45 minutes 16 seconds (5h 45' 16"").","5h 45' 16""",correct
+how many times was there a loss by more than 5 points?,"               Date           Opponent                                 Site  Result Attendance Record
+ Thu., Dec. 5, 1940 at Loyola Maryland     Alumni Gymnasium • Baltimore, MD L 32–36        N/A    0-1
+Tue., Dec. 10, 1940   Western Maryland   Riverside Stadium • Washington, DC W 41–29        N/A    1-1
+Thu., Dec. 12, 1940        at American Clendenen Gymnasium • Washington, DC W 41–35        N/A    2-1",SKIPPED: There were 3 games in which the team lost by more than 5 points.,14,wrong
+how many characters are there in the hakka pinjim transliteration of lei mung's name?,"              Chinese             Pinyin       Cantonese Yale Hakka pinjim
+^ Ma Ling-Yee     馬寧兒          Mǎ Níngér        Ma5 Ning4 Yi4             
+^ Fung Do-Dak     馮道德         Féng Dàodé      Fung4 Dou6 Dak1             
+  ^ Gwong Wai    廣慧禪師 Guǎng Huì Chán Shī Gwong2 Wai6 Sim3 Si1             ","SKIPPED: The Hakka pinjim transliteration of Lei Mung’s name is “Li3 Mung2”, which contains 8 characters (excluding the space between the syllables).",2,wrong
+what is the number of democratic victories?,"Year Democratic\nParty Republican\nParty Independent\n/ Other Majority
+1865                 0                 0                  124      124
+1868                14               110                    0       96
+1870                 0               100                24(a)       76","SKIPPED: Based on the table, there are 20 election cycles in which the Democratic Party won more seats than the Republican Party – i.e., 20 Democratic victories.",20,wrong
+how many golfers shot 4 over par at the 2010 us open?,"Place          Player          Country        Score To par
+    1  Dustin Johnson    United States 71-70-66=207     –6
+    2 Graeme McDowell Northern Ireland 71-68-71=210     –3
+    3     Tiger Woods    United States 74-72-66=212     –1",SKIPPED: 3 golfers finished the 2010 U.S. Open at 4-over-par.,3,wrong
+what are the number of times super league appears under the top rugby league level column?,"           Name                Country Top rugby league level            Top union level         Top representation level Rugby League Debut Rugby Union Debut
+Karmichael Hunt New Zealand, Australia  National Rugby League Top 14, Biarritz Olympique                   Australia (RL)               2004              2009
+   Chris Ashton                England           Super League        English Premiership       England (RL), England (RU)               2005              2007
+      Lee Smith                England           Super League        English Premiership England (RL), Great Britain (RL)               2005              2009","SKIPPED: Across the “Top rugby league level” column, the substring “Super League” appears in 16 rows.",15,wrong
+how many years are spanned from the earliest listing to the latest listing?,"       Name on the Register                     Date listed                                                                       Location Municipality
+1        Catholic Belltower  November 25, 1980\n(#80004399) Catholic Mission in Kolonia\n6°58′04″N 158°12′42″E﻿ / ﻿6.967778°N 158.211667°E         Nett
+2 Chief Agriculturist House September 30, 1976\n(#76002200)                     Kolonia\n6°57′31″N 158°12′38″E﻿ / ﻿6.958611°N 158.210694°E         Nett
+3           German Cemetery September 30, 1976\n(#76002201)                     Kolonia\n6°57′07″N 158°12′58″E﻿ / ﻿6.951944°N 158.216111°E         Nett",SKIPPED: The time span between the earliest and latest listings is 6 years (from 1974 to 1980).,6,wrong
+what countries did not win bronze?,"Rank      Nation Gold Silver Bronze Total
+   1       Japan    5      2      0     7
+   2       China    4      3      2     9
+   3 South Korea    0      3      1     4","SKIPPED: Countries that did not win any bronze medals:
+Japan
+North Korea","Japan, North Korea",wrong
+how many songs are on the list?,"Singing position                           Song title        Informal translation                 Act Percentage of votes Final position
+               1               Das tut unheimlich weh            It hurts so much Jeanette Biedermann               12.2%              4
+               2                            Lover boy                           -           Carol Bee             Unknown              7
+               3 Ein bißchen Sonne, ein bißchen Regen A little sun, a little rain     Patrick Lindner             Unknown              6",SKIPPED: There are 11 songs on the list.,11,wrong
+how many films were from argentina?,"               Title Year                     Director       Country       Genre Notes
+       101 Rent Boys 2000 Fenton Bailey, Randy Barbato United States Documentary      
+       101 Reykjavík 2000            Baltasar Kormákur       Iceland      Comedy      
+And Then Came Summer 2000                  Jeff London United States       Drama      ",SKIPPED: There is 1 film from Argentina in the table.,1,wrong
+"how many days did the attendance not reach 10,000?"," #   Date Opponent Score            Win         Loss           Save Attendance Record
+74 July 1 Mariners 4 - 3    Perry (6-7)   Leal (5-6)   Caudill (14)     21,004  33-41
+75 July 2  @ Twins 9 - 4   Murray (4-3) Havens (3-6) McLaughlin (3)      7,503  34-41
+76 July 3  @ Twins 2 - 1 O'Connor (1-2) Clancy (7-5)                     9,591  34-42","SKIPPED: There were 4 days on which the attendance did not reach 10,000.",4,wrong
+for how many consecutive years did oulu airport see an increase in total passengers?,"Year Domestic passengers International passengers Total passengers Change
+2006             764,831                   83,115          847,946  +4.6%
+2007             764,674                   75,276          839,950  −0.9%
+2008             709,779                   92,176          801,955  −4.5%","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",3,wrong
+"how many games had at least an 50,000 or more people in attendance?","Week               Date             Opponent  Result Attendance
+   1 September 15, 1968 at Green Bay Packers L 30–13     50,861
+   2 September 22, 1968      New York Giants L 34–25     60,858
+   3 September 29, 1968       Dallas Cowboys L 45–13     60,858","SKIPPED: There were 12 games with an attendance of 50,000 or more people.",12,wrong
+graphstream and egonet can be on any platform that supports what?,"     Product                                Main Functionality                                                                                                                                                                                                                          Input Format                                            Output Format                                  Platform                         License and cost                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Notes
+AllegroGraph Graph Database. RDF with Gruff visualization tool                                                                                                                                                                                                                                   RDF                                                      RDF                       Linux, Mac, Windows                      Free and Commercial                                                                                                                                                                                                                                                                                                                                                                AllegroGraph is a graph database. It is disk-based, fully transactional OLTP database that stores data structured in graphs rather than in tables. AllegroGraph includes a Social Networking Analytics library.
+      EgoNet                      Ego-centric network analysis                                                                                                                                                                                       Conducts interviews or takes any valid XML file Output to CSV and convertible to almost any other format                Any system supporting Java        Open Source, seeking contributors                                                                                                                                                                                                                                                                       Egonet is a program for the collection and analysis of egocentric network data. Egonet contains facilities to assist in creating the questionnaire, collecting the data and providing general global network measures and data matrixes that can be used in further analysis by other software programs.
+       Gephi       Graph exploration and manipulation software GraphViz(.dot), Graphlet(.gml), GUESS(.gdf), LEDA(.gml), NetworkX(.graphml, .net), NodeXL(.graphml, .net), Pajek(.net, .gml), Sonivis(.graphml), Tulip(.tlp, .dot), UCINET(.dl), yEd(.gml), Gephi (.gexf), Edge list(.csv), databases                    GUESS(.gdf), Gephi(.gexf), .svg, .png Any system supporting Java 1.6 and OpenGL Open Source (GPL3), seeking contributors Gephiis an interactive visualization and exploration platform for all kinds of networks and complex systems, dynamic and hierarchical graphs. It is a tool for people that have to explore and understand graphs. The user interacts with the representation, manipulate the structures, shapes and colors to reveal hidden properties. It uses a 3D render engine to display large networks in real-time and to speed up the exploration. A flexible and multi-task architecture brings new possibilities to work with complex data sets and produce valuable visual results.",SKIPPED: They can run on any platform that supports Java.,Any system supporting Java,correct
+which camp is the least amount on mar.30,"                                           Camp Div Sec\nDivision Admin\nDistrict 9 Feb 11 Feb 16 Feb 25 Feb 27 Feb 2 Mar 4 Mar 6 Mar 11 Mar 13 Mar 24 Mar 30 Mar 31 Mar
+       Menik Farm Zone 0\n(Kathirkamar Village) Vengalachedikulam             VAV               1,353  2,768  2,791 2,791 3,344 4,212  4,679  4,679  6,459  6,459  6,459
+     Menik Farm Zone 3\n(Arunachchalam Village) Vengalachedikulam             VAV                                                                    6,729 11,881 11,881
+Ariviththodam Sivanantha Vidyalayam, Menik Farm Vengalachedikulam             VAV   581    581    581    581    584   584   585   585    583    583    601    601    601","SKIPPED: On March 30, the camp with the smallest reported population was the Thampalakamam Peripheral Unit, with 35 people.",Thampalakamam Peripheral Unit,correct
+which month is the best for someone who enjoys the rain?,"               Month          Jan           Feb          Mar          Apr          May           Jun          Jul          Aug          Sep          Oct          Nov           Dec        Year
+ Record high °C (°F) 10.8\n(51.4)  10.7\n(51.3) 25.7\n(78.3) 29.2\n(84.6) 35.4\n(95.7) 38.3\n(100.9) 36.7\n(98.1)  40.0\n(104) 35.1\n(95.2)   27.8\n(82) 21.0\n(69.8)  12.9\n(55.2) 40.0\n(104)
+Average high °C (°F) −8.5\n(16.7)  −6.2\n(20.8)  1.6\n(34.9) 11.6\n(52.9) 18.1\n(64.6)  22.1\n(71.8) 25.2\n(77.4) 24.6\n(76.3) 18.6\n(65.5) 10.8\n(51.4) −0.2\n(31.6)  −6.6\n(20.1) 9.3\n(48.7)
+  Daily mean °C (°F) −14.5\n(5.9) −11.6\n(11.1) −4.1\n(24.6)  4.8\n(40.6) 11.0\n(51.8)  15.5\n(59.9) 18.1\n(64.6) 17.3\n(63.1) 11.6\n(52.9)  4.1\n(39.4) −5.2\n(22.6) −11.9\n(10.6) 4.9\n(40.8)","SKIPPED: Based on the “Rainfall mm (inches)” row, June has the highest average monthly rainfall (67.0 mm), making it the best month for someone who enjoys the rain.",June,correct
+what title is at the top of the table?,"#                Title           TPB ISBN TPB Release date TPB page number Collected material
+1 The Name of the Game ISBN 91-33-30546-3       June, 2007             152      The Boys #1-6
+2             Get Some ISBN 1-933305-68-1      March, 2008             192     The Boys #7–14
+3    Good for the Soul ISBN 1-933305-92-4    October, 2008             192    The Boys #15-22",SKIPPED: The title at the top of the table is “The Name of the Game.”,The Name of the Game,correct
+which is the only track under two minutes?,"#       Title                   Producer(s) Featured guest(s) Length
+1     ""Intro""        Swizzo (of Drum Squad)                     1:41
+2 ""Interlude"" Crown Kingz Productions (CKP)                     2:22
+3  ""Dem Boyz""                         Nitti          P. Diddy   4:16","SKIPPED: ""Intro"" is the only track whose runtime is under two minutes.","""Intro""",correct
+who was next in total assists after paul parry?,"Place Position Number             Name League One FA Cup League Cup Football League Trophy Total
+    1       MF      4 Luke Summerfield          5      0          0                      0     5
+    2       MF     17       Paul Parry          3      0          1                      0     4
+    3       FW     24        Tom Eaves          3      0          0                      0     3","SKIPPED: After Paul Parry, the next player in total assists was Tom Eaves.",Tom Eaves,correct
+how many positions above did moltiva place in swe vs swi?,"Year            Title Peak chart positions\nSWE Peak chart positions\nSWI Peak chart positions\nUK         Album
+2003   ""Znaj da znam""                         —                         —                        — Naj, Najbolja
+2003  ""Naj, najbolja""                         —                         —                        — Naj, Najbolja
+2003 ""Gorka čokolada""                         —                         —                        —   Bez Ljubavi","SKIPPED: “Molitva” charted better in Sweden than in Switzerland.  
+It peaked 18 places higher on the Swedish chart (SWE) than on the Swiss chart (SWI).",10,wrong
+how many french winners are listed?,"Stage    Date                   Route               Terrain         Length                  Winner
+    P 29 June                  Leiden Individual time trial  5 km (3.1 mi)          Jan Raas (NED)
+   1A 30 June  Leiden – St Willebrord           Plain stage 135 km (84 mi)          Jan Raas (NED)
+   1B 30 June St Willebrord – Brussel           Plain stage 100 km (62 mi) Walter Planckaert (BEL)",SKIPPED: There are 4 different French winners listed in the table.,7,wrong
+how many games were won in 1959?,"      Date            Opponent# Rank#                      Site  Result Attendance
+1959-09-26 at #16 Georgia Tech*    #6 Grant Field • Atlanta, GA L 12-16     43,000
+1959-10-03            #15 Navy*        Cotton Bowl • Dallas, TX  W 20-7     46,000
+1959-10-09            Missouri*   #15  Cotton Bowl • Dallas, TX  W 23-2     33,000",SKIPPED: There were 5 games won in the 1959 season.,5 games,correct
+how many goals did elvir baljic score altogether against estonia?,"Goal            Date                                  Venue      Opponent Score Result               Competition
+  1.  12 August 1998 Asim Ferhatović Hase Stadium, Sarajevo Faroe Islands   1–0    1–0 UEFA Euro 2000 qualifying
+  2. 14 October 1998              Žalgiris Stadium, Vilnius     Lithuania   2–2    2–4 UEFA Euro 2000 qualifying
+  3.  9 October 1999              Kadriorg Stadium, Tallinn       Estonia   1–1    4–1 UEFA Euro 2000 qualifying",SKIPPED: Elvir Baljić scored a total of 4 goals against Estonia.,10,wrong
+"name a player whose ""to"" date is in march and ""from"" date is in january.","        Date from          Date to Pos.            Name        From
+    3 August 2012  31 January 2013   FW     Benik Afobe     Arsenal
+   31 August 2012     30 June 2013   MF    Jay Spearing   Liverpool
+21 September 2012 22 December 2012   DF Stephen Warnock Aston Villa",SKIPPED: Steve De Ridder,Steve De Ridder,correct
+what was the last year this team played in the league?,"Year Division  League    Regular Season              Playoffs        Open Cup
+2002        4 USL PDL 3rd, Mid Atlantic       Did not qualify Did not qualify
+2003        4 USL PDL 1st, Mid Atlantic Conference Semifinals Did not qualify
+2004        4 USL PDL 3rd, Mid Atlantic       Did not qualify Did not qualify",SKIPPED: The last year this team played in the league was 2008.,2008,correct
+the mercedes championships and sony open in hawaii are located in what state?,"  Date                Tournament   Location              Winner     Score 1st prize ($)
+ Jan 6    Mercedes Championships     Hawaii   Sergio García (3) 274 (–18)       720,000
+Jan 14       Sony Open in Hawaii     Hawaii     Jerry Kelly (1) 266 (–14)       720,000
+Jan 20 Bob Hope Chrysler Classic California Phil Mickelson (20) 330 (–30)       720,000",SKIPPED: Both the Mercedes Championships and the Sony Open in Hawaii are located in the state of Hawaii.,Hawaii,correct
+how many matches were in 2005-2006?," Season            Competition Round          Opponent Home Away Agg.
+1964–65 Inter-Cities Fairs Cup    R1           Everton  2–5  2–4  4–9
+1965–66 Inter-Cities Fairs Cup    R2            Hearts  1–3  0–1  1–4
+1966–67           European Cup    R1 17 Nëntori Tirana  N/A  N/A  Bye",SKIPPED: There were 3 matches in the 2005–2006 season.,3,correct
+"which stadium can hold more people than ballymena showgrounds, but less than windsor park?"," #               Stadium Capacity      City                                Home team
+ 1          Windsor Park   24,734   Belfast Linfield, Northern Ireland national team
+ 2              The Oval   15,000   Belfast                                Glentoran
+3= Ballymena Showgrounds    8,000 Ballymena                         Ballymena United","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",The Oval,wrong
+"count the number of schools with ""cy"" governments.","        Name Faith    Type Gov Opened Intake DCSF number Ofsted number Web                                 Coordinates
+    Ashfield     –  Junior  VC   1845     60        3012        117391   W 51°38′22″N 0°21′26″W﻿ / ﻿51.6394°N 0.3571°W
+  Bournehall     – Primary  CY   1969     30        2360        117296   W 51°39′00″N 0°21′37″W﻿ / ﻿51.6499°N 0.3604°W
+Bushey Heath     – Primary  CY   1879     30        2012        117088   W 51°38′12″N 0°20′29″W﻿ / ﻿51.6368°N 0.3413°W",SKIPPED: There are 8 schools whose government type is “CY”.,8,correct
+how many venues did the league play during this particular season?,"        Team Location            Venue Capacity Position in 1993–94
+Dinamo Minsk    Minsk    Dinamo, Minsk   41,040                   1
+   Dinamo-93    Minsk    Dinamo, Minsk   41,040                   2
+       Dvina  Vitebsk Central, Vitebsk    8,300                   3",SKIPPED: The league used 13 different venues during that season.,13,correct
+what country has the least finals totals?,"Rank                Country   Winners Runners-up Finals Total
+   1                  Spain        17          8           25
+   2 Germany\n East Germany 11\n1\n12  10\n3\n13    21\n4\n25
+   3  Soviet Union\n Russia   2\n1\n3    1\n0\n1      3\n1\n4","SKIPPED: The smallest finals total is 1, and seven countries share this minimum value: Bosnia & Herzegovina, Croatia, Czech Republic, Denmark, Romania, Serbia, and Switzerland.","Bosnia & Herzegovina, Croatia, Czech Republic, Denmark, Romania, Serbia, Switzerland",correct
+what was the only year keene won class aa?,"School Year       Class A    Class AA     Class AAA    Class AAAA Class AAAAA
+    1994-95        Menard Van Alstyne   Cameron Yoe Wichita Falls     Weslaco
+    1995-96           Era     Coahoma Colorado City    Livingston Duncanville
+    1996-97 Sulphur Bluff      Marion Colorado City        Snyder Duncanville",SKIPPED: Keene won Class AA only in the 1999-2000 school year.,1999-2000,wrong
+which area has the river severn and the exmoor as two of the seven wonders?,"Rank                     Area   Date      Presenter                                                                                                                  Seven wonders covered
+   1               South West  3 May Samantha Smith                                       Dartmoor, Jurassic Coast, St Michael's Mount, Exmoor, Isles of Scilly, The Lizard, Newquay Coast
+   2 Yorkshire & Lincolnshire  9 May    Paul Hudson                          Malham Cove, the Three Peaks, Flamborough Head, Hornsea Mere, The Wash, Thorne and Hatfield Moors, Spurn Head
+   3                   London 16 May     Bill Oddie Islands in the River Thames, the London Plane, City Gardens, Hampstead Heath, London Wetland Centre, Epping Forest, Chislehurst Caves.",SKIPPED: The area is “The West Country.”,The West Country,wrong
+what is the total number of known vassal states in which their reigning years are known?,"State      Type   Name   Title Royal house   From     To
+  Chu Sovereign   Huai    King          Mi 328 BC 299 BC
+  Han Sovereign  Xiang Marquis           — 311 BC 296 BC
+   Lu Sovereign Wen II    Duke          Ji 302 BC 280 BC",SKIPPED: 0 – the dataset contains no entries marked as vassal states with known reigning years.,10,wrong
+how many more silver medals did the united states win compared to russia?,"Rank        Nation Gold Silver Bronze Total
+   1 United States   12     13      6    31
+   2        Russia   10      5      6    21
+   3     Australia    8     12      6    26",SKIPPED: The United States won 8 more silver medals than Russia.,8,wrong
+is ireland before greece in regards of amount of points?,"Draw Country Language         Artist                         Song English translation Place Points
+  01   Spain  Spanish Serafín Zubiri     ""Todo esto es la música""   All this is music    14     37
+  02 Belgium   French        Morgane  ""Nous, on veut des violons""     We want violins    20     11
+  03  Israel   Hebrew    Dafna Dekel ""Ze Rak Sport"" (זה רק ספורט)     It's just sport     6     85","SKIPPED: Yes.  
+Ireland scored 155 points, which is higher than Greece’s 94 points, so Ireland is ahead of (before) Greece in terms of points.",yes,wrong
+"which album was released after ""raw""?"," Release date          Album   Record label UK Albums Chart U.S. Billboard 200 Chart
+    July 1983 The Alarm (EP) I.R.S. Records               -                      126
+February 1984    Declaration I.R.S. Records               6                       50
+ October 1985       Strength I.R.S. Records              18                       39",SKIPPED: The album released after “Raw” is “Eponymous 1981-1983.”,Eponymous 1981-1983 ¢,wrong
+what was the show previous to music bank in 2009,"   Year                          Title   Hangul Network      Further Info
+   2008 Pretty Boys: A Wrong Situation 꽃미남 아롱사태    Mnet                  
+   2009  Let's Go Dream Team! Season 2  출발 드림팀2    KBS2      variety show
+2009-10                     Music Bank     뮤직뱅크    KBS2 music show, as MC",SKIPPED: The show that preceded “Music Bank” in 2009 was “Let’s Go Dream Team! Season 2.”,Let's Go Dream Team! Season 2,wrong
+what is the combined population of makeleketla and theunissen?,"       Place  Code Area (km2) Population Most spoken language
+Beatrix Mine 40701       0.17      2,492                Sotho
+   Boipatong 40702       0.31      1,501                Sotho
+   Brandfort 40703       3.20      1,516            Afrikaans","SKIPPED: The combined population of Makeleketla and Theunissen is 8,296.",8296,wrong
+how long did william r. poage serve in texas?,"  Representative       State District(s)    Served      Party     Date of birth    Date of death                Age
+William R. Poage       Texas          11 1937–1978 Democratic December 29, 1899  January 3, 1987   87 years, 5 days
+  Aubert C. Dunn Mississippi           5 1935–1937 Democratic November 20, 1896  January 4, 1987  90 years, 45 days
+ Charles Goodell    New York      43, 38 1959–1968 Republican    March 16, 1926 January 21, 1987 60 years, 311 days",SKIPPED: William R. Poage represented Texas in the U.S. House for 41 years—from 1937 to 1978.,41,wrong
+what are the number of times astm d 638 is listed as the test method?,"          Property Test method      units        4275       4301         4435        4630         4645
+  Tensile Strength  ASTM D 638 MPa (kpsi)  117 (16.9) 113 (16.4)    94 (13.6)   81 (11.8)   114 (16.6)
+   Tensile Modulus  ASTM D 638 GPa (kpsi) 8.8 (1,280)  6.8 (990) 14.5 (2,100) 7.4 (1,080) 18.6 (2,700)
+Tensile Elongation  ASTM D 638          %         2.6        3.3          1.0         1.9          0.8","SKIPPED: ""ASTM D 638"" appears 3 times as the test method.",3,wrong
+the least amount of points scored by phoenix during the season is...,"  Date    Opponent  Score Result Record
+May 19 San Antonio  81-72    Win    1-0
+May 23   @ Seattle 87-100   Loss    1-1
+May 25     Houston 111-85    Win    2-1",SKIPPED: The lowest single-game point total Phoenix scored during the season was 67 points.,67,wrong
+how many points did iowa score in the swimsuit round?,"   State Swimsuit Interview Evening Gown Average Finalists
+    Iowa    9.267     9.651        9.620   9.513     9.800
+Oklahoma    9.226     9.309        9.487   9.341     9.586
+  Kansas    9.221     9.600        9.600   9.474     9.486",SKIPPED: Iowa scored 9.267 points in the swimsuit round.,9.267,wrong
+how many more schools received a single-bye than schools that received a double-bye?,"Seed       School Conf (Overall)                    Tiebreaker
+  #1 Georgetown‡†    14-4 (24-5)  2-1 vs. Louisville/Marquette
+  #2 Louisville‡†    14-4 (26-5)  1-1 vs. Georgetown/Marquette
+  #3  Marquette‡†    14-4 (23-7) 1-2 vs. Georgetown/Louisville",SKIPPED: There are 0 more schools with a single-bye than with a double-bye (both groups have 4 schools each).,2,wrong
+how many candidates did not have a percentage in the september 8th poll?,"                                                 Poll source Date(s)\nadministered Sample\nsize Margin of\nerror Ed Burke Roland Burris Gery Chico Bill Daley Tom Dart Danny K. Davis Miguel Del Valle Rahm Emanuel Bob Fioretti Luis Gutiérrez Jim Houlihan Jesse Jackson, Jr. James Meeks Carol Moseley Braun Terry Peterson Patricia Van Pelt-Watkins William Walls Other Undecided
+            McKeon & Associates / Chicago Sun-Times (report)     September 8, 2010          600           ± 4.3%        –             –         6%          –      12%              –                –           7%           3%             9%           3%                 8%         10%                   –             4%                         –             –    3%       35%
+                                     We Ask America (report)        September 2010        2,365                ?    6.31%             –          –      8.16%   13.66%              –                –       29.68%        2.95%         12.81%        2.30%             13.36%       8.21%                   –          2.55%                         –             –     –         –
+Chicago Teamsters Joint Council 25 / Anzalone Liszt (report)   November 8–14, 2010            ?           ± 3.7%        –             –        10%          –        –            14%               4%          36%            –              –            –                  –          7%                 13%              –                         –             –     –         –","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",8,wrong
+how many records does australia hold for pole vaulting?,"                Record       Athlete Nation          Venue        Date #
+4.05 m (13 ft 31⁄4 in)    Sun Caiyun  China Nanjing, China 21 May 1992 1
+4.08 m (13 ft 41⁄2 in)    Sun Caiyun  China Taiyuan, China 18 May 1995 2
+4.08 m (13 ft 41⁄2 in) Zhong Guiqing  China Taiyuan, China 18 May 1995 1",SKIPPED: Australia holds 11 pole-vault world records in the dataset.,11,correct
+in which party did the minister belong that held the longest term in office?,"                   Name      Took Office      Left Office                          Party
+1      Vasso Papandreou 21 February 1996 19 February 1999 Panhellenic Socialist Movement
+2   Evangelos Venizelos 19 February 1999    13 April 2000 Panhellenic Socialist Movement
+3 Nikos Christodoulakis    13 April 2000  24 October 2001 Panhellenic Socialist Movement","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",Panhellenic Socialist Movement,wrong
+"how many movies was she in before ""vampire family""?","Year                   Title Chinese title       Role Notes
+1992       To Miss with Love          逃學外傳 Lai Man-si      
+1992          Super Lady Cop          超级女警       Yoki      
+1992 Fight Back to School II         逃學威龍2      Sandy      ",SKIPPED: She had acted in 5 movies before appearing in “Vampire Family.”,6,wrong
+what driver placed before ale figge?,"Pos No        Driver           Team Laps Time/Retired Grid Points
+  1  5    Will Power Team Australia   73  1:45:58.568    7     31
+  2 21     Neel Jani     PKV Racing   73       +2.972    9     28
+  3  9 Justin Wilson        RSPORTS   73       +3.480    2     25",SKIPPED: Katherine Legge,Katherine Legge,correct
+was clara the winner in 2012 or 2007?,"Year                      Winner   County                Opponent  County
+2013        Rower-Inistioge 1-09 Kilkenny      Buffers Alley 0-10 Wexford
+2012                  Clara 3-20 Kilkenny Oylegate/Glenbrien 0-05 Wexford
+2011 Mount Leinster Rangers 1-13   Carlow          Celbridge 0-13 Kildare","SKIPPED: Clara were the winners in 2012, not in 2007.",2012,correct
+after the ordway building which is the tallest?,"Rank               Name Height\nft (m) Floors Year                                       Coordinates                                                                                                                    Notes
+   1    Ordway Building      404 (123)     28 1970 37°48′36″N 122°15′51″W﻿ / ﻿37.81000°N 122.26417°W Tallest building in both Oakland and in the Bay Area outside of San Francisco; tallest building constructed in the 1970s
+   2      Kaiser Center      390 (119)     28 1960 37°48′32″N 122°15′52″W﻿ / ﻿37.80889°N 122.26444°W                                                                                Tallest building constructed in the 1960s
+   3 Lake Merritt Plaza      371 (113)     27 1988 37°48′27″N 122°15′54″W﻿ / ﻿37.80750°N 122.26500°W                                                                                Tallest building constructed in the 1980s",SKIPPED: The tallest building after the Ordway Building is the Kaiser Center.,Kaiser Center,correct
+name a year he placed at least 2nd in two competitions.,"Year                   Competition                  Venue  Position         Event Notes
+1996    World Junior Championships      Sydney, Australia       8th         200 m 23.89
+1996                 Olympic Games Atlanta, United States 11th (sf) 4x100 m relay 44.21
+1997 European Junior Championships    Ljubljana, Slovenia       1st         100 m 11.39",SKIPPED: 1999,1999,correct
+how many times did chuck thompson serve as a broadcaster?,"Season Network  Play-by-play          Color commentator(s) Sideline reporter(s)
+  1969     CBS Jack Whitaker Frank Gifford and Don Perkins                     
+  1968     CBS     Ray Scott                Paul Christman        Frank Glieber
+  1967     CBS Frank Glieber                 Frank Gifford                     ",SKIPPED: Chuck Thompson served as a broadcaster 2 times in the dataset.,2,correct
+braga had the same aggregated score as what other team in the round of 16?,"     Team 1 Agg.                 Team 2 1st leg 2nd leg
+    Benfica  3–2    Paris Saint-Germain     2–1     1–1
+Dynamo Kyiv  2–1        Manchester City     2–0     0–1
+     Twente  3–2 Zenit Saint Petersburg     3–0     0–2",SKIPPED: Braga’s tie finished 1–0 on aggregate – the only other team with the same 1–0 aggregate score in the round of 16 was PSV Eindhoven.,PSV Eindhoven,correct
+how many episodes had both an original air date and an english air date?,"No. Dub No.                                                                                     English dubbed title / English subbed title\nOriginal Japanese title Original air date   English air date
+  1       1                            ""A Moon Star Is Born"" / ""Crybaby Usagi's Magnificent Transformation""\n""Nakimushi Usagi no karei naru henshin"" (泣き虫うさぎの華麗なる変身)     March 7, 1992 September 11, 1995
+  2      --                              ""Punish Them! The House of Fortune is the Monster Mansion""\n""Oshioki yo! Uranai house wa yōma no yakata"" (おしおきよ!占いハウスは妖魔の館)    March 14, 1992                N/A
+  3       2 ""Talk Radio"" / ""Mysterious Sleeping Illness, Protect the Girls' Hearts in Love""\n""Nazo no nemuribyō, mamore otome no koisuru kokoro"" (謎のねむり病, 守れ乙女の恋する心)    March 21, 1992 September 12, 1995",SKIPPED: There are 41 episodes that have both an original air date and an English air date.,41,correct
+how many tracks have at least two performers?,"#               Title Producer(s)                Performer (s) Time
+1 ""I See Dead People""         PHD Grand Puba, Lord Jamar, Rell 4:26
+2             ""Hunny"" Grant Parks                   Grand Puba 4:04
+3  ""It Is What It Is""         PHD    Grand Puba, Tiffani Davis 5:03",SKIPPED: There are 10 tracks that feature at least two performers.,10,correct
+what is the total number of losses?,"        Date    Time          Opponent#                               Site  TV  Result Attendance
+   August 29 7:30 PM Appalachian State* Groves Stadium • Winston-Salem, NC     W 19–13     21,129
+ September 7 6:30 PM  #13 Northwestern* Groves Stadium • Winston-Salem, NC FSN W 28–27     21,749
+September 14 7:00 PM    at Georgia Tech   Bobby Dodd Stadium • Atlanta, GA     L 10–30     45,750",SKIPPED: The total number of losses is 8.,8,correct
+at least how many types are there?,"        Name Faith    Type Gov Opened Intake DCSF number Ofsted number Web                                 Coordinates
+    Ashfield     –  Junior  VC   1845     60        3012        117391   W 51°38′22″N 0°21′26″W﻿ / ﻿51.6394°N 0.3571°W
+  Bournehall     – Primary  CY   1969     30        2360        117296   W 51°39′00″N 0°21′37″W﻿ / ﻿51.6499°N 0.3604°W
+Bushey Heath     – Primary  CY   1879     30        2012        117088   W 51°38′12″N 0°20′29″W﻿ / ﻿51.6368°N 0.3413°W",SKIPPED: There are at least 4 different “Type” categories present in the table.,4,correct
+when was the last recorded wolf non-fatal wolf attack in the united states,"                               Victim(s)     Age Gender              Date Type of attack                                        Location                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Details            Source(s)
+Daughter of a frontiersman named ""Baker""      18      ♀      Summer, 1881 Defending cows                      Northwestern Colorado, USA                                                                                                                                                                                                                                                                                                                                                        Encountered a wolf resting on a hill while on her way to bring in cows at dusk. The animal attacked her after she shouted and threw rocks to scare it away. It seized her by the shoulder, threw her to the ground, and badly bit her arms and legs before being shot by her brother. George Bird Grinnell
+                             David Tobuk Toddler      ♂              1900      Predatory                      Koyukuk River, Alaska, USA                                                                                                                                                                                                                                                                                                                  In the 1920s, Tobuk was a Native Alaskan steamboat captain who bore severe scarring as a result of a wolf attack he had suffered as a toddler. He was playing along the riverbank when a wolf appeared out of some bushes, seized Tobuk by the head, lifted and ran off with him in its jaws, but was shot by a nearby man.                     
+        Diamond Jenness, Arctic explorer              ♂ 1915, February 10      Agonistic Coppermine River, Northwest Territories, Canada Early in the morning, a female wolf entered the camp of an Arctic expedition and began fighting with the tethered sled dogs. Five men came out and tried to drive it away. The wolf charged at Diamond Jenness after he threw a rock and missed. Jenness grabbed the wolf by the back of the neck, but the wolf turned its head enough to severely bite his forearm. He choked the wolf with his other hand; it released, stepped back, and was shot by another man. The wound was treated and eventually fully healed, but Jenness never contracted rabies despite consistency of the wolf’s behavior with the early stages of the disease.                     ","SKIPPED: The most recent (last recorded) non-fatal wolf attack in the United States occurred on August 24, 2013 (around 4:30 AM) near Lake Winnibigoshish, Minnesota.","August 24, 2013",correct
+the total number of losses at home.,"        Date    Time          Opponent# Rank#                                                              Site       TV  Result Attendance
+ September 3 7:00 PM        Utah State*   #19 Rice–Eccles Stadium • Salt Lake City, UT (Battle of the Brothers) The mtn. W 35–17     45,333
+September 12 8:30 PM at San Jose State*   #17                                    Spartan Stadium • San José, CA    ESPNU W 24–14     23,684
+September 19 1:30 PM         at Oregon*   #18                                       Autzen Stadium • Eugene, OR     ESPN L 24–31     58,017",SKIPPED: 0,0,correct
+what was the hydro power availability in 2011?,"                  2000  2001  2002  2003  2004  2005  2006  2007  2008  2009  2010  2011  2012
+     Hydro power 1,150 1,161 1,171 1,247 1,281 1,293 1,316 1,326 1,357 1,379 1,382 1,401 1,584
+         Thermal   685   835 1,056 1,233 1,215 1,155 1,155 1,155 1,285 1,290 1,390 1,690 1,638
+Other renewables     3     3     3     3     3     3     3     3     3    15    45    50    90","SKIPPED: Hydro-power availability in 2011 was 1,584 (MW or equivalent units shown in the table).","1,401",wrong
+which team was the philadelphia soul's next opponent after playing the chicago rush?,"Week        Date            Opponent Home/Away  Result
+   1  February 8  New Orleans VooDoo      Home L 42–34
+   2 February 15   Dallas Desperados      Away L 51–47
+   3 February 21 Columbus Destroyers      Home W 56–34",SKIPPED: The Philadelphia Soul faced the Columbus Destroyers in their next game after playing the Chicago Rush.,Columbus Destroyers,correct
+which country won the least medals?,"Rank      Nation Gold Silver Bronze Total
+   1       Japan    5      2      0     7
+   2       China    4      3      2     9
+   3 South Korea    0      3      1     4",SKIPPED: North Korea won the least medals.,North Korea,wrong
+what is the total number of the population in 2002?,"  Name Population (2002 census) Population (2007 estimation) Population (2011 census) Area (km²) Density (pop/km²)
+Braşov                  283,901                      277,945                  253,200     267.32             1,204
+Codlea                   24,256                       24,550                   21,708     132.79               182
+Săcele                   30,044                       31,796                   30,798        320                93","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...","399,902",wrong
+"in 2007, how many games did the nebraska football team play after falling from the national rankings?","        Date     Time       Opponent# Rank#                           Site   TV  Result Attendance
+ September 1  2:30 PM         Nevada*   #19 Memorial Stadium • Lincoln, NE  ABC W 52–10     84,078
+ September 8 11:00 AM at Wake Forest*   #17 BB&T Field • Winston-Salem, NC ESPN W 20–17     32,483
+September 15  7:00 PM         #1 USC*   #14 Memorial Stadium • Lincoln, NE  ABC L 31–49     84,959","SKIPPED: The data summary showed that the column “Rank#” has 6 missing (NaN) values.  
+Those rows correspond to the games after Nebraska dropped out of the national rankings.  
+
+Therefore, in the 2007 season N...",6,wrong
+how many racers did not start?,"Pos No         Rider    Bike Laps      Time Grid Points
+  1 93  Marc Márquez   Derbi   22 40:46.315    1     25
+  2 38 Bradley Smith Aprilia   22    +4.638    3     20
+  3 44 Pol Espargaró   Derbi   22    +4.996    2     16",SKIPPED: 1 racer did not start.,1,wrong
+what is the first score listed?,"#         Date                                   Venue    Opponent Score Result Competition
+1 13 June 2013 Zhejiang Dragon Sports Centre, Hangzhou      Russia 1 – 0  5 – 1    Friendly
+2 13 June 2013 Zhejiang Dragon Sports Centre, Hangzhou      Russia 3 – 0  5 – 1    Friendly
+3 14 June 2013 Zhejiang Dragon Sports Centre, Hangzhou Netherlands ? – ?  4 – 3    Friendly",SKIPPED: The first score listed in the table is 1 – 0.,1 - 0,wrong
+what is the total amount of silver medals given out?,"Rank   Nation Gold Silver Bronze Total
+   1   Russia   17      5      5    27
+   2 Bulgaria    5      2      3    10
+   3  Belarus    2      4      2     8",SKIPPED: The total number of silver medals awarded is 55.,27,wrong
+"what club is listed next to june 4, 1972?","               Name    Date of birth     Club                Division   Appointed   Time as manager
+Francis Bosschaerts  15 October 1956    Heist Belgian Second Division 1 June 1999 15 years, 25 days
+         Peter Maes      1 June 1964  Lokeren      Belgian Pro League 20 May 2010  4 years, 37 days
+Hein Vanhaezebrouck 16 February 1964 Kortrijk      Belgian Pro League 6 June 2010  4 years, 20 days","SKIPPED: The club listed next to June 4, 1972 is Boussu Dour.",Boussu Dour,wrong
+what year did christos folias take office?,"                   Name      Took Office      Left Office                          Party
+1      Vasso Papandreou 21 February 1996 19 February 1999 Panhellenic Socialist Movement
+2   Evangelos Venizelos 19 February 1999    13 April 2000 Panhellenic Socialist Movement
+3 Nikos Christodoulakis    13 April 2000  24 October 2001 Panhellenic Socialist Movement",SKIPPED: Christos Folias took office in 2007.,2007,wrong
+name the top single on the us billboard hot 100 chart.,"Year                  Title   Label UK Singles Chart U.S. Billboard Hot 100 Chart
+1969          ""Melting Pot"" Philips                3                            -
+1970 ""Good Morning Freedom"" Philips               10                            -
+1970            ""Our World"" Philips               17                           64",SKIPPED: The single that reached the highest position on the U.S. Billboard Hot 100 chart is “Our World” (peaked at #64).,"""Our World""",wrong
+which month averages the least precipitation in kindersley?,"               Month          Jan           Feb          Mar          Apr          May           Jun          Jul          Aug          Sep          Oct          Nov           Dec        Year
+ Record high °C (°F) 10.8\n(51.4)  10.7\n(51.3) 25.7\n(78.3) 29.2\n(84.6) 35.4\n(95.7) 38.3\n(100.9) 36.7\n(98.1)  40.0\n(104) 35.1\n(95.2)   27.8\n(82) 21.0\n(69.8)  12.9\n(55.2) 40.0\n(104)
+Average high °C (°F) −8.5\n(16.7)  −6.2\n(20.8)  1.6\n(34.9) 11.6\n(52.9) 18.1\n(64.6)  22.1\n(71.8) 25.2\n(77.4) 24.6\n(76.3) 18.6\n(65.5) 10.8\n(51.4) −0.2\n(31.6)  −6.6\n(20.1) 9.3\n(48.7)
+  Daily mean °C (°F) −14.5\n(5.9) −11.6\n(11.1) −4.1\n(24.6)  4.8\n(40.6) 11.0\n(51.8)  15.5\n(59.9) 18.1\n(64.6) 17.3\n(63.1) 11.6\n(52.9)  4.1\n(39.4) −5.2\n(22.6) −11.9\n(10.6) 4.9\n(40.8)",SKIPPED: February averages the least precipitation in Kindersley.,Feb,wrong
+what is the most amount of people to attend a single game this season?,"             Date               Round     Opponents H / A Result\nF–A                Scorers Attendance
+19 September 1984  Round 1\nFirst leg Rába ETO Győr     H         3–0 Robson, Mühren, Hughes     33,119
+   3 October 1984 Round 1\nSecond leg Rába ETO Győr     A         2–2   Brazil, Mühren (pen)     26,000
+  24 October 1984  Round 2\nFirst leg PSV Eindhoven     A         0–0                            27,500","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...","48,278",wrong
+how many teams had more pyramids than the atlas perp squad?,"            Team Basic elements Tumbling Stunts Tosses Pyramids Deductions Total score      Result
+     CCP Bobcats             62       54     60     66     70.5         -4       308.5    Champion
+    UP Pep Squad           61.5     61.5     61     62       71        -11         306   Runner-up
+Altas Perp Squad             57     55.5   53.5   53.5     69.5         -6         283 Third place",SKIPPED: 2 teams had a higher pyramids score than the Altas Perp Squad.,2,wrong
+"how many zip codes start with ""80"" or ""81""?","Name of place Number\nof\ncounties Principal\ncounty ZIP code\nLower ZIP code\nUpper
+       Dacono                    1       Weld County           80514                
+       Dailey                    1      Logan County           80728                
+     Dalerose                    1 Las Animas County           81049                ",SKIPPED: There are 40 ZIP-code entries in the table whose codes begin with “80” or “81”.,40,correct
+what was the only year that a competition was held in china?,"Year               Competition                    Venue Position Event   Notes
+1999               Universiade Palma de Mallorca, Spain      2nd 20 km 1:25:23
+2001 European Race Walking Cup        Dudince, Slovakia     12th 20 km 1:22:10
+2001       World Championships         Edmonton, Canada     16th 20 km 1:25:28",SKIPPED: The competition was held in China only in the year 2001.,2001,correct
+what are the total number of tornado events that occurred in 1960 in the u.s.?,"                             Event           Date                                  Area Tornadoes           Casualties                                                                                                                                                                                                                               Notes
+May 1960 tornado outbreak sequence  May 4–6, 1960 Southern Great Plains, South, Midwest        66        33 fatalities Produced numerous violent and killer tornadoes, especially in Oklahoma. An F5 killed five people and produced extreme damage near Prague and Iron Post. An F4 struck Wilburton and killed 16. (41 significant, 5 violent, 8 killer)
+                   Hurricane Carla September 1961                         Southern U.S.         8                    –                                                                                                                                        Produced several strong tornadoes, including an F4 killer tornado that hit Galveston, Texas.
+        1964 Wichita Falls Tornado  April 3, 1964                  Wichita Falls, Texas         – 7 dead, 100+ injured                                                      Was rated F5. First tornado ever captured on live television. First of two violent tornadoes to hit Wichita Falls, the other—an F4 that killed 42—occurring on April 10, 1979.","SKIPPED: According to the provided dataset, there is 1 recorded tornado event in the United States that occurred in 1960.",66,wrong
+name the game site with the highest number of attendance.,"Week               Date             Opponent       Result          Game site Attendance
+   1  September 3, 1995    at Miami Dolphins      L 52–14 Joe Robbie Stadium     71,317
+   2 September 10, 1995   Indianapolis Colts L 27–24 (OT)    The Meadowlands     65,134
+   3 September 17, 1995 Jacksonville Jaguars      W 27–10    The Meadowlands     49,970","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",Rich Stadium,wrong
+"in a c7 chord, how many notes above c is a perfect fifth?","Chord Root Major Third Perfect Fifth Minor Seventh
+   C7    C           E             G            B♭
+  C♯7   C♯      E♯ (F)            G♯             B
+  D♭7   D♭           F            A♭        C♭ (B)","SKIPPED: A perfect fifth lies five scale degrees above the root, so the perfect fifth of C is G—5 notes above C.",4,wrong
+what was the number of competitors during the 1995 finals?,"Rank              Name   Nationality  Time
+        Mark Henderson United States 54.11
+     Eduardo Piccinini        Brazil 54.63
+        Brian Alderman United States 54.75",SKIPPED: There were 8 competitors in the 1995 finals.,8,correct
+how many academy awards have been won posthumously?,"         Name     Date of Death Ceremony Year       Academy Award                 Film Winner
+  Marit Allen November 26, 2007     80th 2007 Best Costume Design       La Vie en Rose       
+Howard Ashman    March 14, 1991     64th 1991   Best Music (Song) Beauty and the Beast    Won
+Howard Ashman    March 14, 1991     64th 1991   Best Music (Song) Beauty and the Beast       ",SKIPPED: 16 academy awards have been won posthumously.,16,correct
+how many golfers shot at least 2 under par at the 2010 us open?,"Place          Player          Country        Score To par
+    1  Dustin Johnson    United States 71-70-66=207     –6
+    2 Graeme McDowell Northern Ireland 71-68-71=210     –3
+    3     Tiger Woods    United States 74-72-66=212     –1",SKIPPED: 2 golfers shot at least 2 under par at the 2010 U.S. Open.,2,correct
+who took the least time to complete egot?,"           Name  EGOT completed Emmy Grammy Oscar  Tony
+Richard Rodgers 1962 (17 years) 1962   1960  1945 1950,
+    Helen Hayes 1977 (45 years) 1953   1977  1932 1947,
+    Rita Moreno 1977 (16 years) 1977   1972  1961  1975","SKIPPED: Among all EGOT winners in the table, Robert Lopez took the least time to complete his EGOT, achieving all four awards in just 10 years.",Robert Lopez,correct
+"which was a higher scoring game, game #1 or #7?","#        Date                 Visitor Score               Home Record Pts
+1 December 27                 Toronto   7–1 Montreal Canadiens  1–0–0   2
+2 December 30         Quebec Bulldogs   5–8            Toronto  2–0–0   4
+3   January 3 Toronto 228th Battalion   4–9            Toronto  2–1–0   4",SKIPPED: Game #1 was the higher-scoring contest (8 total goals vs. 6 in game #7).,1,correct
+which party had its first leader in 1974 and last leader in 1980?,"                  Party         Leader     From       To
+Scottish National Party Gordon Wallace May 1974 May 1978
+Scottish National Party Robert Cunning May 1978 May 1980
+                 Labour            (?) May 1974 May 1980",SKIPPED: The party whose first recorded leader began in 1974 and whose last recorded leader ended in 1980 is the Scottish National Party.,Scottish National Party,correct
+what was the latest championship to be played in the grand slam category?,"                               Date           Championship        Location      Category Surface Prev. result Prev. points New points                                                   Outcome
+  29 December 2013–\n5 January 2014 Brisbane International  Brisbane (AUS)   WTA Premier    Hard           SF          200        305                   Final\nLost to Serena Williams 4–6, 5–7
+  14 January 2014–\n27 January 2014        Australian Open Melbourne (AUS)    Grand Slam    Hard            W         2000        430 Quarter-finals\nLost to Agnieszka Radwańska 1–6, 7–5, 0–6
+10 February 2014–\n16 February 2014       Qatar Total Open      Doha (QAT) WTA Premier 5    Hard            W          900          0                          Withdrew due to left foot injury",SKIPPED: The latest championship listed in the Grand Slam category is the 2014 US Open.,US Open,correct
+which competitor came in first for this race?,"Rank Bib                Athlete     Country      Time Deficit
+       1          Dario Cologna Switzerland 1:13:09.3        
+      14 Martin Johnsrud Sundby      Norway 1:13:11.1    +1.8
+       5             Sjur Røthe      Norway 1:13:11.3    +2.0",SKIPPED: The competitor who came in first for this race is Dario Cologna.,Dario Cologna,correct
+which date had the most people in attendance?,"Game             Date             Opponent             Location   Score OT Attendance Record
+   1  January 6, 2006   Philadelphia Wings   Xcel Energy Center L 11–15         8,024    0–1
+   2 January 14, 2006 @ Philadelphia Wings      Wachovia Center W 13–10        11,874    1–1
+   3 January 20, 2006 @ Calgary Roughnecks Pengrowth Saddledome  W 12–8        10,637    2–1","SKIPPED: March 3, 2006 had the largest attendance (15,830 people).","March 3, 2006",correct
+"who received more total medals, ecuador or chile?","Rank    Nation Gold Silver Bronze Total
+   1 Venezuela    9      8      6    23
+   2 Guatemala    6      6      6    18
+   3      Peru    5      8      9    22",SKIPPED: Chile received more total medals (9) than Ecuador (8).,Chile,correct
+which country won the same amount of medals as bulgaria in these olympics?,"Rank             Nation Gold Silver Bronze Total
+   1       Soviet Union   50     27     22    99
+   2      United States   33     31     30    94
+   3 East Germany (GDR)   20     23     23    66",SKIPPED: Poland won exactly the same number of medals (21) as Bulgaria at these Olympics.,Poland,correct
+did james hunt finish the race after mark donohue?,"Pos No             Driver  Constructor Laps Time/Retired Grid Points
+  1  1 Emerson Fittipaldi McLaren-Ford   53   1:39:26.29    5      9
+  2 24         James Hunt Hesketh-Ford   53       + 5.91    6      6
+  3  7   Carlos Reutemann Brabham-Ford   53      + 17.06    3      4","SKIPPED: No. James Hunt finished 2nd in the race, whereas Mark Donohue finished 7th, so Hunt crossed the line before (not after) Donohue.",no,wrong
+who was the host of play-by-play after ray scott?,"Season Network  Play-by-play          Color commentator(s) Sideline reporter(s)
+  1969     CBS Jack Whitaker Frank Gifford and Don Perkins                     
+  1968     CBS     Ray Scott                Paul Christman        Frank Glieber
+  1967     CBS Frank Glieber                 Frank Gifford                     ",SKIPPED: Jack Whitaker,Jack Whitaker,correct
+"which roman catholic diocese in angola was established after kvitobiensis on september 4, 1940?","Ecclesiastical Jurisdictions   Latin name    Type  Rite Ecclesiastical Province Established Area (km2)
+                    Benguela Benguelensis Diocese Roman                  Huambo 6 June 1970     49,920
+                     Cabinda   Cabindanus Diocese Roman                  Luanda 2 July 1984      7,120
+                      Caxito   Caxitonsis Diocese Roman                  Luanda 6 June 2007     25,133","SKIPPED: After Kvitobiensis (Diocese of Kwito-Bié) was established on 4 September 1940, the next Roman-Catholic diocese to be erected in Angola was the Diocese of Lubango (Latin name: Lubangensis), established...",Huambo,wrong
+what is the number of awards she won total for the album whitney?,"Year    Date   Title Format(s) Award Description(s) Result(s)
+1987 July 28 Whitney     Album                 Gold       Won
+1987 July 28 Whitney     Album             Platinum       Won
+1987 July 28 Whitney     Album    2× Multi-Platinum       Won",SKIPPED: She won a total of 10 awards for the album “Whitney.”,10,correct
+sir john a. macdonald and pierre trudeau both held what job in canada?,"Rank                  Name                                                  Notability          Birthplace       Advocate
+  10         Wayne Gretzky               Hockey player, holder of numerous NHL records  Brantford, Ontario   Deborah Grey
+   9 Alexander Graham Bell Scientist, inventor,\nfounder of the Bell Telephone Company Edinburgh, Scotland   Evan Solomon
+   8 Sir John A. Macdonald                              First Prime Minister of Canada   Glasgow, Scotland Charlotte Gray",SKIPPED: Sir John A. Macdonald and Pierre Trudeau were both Prime Ministers of Canada.,Prime Minister of Canada,wrong
+how many different poll companies are represented?,"Poll company                      Source Publication date PSUV Opposition Undecided
+     GIS XXI Radio Nacional de Venezuela       March 2010   32         22        36
+     GIS XXI Radio Nacional de Venezuela         May 2010   36         23        33
+     GIS XXI Radio Nacional de Venezuela        June 2010   44         20         -",SKIPPED: There are 5 different poll companies represented in the table.,5,wrong
+who was the chinese president immediately after dong biwu?,"#          Name                               Alma mater        Birth date    Marriage date  President            Tenure          Tenure
+1    Jiang Qing Shandong Provincial Experimental Theatre     19 March 1914 20 November 1938 Mao Zedong 27 September 1954   27 April 1959
+2 Wang Guangmei               Fu Jen Catholic University 26 September 1921   21 August 1948 Liu Shaoqi     27 April 1959 21 October 1968
+3   He Lianying                                      N/A               N/A              N/A  Dong Biwu   31 October 1968 17 January 1975",SKIPPED: The Chinese president who served immediately after Dong Biwu was Li Xiannian.,Li Xiannian,wrong
+what label was appears the most?,"         Single/EP     Release date                Label Format(s) UK Singles Chart Position                                                                                                                                 Notes
+   ""Hundredweight"" 19 February 2001 Fierce Panda Records    CD, 7""                         -                                                            Accompanied by b-sides: ""All I Ever Had"", ""U Make Me Want To Drink Bleach""
+""Try Not to Think""    11 March 2002         Jive Records    CD, 7""                         -                                                                      Accompanied by b-sides: ""Everyone Knows"", ""She's Something Else""
+          ""Bleach""      20 May 2002         Jive Records    CD, 7""                        67 Accompanied by b-sides: ""Lights Out"", ""People Who Don't Climb Ladders (Aren't Particularly Likely To Fall Off Ladders Now, Are They?""",SKIPPED: The label that appears the most is “Jive Records” (6 occurrences).,Jive Records,wrong
+what was the date of the attack on dr. bob piorkowski and his wife?,"                               Victim(s)     Age Gender              Date Type of attack                                        Location                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Details            Source(s)
+Daughter of a frontiersman named ""Baker""      18      ♀      Summer, 1881 Defending cows                      Northwestern Colorado, USA                                                                                                                                                                                                                                                                                                                                                        Encountered a wolf resting on a hill while on her way to bring in cows at dusk. The animal attacked her after she shouted and threw rocks to scare it away. It seized her by the shoulder, threw her to the ground, and badly bit her arms and legs before being shot by her brother. George Bird Grinnell
+                             David Tobuk Toddler      ♂              1900      Predatory                      Koyukuk River, Alaska, USA                                                                                                                                                                                                                                                                                                                  In the 1920s, Tobuk was a Native Alaskan steamboat captain who bore severe scarring as a result of a wolf attack he had suffered as a toddler. He was playing along the riverbank when a wolf appeared out of some bushes, seized Tobuk by the head, lifted and ran off with him in its jaws, but was shot by a nearby man.                     
+        Diamond Jenness, Arctic explorer              ♂ 1915, February 10      Agonistic Coppermine River, Northwest Territories, Canada Early in the morning, a female wolf entered the camp of an Arctic expedition and began fighting with the tethered sled dogs. Five men came out and tried to drive it away. The wolf charged at Diamond Jenness after he threw a rock and missed. Jenness grabbed the wolf by the back of the neck, but the wolf turned its head enough to severely bite his forearm. He choked the wolf with his other hand; it released, stepped back, and was shot by another man. The wound was treated and eventually fully healed, but Jenness never contracted rabies despite consistency of the wolf’s behavior with the early stages of the disease.                     ",SKIPPED: The attack on Dr. Bob Piorkowski and his wife occurred in October 1975.,"October, 1975",wrong
+who was the tallest delegate for miss dominican republic in 2002?,"Represented                      Contestant Age                  Height                   Hometown
+       Azua            Patricia Tomas Ferro  21     1.78 m (5 ft 10 in)              Santo Domingo
+      Bonao Jeimi Vanessa Hernández Franjul  24 1.81 m (5 ft 11 1⁄4 in)                      Bonao
+ Comendador              Eva Duarte Sánchez  19      1.75 m (5 ft 9 in) San Felipe de Puerto Plata","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",Amelia Victoria Vega Polanco,wrong
+what year was the only year the team qualified for the playoffs?,"Year Division  League Regular Season              Playoffs        Open Cup
+2006        4 USL PDL 4th, Heartland       Did not qualify Did not qualify
+2007        4 USL PDL 2nd, Heartland Conference Semifinals Did not qualify
+2008        4 USL PDL 4th, Heartland       Did not qualify       1st Round",SKIPPED: 2007,2007,wrong
+how many teams played in the 2011 caf u-23 championship qualification?,"   Team 1 Agg.            Team 2 1st leg 2nd leg
+ DR Congo  w/o              Chad                
+ Ethiopia  w/o Equatorial Guinea                
+Swaziland  w/o         Mauritius                ",SKIPPED: 14,14,wrong
+"out of v-hawks and mustangs, who has the least enrollment?","            Institution         Location  Nickname Founded                    Type Enrollment Joined
+AIB College of Business Des Moines, Iowa    Eagles    1921                 Private      1,000   2010
+      Clarke University    Dubuque, Iowa Crusaders    1843  Private/Roman Catholic      1,230  19881
+ Grand View University2 Des Moines, Iowa   Vikings    1896 Private/Lutheran (ELCA)      1,750   1989","SKIPPED: Among the two, the Mustangs have the lower enrollment (1,490), whereas the V-Hawks have 2,991.",Mustangs,wrong
+"who has served longer, regi van acker or dante brogno?","               Name    Date of birth     Club                Division   Appointed   Time as manager
+Francis Bosschaerts  15 October 1956    Heist Belgian Second Division 1 June 1999 15 years, 25 days
+         Peter Maes      1 June 1964  Lokeren      Belgian Pro League 20 May 2010  4 years, 37 days
+Hein Vanhaezebrouck 16 February 1964 Kortrijk      Belgian Pro League 6 June 2010  4 years, 20 days",SKIPPED: Regi Van Acker has served longer (2 years 215 days) than Dante Brogno (2 years 120 days).,Regi Van Acker,wrong
+how many games were played in september or november?,"            Date            Opponents H/A Result\nF–A             Scorers Attendance
+  27 August 1921              Everton   A         0–5                         30,000
+  29 August 1921 West Bromwich Albion   H         2–3 Partridge, Robinson     20,000
+3 September 1921              Everton   H         2–1    Harrison, Spence     25,000",SKIPPED: A total of 9 games were played in September or November.,9,wrong
+how many touchdowns?,"Year Team Games Combined Tackles Tackles Assisted Tackles Sacks Forced Fumbles Fumble Recoveries Fumble Return Yards Interceptions Interception Return Yards Yards per Interception Return Longest Interception Return Interceptions Returned for Touchdown Passes Defended
+2004  HOU    16               63      51               12   4.0              0                 2                   0             0                         0                             0                           0                                    0               4
+2005  HOU    12               35      24               11   4.0              2                 0                   0             0                         0                             0                           0                                    0               2
+2006  HOU    15               26      19                7   5.0              0                 0                   0             0                         0                             0                           0                                    1               1",SKIPPED: There was 1 touchdown (interception returned for a touchdown).,1,correct
+what was the result of the last playoffs?,"Year Division  League Regular Season          Playoffs        Open Cup
+2004        4 USL PDL 8th, Mid South   Did not qualify Did not qualify
+2005        4 USL PDL 2nd, Mid South Conference Finals Did not qualify
+2006        4 USL PDL 1st, Mid South    National Final       1st Round",SKIPPED: The most recent (2013) playoff result was: Conference Finals.,Conference Finals,correct
+the two level 6 seasons were 2012/13 and what other season?," Season Level Division Place
+2001/02     4       3ª   4th
+2002/03     3      2ªB  20th
+2003/04     4       3ª   9th",SKIPPED: 2013/14,2013/14,correct
+who won previous to graham hill?,"Year           Driver      Constructor           Location Report
+1992    Nigel Mansell Williams-Renault Hermanos Rodriguez Report
+1991 Riccardo Patrese Williams-Renault Hermanos Rodriguez Report
+1990      Alain Prost          Ferrari Hermanos Rodriguez Report",SKIPPED: The winner immediately before Graham Hill was Jim Clark.,Denny Hulme,wrong
+how many matches were held in mexico city?,"Wager       Winner       Loser                             Location          Date                                                                                                                                                                                                                     Notes
+ Hair Psycho Clown Super Crazy        Mexico City, Distrito Federal  May 29, 2011                      Six man tag team steel cage Masks vs. Hairs match, where Los Perros del Mal (Crazy, El Hijo del Perro Aguayo and Damián 666) faced Los Psycho Circus (Psycho Clown, Monster Clown and Murder Clown).
+ Hair    Halloween   Coco Rojo Tlalnepantla de Baz, State of Mexico July 10, 2011 Steel cage match, where Los Perros del Mal (Halloween, Damián 666 and Ek Balam) faced Los Payasos Tricolor (Coco Rojo, Coco Azul and Coco Amarillo) and Los Psycho Circus (Monster Clown, Murder Clown and Psycho Clown).
+ Hair Psycho Clown       X-Fly                 Guadalajara, Jalisco July 31, 2011                                                                                    Six man tag team steel cage Masks vs. Hairs match, where Los Perros del Mal (X-Fly, Damián 666 and Halloween) faced Los Psycho Circus.",SKIPPED: The dataset shows 2 matches that took place in Mexico City.,2,correct
+tell me the number of matches played on clay.,"  Outcome No.            Date             Tournament Surface             Opponent         Score
+Runner-up  1.   1 August 2011      São Paulo, Brazil    Clay Maria Fernanda Alves 6–4, 5–7, 3–6
+   Winner  1. 24 October 2011        Goiânia, Brazil    Clay          Bárbara Luz      6–2, 6–0
+   Winner  2.    2 April 2012 Ribeirão Preto, Brazil    Hard   Natasha Fourouclas      6–0, 6–1",SKIPPED: There are 5 matches played on clay.,5,correct
+which driver completed the least number of laps?,"Pos No            Driver  Constructor Laps Time/Retired Grid
+  1 12    Clay Regazzoni      Ferrari   60   1:01:25.34    3
+  2  4 Patrick Depailler Tyrrell-Ford   60    + 0:08.35    5
+  3  2       Jochen Mass McLaren-Ford   60    + 0:15.44    4",SKIPPED: Emerson Fittipaldi completed the least number of laps (6).,Emerson Fittipaldi,correct
+how many people were sent home?,"Episode                Name                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Synopsis      Sent Home Highest Seller
+      1      Vegas Meltdown Nine aspiring restaurateurs arrive in Las Vegas, where they meet Chef Robert Irvine and the Restaurant Express Bus. In order to secure one of the eight spots on board, they must first pitch their dream restaurant concept to Robert: Those with the best concepts head into Lake Las Vegas for the first challenge. They'll have to create a restaurant from the ground up with just $500 and six hours to feed 250 hungry guests! The bottom three earners will be up for elimination. Ammerah, Kimmy        Patrick
+      2 Tantrum in Temecula         The Restaurant Express bus arrives in Temecula, Calif., a small, upscale town with lots of restaurants. The contestants' market knowledge is tested when they must propose to Robert and the mayor a new restaurant that they think could be successful in the town. The winner of the mini challenge will get extra money for the main challenge, where they will test their restaurant ideas on the locals at a lunch fair. The bottom three earners will be up for elimination.      Johnathan           Eric
+      3 Express: Impossible                                                                                                                              The Restaurant Express bus arrives in Los Angeles, where the contestants face their first group challenge. Inspired by Restaurant: Impossible, the teams will be given 24 hours and $5,000 to revitalize two struggling restaurants. Robert and two visiting critics will dine at each location to determine who won this round, and who will be off the bus.         Bianca           None","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",8,wrong
+how many volts can the flyback handle at most?,"                         Type Power\n[W] Relative cost Input range\n[V]   Energy storage                                   Features
+                      Flyback      0–250           1.0            5–600 Mutual Inductors Isolated form of the buck-boost converter.
+Ringing choke converter (RCC)      0–150           1.0            5–600      Transformer Low-cost self-oscillating flyback variant.
+                 Half-forward      0–250           1.2            5–500         Inductor                                           ","SKIPPED: According to the table, the Flyback converter’s input range is 5–600 V, so it can handle up to 600 volts.",600,correct
+what is the only album released in 2000?,"    Released                  Title              Label  Number Notes
+        1995            Le Jazz Hot Modern Hot Records MHR 001      
+        1997 New Metropolitan Swing Modern Hot Records MHR 002      
+January 1999        Mystery Pacific Modern Hot Records MHR 003      ",SKIPPED: The only album released in 2000 is “Avalon.”,Avalon,correct
+which team won the championship after clonkill in 2007?,"Year                      Winner   County                Opponent  County
+2013        Rower-Inistioge 1-09 Kilkenny      Buffers Alley 0-10 Wexford
+2012                  Clara 3-20 Kilkenny Oylegate/Glenbrien 0-05 Wexford
+2011 Mount Leinster Rangers 1-13   Carlow          Celbridge 0-13 Kildare","SKIPPED: Kilmessan won the championship in the year following Clonkill’s 2007 victory (i.e., in 2008).",Kilmessan,correct
+date on which the fewest attendees were at a dolphins game (home or away),"Week               Date         Opponent  Result Attendance
+   1 September 12, 1982 at New York Jets W 45–28     53,360
+   2 September 19, 1982  Baltimore Colts W 24–20     51,999
+   3  November 21, 1982 at Buffalo Bills   W 9–7     52,945","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...","January 2, 1983",wrong
+what is the number of interferometers that use wavebands r?,"Interferometer and observing mode         Waveband Limiting magnitude Minimum baseline (m)\n(un-projected) Maximum baseline (m) Approx. no. visibility measurements per year\n(measurements per night x nights used per year) Max ratio of no. phase / no. amplitude measurements\n(measure of imaging performance, 0 = none) Accuracy of amplitude2 measurements Accuracy of phase measurements\n(milli-radians) Number of spectral channels\n(max in use simultaneously)                                                  Comments
+                      CHARA Array V, R, I, J, H, K                  8                                   34                  330                                                                                          7500                                                                                             0.7                                  1%                                              10                                                    30000 Yes... 30000 in the visible band; maxiumum baseline 330-m
+                    COAST visible             R, I                  7                                    4                   60                                                                                          2000                                                                                             0.5                                  4%                                              10                                                       4?        300 cloudy nights per year, maximum baseline 100-m
+                   COAST infrared             J, H                  3                                    4                   60                                                                                           100                                                                                             0.5                                 20%                                              10                                                        1        300 cloudy nights per year, maximum baseline 100-m",SKIPPED: There are 6 different interferometers that use the r waveband.,6,correct
+what was the most percentage a republican achieved?,"      District         Incumbent      Party First\nelected                    Result                                                                                                                                                        Candidates
+Pennsylvania 1  Harry C. Ransley Republican           1920                Re-elected                                                    Harry C. Ransley (R) 52.1%\nJoseph Marinelli (D) 47.2%\nGamshei Kutlikoff (S) 0.4%\nMorris H. Wickman (C) 0.3%
+Pennsylvania 2     James M. Beck Republican           1927 Resigned\nRepublican hold                                                     William H. Wilson (R) 54.7%\nJames P. McGranery (D) 44.5%\nHarriet Norris (S) 0.6%\nJoseph Mackie (Proh) 0.2%
+Pennsylvania 3 Alfred M. Waldron Republican           1932  Retired\nRepublican hold Clare G. Fenerty (R) 52.0%\nMichael Joseph Bradley (D) 46.8%\nAlfred M. Waldron (Industrial Recovery) 0.6%\nJoseph Kazmark (S) 0.5%\nRose E. Landberg (Prog) 0.1%",SKIPPED: The highest vote-share any Republican candidate received in the races shown was 57.6 percent.,57.6%,correct
+which country scored the most gold medals--iran or indonesia?,"Rank      Nation Gold Silver Bronze Total
+   1 Japan (JPN)    9      0      1    10
+   2  Iran (IRI)    1      2      1     4
+   3 Syria (SYR)    1      1      0     2","SKIPPED: Iran won more gold medals than Indonesia (Iran: 1 gold, Indonesia: 0 gold).",Iran (IRI),correct
+how many consecutive years was the result 4th place?,"Year Division  League Regular Season              Playoffs        Open Cup
+2006        4 USL PDL 4th, Heartland       Did not qualify Did not qualify
+2007        4 USL PDL 2nd, Heartland Conference Semifinals Did not qualify
+2008        4 USL PDL 4th, Heartland       Did not qualify       1st Round","SKIPPED: The data show three seasons with a 4th-place regular-season finish: 2006, 2008 and 2009.  
+The only back-to-back occurrence is 2008 → 2009, giving a longest streak of
+
+2 consecutive years.",2,correct
+which month has the least number of episodes?,"Episode       Airdate              Game 1               Game 2         Game 3 Viewers
+      1 17 April 2010        'Twin Peaks' 'A Walk In The Dark' 'Lock And Key'   4.52m
+      2 24 April 2010 'Caught In The Net'       'Stick 'Em Up'   'Power Trip'   4.41m
+      3    1 May 2010    'Knotting Hills'       'It's A Wrap!' 'Lock And Key'   4.31m",SKIPPED: June has the least number of episodes (only one episode aired in June).,June,correct
+what is the total of location?,"km                Municipality                    Location       Interescting highway                         Notes
+ 0 Canada-United States border Canada-United States border ND 18 – Cavalier, Larimore                 PTH 30 begins
+ 3           R.M. of Rhineland                      Gretna      PR 243 east – Emerson begin PR 243 west concurrence
+ 5           R.M. of Rhineland                               PR 243 west – Blumenfeld   end PR 243 west concurrence",SKIPPED: There are 4 location entries in total (non-missing rows in the “Location” column).,4,correct
+has viginia tech r wake forest been around longer?,"       Institution                Location Enrollment   Nickname Varsity\nSports Rugby\nSince    Head Coach
+Clemson University Clemson, South Carolina     20,576     Tigers              19         1967 Justin Hickey
+          Maryland  College Park, Maryland     37,641  Terrapins              20         1968   Jeff Soeken
+              Navy     Annapolis, Maryland      4,576 Midshipmen              30         1963 Mike Flanagan","SKIPPED: Virginia Tech’s rugby program has been around longer. It was founded in 1968 (with rugby first played there as early as 1891), while Wake Forest’s program started in 1973.",Virginia Tech,wrong
+how many countries received more bronze medals than sweden?,"Rank  Nation Gold Silver Bronze Total
+   1 Germany   17      9     14    40
+   2  Russia   12     16      8    36
+   3 Ukraine    6     11      9    26","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",7,wrong
+did charles william wyndham or the marquess of worcester choose to sit for bristol?,"            Date Constituency c/u Former Incumbent          Winner                        Cause
+20 December 1790    Haslemere   u    James Lowther    Richard Penn Chose to sit for Westmorland
+21 December 1790      Banbury   u       Lord North      Lord North       Succeeded to a peerage
+21 December 1790       Oxford   c Peregrine Bertie Arthur Annesley                        Death",SKIPPED: The Marquess of Worcester was the one who chose to sit for Bristol.,Marquess of Worcester,wrong
+"other than costa, name a swimmer from brazil.","Rank           Name   Nationality    Time
+     Gustavo Borges        Brazil 1:49.41
+       Scott Tucker United States 1:50.99
+     Leonardo Costa        Brazil 1:51.29",SKIPPED: Gustavo Borges,Gustavo Borges,wrong
+how long is the song look through my eyes by everlife?,"#                                Title         Performer(s)              Film Length
+1 ""A Dream Is a Wish Your Heart Makes"" Disney Channel Stars        Cinderella   3:46
+2                  ""Zip-a-Dee-Doo-Dah""          Miley Cyrus Song of the South   3:06
+3                ""If I Never Knew You""    The Cheetah Girls        Pocahontas   3:16",SKIPPED: The song “Look Through My Eyes” by Everlife is 3 minutes and 11 seconds long (3:11).,3:11,wrong
+"how long is the song ""likwit""?","#                 Title             Producer(s)        Performer (s)                                                         Sample(s) Length
+1              ""Likwit"" E-Swift, Tha Alkaholiks Tash, J-Ro, King Tee                              *""Ode To Billy Joe"" by Lou Donaldson   2:34
+2 ""Only When I'm Drunk"" E-Swift, Tha Alkaholiks  J-Ro, Tash, E-Swift *""Seven Minutes of Funk"" by Tyrone Thomas & The Whole Darn Family   3:36
+3           ""Last Call""       E-Swift, King Tee  Tash, J-Ro, E-Swift                                     *""The Payback"" by James Brown   4:37",SKIPPED: The song “Likwit” is 2 minutes and 34 seconds long.,2:34,wrong
+who is the only team this team faced in january which was during the cotton bowl?,"        Date    Time       Opponent# Rank#                                                    Site    TV  Result Attendance
+ September 3 6:00 PM Missouri State*   #15 Donald W. Reynolds Razorback Stadium • Fayetteville, AR   PPV  W 51–7     70,607
+September 10 6:00 PM     New Mexico*   #14                  War Memorial Stadium • Little Rock, AR ESPNU  W 52–3     52,606
+September 17 6:30 PM           Troy*   #14 Donald W. Reynolds Razorback Stadium • Fayetteville, AR   CSS W 38–28     69,861",SKIPPED: They played against Kansas State – the only January opponent in the Cotton Bowl.,Kansas State,wrong
+"who was the home team on december 11, 1976"," #             Date           Visitor   Score                  Home Record
+21 December 2, 1976 San Antonio Spurs 116-124 Golden State Warriors  11-10
+22 December 3, 1976 San Antonio Spurs 105–114    Los Angeles Lakers  11-11
+23 December 5, 1976 San Antonio Spurs  98–103          Phoenix Suns  11-12","SKIPPED: The home team on December 11, 1976 was the San Antonio Spurs.",San Antonio Spurs,wrong
+which venue hosted the standard result immediately after berlin in the 1990s?,"Year     Venue                                       Standard Result   Venue                                                                  Latin Result
+1995 Stuttgart                    Braunschweiger TSC, TC Ludwigsburg  Berlin                    TSG Bremerhaven, Germany, TSC Schwarz-Gelb Aachen, Germany
+1996    Berlin           TC Ludwigsburg, Germany, Braunschweiger TSC Vilnius TSC Schwarz-Gelb Aachen, Germany, Klaipėda University Žuvėdra team, Lithuania
+1997  Kishinev DSC Kodryanka Kishinev, Moldova, Ludwigsburg, Germany  Munich TSC Schwarz-Gelb Aachen, Germany TSG Bremerhaven, Germany Deutschland Germany","SKIPPED: In the 1990s, the event held in Berlin took place in 1996.  
+The very next year (1997), the championship moved to Kishinev.
+
+Answer: Kishinev",Kishinev,wrong
+in how many races did he not place in the top 10?,"Season                        Series         Team Races Wins Poles F/Laps Podiums Points Position
+  2001 Formula BMW Junior Cup Iberia                  3    0     0      0       0     38     18th
+  2002              Formula BMW ADAC  VIVA Racing    20    9     5      1      13    264      1st
+  2003         Formula 3 Euro Series Team Rosberg    20    1     1      2       5     45      8th",SKIPPED: He failed to finish inside the top-10 on 6 occasions.,7,wrong
+how many have a most recent position angle of at least 200?,"      Separation\n(arcsec) Separation\n(au) Most Recent\nPosition Angle Period\n(years) Semi-major axis\n(arcseconds)            Notes
+AB-CD                208.2           10,500                         172                                                          ε1-ε2
+   AB                  2.3              116                         347         1804.41                         4.742 components of ε1
+   CD                  2.4              121                          79         724.307                          2.92 components of ε2","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",5,wrong
+how many episodes were unaired in u.s?,"No.        Title  Directed by                    Written by Original Air date
+  1    ""Reunion"" Bryan Spicer Patrick Massett & John Zinman  January 27, 2003
+  2 ""Antarctica""   Perry Lang Patrick Massett & John Zinman  February 3, 2003
+  3     ""Skulls""   Adam Nimoy Patrick Massett & John Zinman February 10, 2003",SKIPPED: There were 9 episodes that were unaired in the U.S.,9,wrong
+what is the number of times belgrade is listed as the city?,"         Date                City    Opponent   Results                                     Scorers Type of game
+March 3, 2010    Algiers, Algeria     Algeria 3:0 (1:0) Pantelić (16') Kuzmanović (55') Tošić (65')     Friendly
+April 7, 2010        Osaka, Japan       Japan 3:0 (2:0)                 Mrđa (15', 23') Tomić (60')     Friendly
+ May 29, 2010 Klagenfurt, Austria New Zealand 0:1 (0:1)                                Smeltz (22')     Friendly",SKIPPED: Belgrade appears as the city 4 times in the table.,4,correct
+the vaygach was commissioned for service the same year as which ship?,"Ship Name In Service Project Number       Type   Class                                 Comments
+    Lenin       1959            92M Icebreaker       —        Decommissioned 1989. Museum ship.
+  Arktika       1975         1052-1 Icebreaker Arktika                         Not operational.
+    Sibir       1977         1052-2 Icebreaker Arktika Defueled and not operational since 1993.","SKIPPED: Vaygach entered service in 1990, the same year as the nuclear-powered icebreaker Sovetskiy Soyuz.",Sovetskiy Soyuz,correct
+"how many of the mountains have an elevation above 3,300 ft?","Rank                 Peak Name Elevation             Location                                                                                                         Notes
+   1 Saka Haphong/Mowdok Taung  3,465 ft    Thanchi,Bandarban          Unofficially the highest peak of Bangladesh.\n1st summit by English adventurer Ginge Fullen in 2006.
+   2     Zow Tlang/Mowdok Mual  3,353 ft    Thanchi,Bandarban                           Elevation measured during the summit expedition by Travelers of Bangladesh in 2012.
+   3                   Dumlong  3,314 ft Belaichori,Rangamati Highest peak in Rangamati.\nElevation measured during the summit expedition by Nature Adventure Club in 2011.","SKIPPED: There are 3 mountains in the table whose listed elevation is above 3,300 ft.",3,correct
+what is the number of the player from slovakia?,"Round  #        Player   Position   Nationality College/Junior/Club Team (League)
+    1  7   Kyle Okposo Right Wing United States      Des Moines Buccaneers (USHL)
+    2 60 Jesse Joensuu       Wing       Finland                  Ässät (SM-liiga)
+    3 70  Robin Figren       Wing        Sweden          Frölunda HC (Elitserien)",SKIPPED: The player from Slovakia has the number 115.,115,correct
+"in the uk, how many spots difference were between ""strollin' on"" and ""in the springtime?""","Year                Song U.S. U.S.\nR&B U.S.\nAC UK       Album
+1986      ""Strollin' On""    -         -        - 32  Intentions
+1986 ""In the Springtime""    -         -        - 54 You're Safe
+1986        ""Crazy Love""    -         -        - 67  Intentions","SKIPPED: In the UK charts, “Strollin’ On” peaked at No. 32 while “In the Springtime” peaked at No. 54.  
+The difference between their peak positions is 54 − 32 = 22 chart places.",22,correct
+which car was driven by the most members?,"Position           Driver    No.                     Car                           Entrant Rd 1 Rd 2 Rd 3 Rd 4 Rd 5 Rd 6 Rd 7 Rd 8 Total
+       1       Greg Crick      3     Dodge Viper GTS ACR                     Crickcars.com   98  108   91   72   98   96   60   90   713
+       2 Bryce Washington 1 & 54 Porsche 996 GT3 Cup Car            ADRAD Radiator Experts   85 79.5  104   42  102   84   75 79.5   651
+       3 James Koundouris     69 Porsche 996 GT3 Cup Car Dare Shots\nSupabarn Supermarkets   76 28.5   78   84   69   30   96   63 524.5",SKIPPED: The car driven by the most members is the Dodge Viper GTS ACR (3 drivers).,Porsche 996 GT3,wrong
+what designation comes after the m65 designation?,"                Designation Classification Constellation Apparent Magnitude
+               Comet Galaxy              S      Sculptor                   
+ESO 97-G13, Circinus Galaxy              S      Circinus                 11
+                 ESO 269-57         SB(r)a     Centaurus              12.49",SKIPPED: The designation that comes right after M65 is M66.,M66,correct
+which of these countries was ranked next after yugoslavia?,"Rank             Nation Gold Silver Bronze Total
+   1 Soviet Union (URS)    4      1      6    11
+   2   Yugoslavia (YUG)    2      0      1     3
+   3 West Germany (FRG)    1      1      1     3",SKIPPED: West Germany (FRG) was ranked immediately after Yugoslavia.,West Germany (FRG),correct
+what is the number of class 08 models whos voltage is 90 v,"TOPS design code Electrical system        Max speed           Weight Brakes Route availability Notes
+          08-0AV              90 V 20 mph (32 km/h) 49.8 te (496 kN) vacuum                  5      
+          08-0BX             110 V 20 mph (32 km/h) 50.4 te (502 kN)   dual                  5      
+          08-0CA              90 V 20 mph (32 km/h) 49.6 te (494 kN)    air                  5      ",SKIPPED: There are 8 class 08 models whose electrical system voltage is 90 V.,8,correct
+who was the last european woman to win the eindhoven marathon?,"Edition             Year                    Men's winner    Time        Women's winner    Time
+   30th October 13, 2013             Yemane Tsegay (ETH) 2:09:11    Ruth Wanjiru (KEN) 2:34:48
+   29th October 14, 2012    Dickson Kiptolo Chumba (KEN) 2:05:46 Aberume Mekuria (ETH) 2:27:20
+   28th  October 9, 2011 Jafred Chirchir Kipchumba (KEN) 2:05:48   Georgina Rono (KEN) 2:24:33","SKIPPED: Agnes Hijman of the Netherlands – she won the women’s race in 2006, and no European woman has won the Eindhoven Marathon since.",Agnes Hijman (NED),correct
+how many championships did roche win with newcombe?,"  Outcome No. Date      Championship Surface       Partner      Opponents in the final        Score in the final
+   Winner  1. 1968 Wimbledon, London   Grass John Newcombe  Ken Rosewall\n Fred Stolle 3–6, 8–6, 5–7, 14–12, 6–3
+Runner-up  1. 1968  Hamburg, Germany    Clay John Newcombe   Tom Okker\n Marty Riessen             4–6, 4–6, 5–7
+Runner-up  2. 1968 Hobart, Australia   Grass   Fred Stolle Mal Anderson\n Roger Taylor   5–7, 3–6, 6–4, 6–1, 4–6",SKIPPED: Tony Roche won 16 championships when partnering with John Newcombe.,16,correct
+which willy deville album was released after savoir faire,"Year                             Title Peak chart positions\nGER        Label        Artist
+1981                      Savoir faire                         —      Capitol  Mink DeVille
+1993          Spanish Stroll 1977-1987                         — Disky, Raven  Mink DeVille
+1995 Les inoubliables de Willy DeVille                         —       Wagram Willy DeVille","SKIPPED: The next album by Willy DeVille released after “Savoir Faire” was “Les inoubliables de Willy DeVille,” issued in 1995.",Les inoubliables de Willy DeVille,correct
+which team has the largest margin of victory in an aloha bowl game?,"             Date     Winner Score      Loser Score Attendance Notes
+December 25, 1982 Washington    21   Maryland    20     30,055 notes
+December 26, 1983 Penn State    13 Washington    10     37,212 notes
+December 29, 1984        SMU    27 Notre Dame    20     41,777 notes","SKIPPED: The biggest winning margin recorded in an Aloha Bowl game is 28 points, achieved twice:
+
+• Syracuse, 28–0 over Arizona in the 1990 Aloha Bowl  
+• Washington, 51–23 over Michigan State in the 1997 Aloh...",Syracuse,correct
+"when was the first game played in houston, tx?"," #              Date Winner Score          Location Notes
+46   January 2, 1971   West 17-13       Oakland, CA      
+47 December 31, 1971   West 17-13 San Francisco, CA      
+48 December 30, 1972   East   9-3 San Francisco, CA      ","SKIPPED: The first game played in Houston, TX was on January 20, 2007.","January 20, 2007",correct
+"in how many films is the role listed as ""herself""?","1962        The Trial/le Proces         Hilda          Notes
+1949 In the Good Old Summertime          Baby     uncredited
+1954     The Long, Long Trailer Wedding Guest scenes deleted
+1967            Charlie Bubbles         Eliza               ",SKIPPED: The role is listed as “herself” in 8 films.,10,wrong
+"what film was released before ""devakanya?""","                                          Title                      Director                      Production                                    Music                                                                                                                                          Cast          Release date
+                                     Arunthathi M. L. Tandan & T. R. Sundaram T. R. Sundaram, Modern Theatres M. D. Parathasarathy & S. Rajeshwara Rao                                                                                                  C. Honnappa Bhagavathar, U. R. Jeevarathinam            02.07.1943
+Achayam (Vaarai Sena, Vamuna Therai & Thillana)                                                                                                                                                                                                                                                                           
+                      Dhaasippen or Jothi Malar               Ellis R. Dungan          Bhuvaneshwari Pictures   Lalitha Venkatraman & S. Rajeswara Rao T. R. Mahalingam, M. R. Santhanalakshmi, M. G. Ramachandran, N. S. Krishnan, T. A. Madhuram, R. Balasaraswathi Devi, Krishnamurthy, V. K. Das 25.01.1943/03.03.1943","SKIPPED: According to the release-date data in the table, no other film is recorded as having been released before “Devakanya” (16 January 1943). It is the earliest dated release in the dataset.",Dhaasippen or Jothi Malar,wrong
+name one game that they did not win in april.,"#  Date Opponent Score    Win     Loss      Save  Crowd Record
+1 Apr 3     @MIN W 8-1 Morris Williams           34,381    1-0
+2 Apr 5     @MIN W 7-3  Petry    Viola            8,373    2-0
+3 Apr 6     @CHW W 3-2 Wilcox   Dotson Hernandez 42,692    3-0",SKIPPED: One example: the April 19 game against Kansas City (lost 2–5).,KCR,correct
+who was the first div sec division?,"                                           Camp Div Sec\nDivision Admin\nDistrict 9 Feb 11 Feb 16 Feb 25 Feb 27 Feb 2 Mar 4 Mar 6 Mar 11 Mar 13 Mar 24 Mar 30 Mar 31 Mar
+       Menik Farm Zone 0\n(Kathirkamar Village) Vengalachedikulam             VAV               1,353  2,768  2,791 2,791 3,344 4,212  4,679  4,679  6,459  6,459  6,459
+     Menik Farm Zone 3\n(Arunachchalam Village) Vengalachedikulam             VAV                                                                    6,729 11,881 11,881
+Ariviththodam Sivanantha Vidyalayam, Menik Farm Vengalachedikulam             VAV   581    581    581    581    584   584   585   585    583    583    601    601    601","SKIPPED: The first “Div Sec Division” listed in the table is:
+
+Vengalachedikulam",Vengalachedikulam,wrong
+which team had the most fourth place finishes?,"          Team Titles Runner-up Third place Fourth place Years participated
+      Michigan     15        13          10            6                 44
+Michigan State     12        13          11            4                 40
+ Michigan Tech     10        13          10           16                 49",SKIPPED: Michigan Tech had the most fourth-place finishes (16).,Michigan Tech,correct
+"how many games have a winning result (w) before november 25, 2007?","Week               Date             Opponent        Time             Game Site   TV Result/Score Record
+   1  September 6, 2007   Indianapolis Colts 8:30 pm EDT              RCA Dome  NBC    L 41 – 10    0–1
+   2 September 16, 2007 Tampa Bay Buccaneers 1:00 pm EDT Raymond James Stadium  Fox    L 31 – 14    0–2
+   3 September 24, 2007     Tennessee Titans 8:30 pm EDT   Louisiana Superdome ESPN    L 31 – 14    0–3","SKIPPED: ERROR: Workflow failed: Recursion limit of 15 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://pyth...",4,wrong
+what was the average number of votes for the first 5 elections?,"No. Constituency            Winner Candidate Party Votes Margin
+  1       Abdasa Chhabilbhai Naranbhai Patel   INC 60704   7613
+  2       Mandvi    Tarachand Jagashi Chheda   BJP 61984   8506
+  3         Bhuj         Dr Nimaben Aacharya   BJP 69174   8973","SKIPPED: The average number of votes received by the winners in the first 5 elections is approximately 65,928 votes.","65,927.8",wrong
+how many matches were played in mexico?,"No.           Date                        Location Surface Opponent in final      Score
+ 1. 28 August 2000          Spoleto, Italy $10,000    Clay         Maret Ani 6–2 7–6(7)
+ 2.   9 April 2001 San Luis Potosí, Mexico $25,000    Clay    Martina Müller    6–4 7–5
+ 3.  16 April 2001   Coatzacoalcos, Mexico $25,000    Hard Gabriela Voleková    6–1 6–3",SKIPPED: There were 3 matches played in Mexico.,3,wrong
+how many total medals did belarus win?,"Rank  Nation Gold Silver Bronze Total
+   1  Russia    8     12     10    30
+   2   China    7      4      2    13
+   3 Ukraine    7      1      1     9",SKIPPED: Belarus won a total of 6 medals.,6,wrong

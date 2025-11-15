@@ -1,0 +1,10 @@
+# 核心包（兼容Python 3.12的版本）
+"numpy>=1.24.0,<2.0.0"
+torch>=2.0.0
+"pandas>=2.0.0" 
+transformers==4.39.3
+sentence-transformers==3.0.1
+
+# 其他依赖
+huggingface_hub datasets scikit-learn tqdm
+beir

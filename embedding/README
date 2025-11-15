@@ -1,0 +1,102 @@
+# Table Reasoning Dataset & Model Pipeline
+# Data Processing Pipeline
+## 1. Clean raw conversation data
+filter_conversations.py
+- Function: Removes conversations labeled `"wrong"` and keeps only high-quality dialogue files.
+
+## 2. Convert conversations into queries
+convert_conversations_to_queries.py
+- Function: Converts conversation JSONL files into `queries.jsonl`.  
+  Produces:
+  - Base version: question only  
+  - State-aware version: question + table state + action history
+
+## 3. Generate qrels files
+conduct_tsv.py
+- Function: Extracts tool usage and produces `train.tsv` and `test.tsv`.
+
+## 4. Merge multiple datasets
+merge_datasets.py
+- Function: Merges datasets, reassigns unified IDs, and merges qrels.
+
+# Dataset Deduplication & Alignment
+## 5.1 Deduplicate the base dataset
+deduplicate_base_dataset.py
+- Function: Removes duplicate questions (1135 → 1093), updates qrels, writes to `WikiTable300_Deduplicated/`.
+
+## 5.2 Deduplicate the state-aware dataset
+deduplicate_queries.py
+- Function: Removes duplicate state-aware queries (5424 → 1093) and keeps the most informative version.
+
+## 5.3 Align state-aware IDs with base IDs
+align_state_aware_ids.py
+- Function: Reassigns state-aware IDs to match base dataset (0–1092) and copies qrels for full alignment.
+
+# Dataset Verification
+## 6.1 Verify ID alignment and qrels coverage
+final_dataset_verification.py
+- Function: Checks ID consistency and qrels coverage.
+
+## 6.2 Verify qrels with raw conversations (optional)
+verify_qrels_with_conversations.py --conversation_file <file> --dataset WikiTable300
+- Function: Verifies qrels correctness based on actual tool usage.
+
+# Model Training
+## 7. Train the base SBERT model
+train_sbert.py -d WikiTable300 -bone ance -base TQA
+- Function: Trains a question-only SBERT retrieval model.
+
+## 8. Train the state-aware SBERT model
+train_sbert_state_aware.py -d WikiTable300_StateAware -bone ance -base state_aware
+- Function: Trains a state-aware retrieval model using question + table state + action history.
+
+# Model Evaluation
+## 9. Evaluate model performance
+  python evaluate_model.py --model_path <base_model_path> --dataset WikiTable300
+  python evaluate_model.py --model_path <state_aware_model_path> --dataset WikiTable300_StateAware
+- Function: Evaluates Recall@K and other retrieval metrics.
+
+# Deep Analysis
+## 10.1 Generate detailed retrieval analysis
+  # Analyze base model
+  python analyze_embedding.py \
+    -m runs/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815 \
+    -d WikiTable300 \
+    --split test \
+    --top_k 5
+  # Analyze state-aware model
+  python analyze_embedding.py \
+    -m runs/msmarco-roberta-base-ance-firstp_WikiTable300_StateAware-state_aware_20250915_000338 \
+    -d WikiTable300 \
+    --split test \
+    --top_k 5
+- Function:
+  - Analyzes top-k retrieved tools for each query
+  - Outputs detailed JSON reports under `analysis/`
+  - JSON contains ranking, scores, and accuracy metrics for each tool
+
+## 10.2 Visualize tool retrieval statistics
+  # Visualize for base model
+  python plot_tool_stats.py \
+    --json analysis/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815_20251005_185325.json \
+    --outdir analysis \
+    --no-show
+  # Visualize for state-aware model
+  python plot_tool_stats.py \
+    --json analysis/msmarco-roberta-base-ance-firstp_WikiTable300_StateAware-state_aware_20250915_000338_20251005_185253.json \
+    --outdir analysis \
+    --no-show
+- Function:
+  - Generates visual plots of retrieval performance per tool
+  - Saves figures into `analysis/`
+  - `--no-show` prevents GUI display
+
+## 10.3 Compare the two models
+  python compare_plots.py \
+    --json_a "analysis/msmarco-roberta-base-ance-firstp_WikiTable300_StateAware-state_aware_20250915_000338_20251005_185253.json" \
+    --json_b "analysis/msmarco-roberta-base-ance-firstpWikiTable300-TQA_20250914_233815_20251005_185325.json" \
+    --outdir "analysis"
+- Function:
+  - Compares performance between base and state-aware models
+  - Produces comparison plots
+  - Outputs a summary report under `analysis/`

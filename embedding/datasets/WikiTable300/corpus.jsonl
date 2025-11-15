@@ -1,0 +1,15 @@
+{"_id": "0", "title": "f_select_column", "text": "Select a subset of columns. A column usually corresponds to an attribute in the table. This operation helps locate necessary attributes to answer the question."}
+{"_id": "1", "title": "f_group_by", "text": "Group the rows by the contents of a specific column and provide the count of each enumeration value in that column."}
+{"_id": "2", "title": "print_table", "text": "Print all rows of the selected/transformed table to see the current state and potentially provide final answer."}
+{"_id": "3", "title": "f_calculate_average", "text": "Calculate the average (mean) of a numeric column, grouped by another column. Perfect for finding which group has the highest/lowest average."}
+{"_id": "4", "title": "f_filter_rows", "text": "Filter rows based on specified conditions. Useful for removing missing data or focusing on specific subsets."}
+{"_id": "5", "title": "f_get_data_info", "text": "Get basic information about the dataset including shape, columns, data types, and missing values."}
+{"_id": "6", "title": "f_select_row", "text": "Return a row-filtered copy of the table. Can filter by explicit indices, single condition, or multiple AND-connected conditions."}
+{"_id": "7", "title": "f_sort_by", "text": "Sort table lexicographically by one or more columns in ascending or descending order."}
+{"_id": "8", "title": "f_aggregate", "text": "Compute aggregation (count, sum, avg, min, max) over a column, optionally grouped by another column."}
+{"_id": "9", "title": "f_compute_column", "text": "Create a new column by applying binary operations between columns or column and scalar. Operations: add, sub, mul, div, ratio."}
+{"_id": "10", "title": "f_distinct_count", "text": "Count the number of unique values in a column."}
+{"_id": "11", "title": "f_final_answer", "text": "Submit the final answer. Use exactly when you are done analysing."}
+{"_id": "12", "title": "f_process_datetime", "text": "Process or transform datetime columns. Use when parsing strings into datetime objects, extracting parts like year, month, day, converting timezone, or formatting datetimes as strings."}
+{"_id": "13", "title": "f_string_operation", "text": "Apply string manipulation to a DataFrame column. Use when standardizing text, extracting substrings, concatenating multiple columns, or replacing substrings or regex patterns."}
+{"_id": "14", "title": "f_undo", "text": "Undo the last operation performed on the table."}
